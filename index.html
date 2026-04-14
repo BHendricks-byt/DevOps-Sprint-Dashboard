@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps Sprint Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0d0f14;
+    --surface: #161920;
+    --surface2: #1d2029;
+    --border: rgba(255,255,255,0.07);
+    --border2: rgba(255,255,255,0.12);
+    --text: #e8eaf0;
+    --text-muted: #7a7f94;
+    --text-dim: #4a4f63;
+    --accent: #4f8ef7;
+    --accent2: #7c5cfc;
+    --green: #22c97a;
+    --amber: #f5a623;
+    --red: #f05c5c;
+    --blue: #4f8ef7;
+    --purple: #9b72f5;
+    --teal: #2dd4bf;
+    --font-display: 'Sora', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+    --radius: 10px;
+    --radius-lg: 16px;
+  }
+
+  body {
+    font-family: var(--font-display);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* Header */
+  .header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-left h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .header-left p {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 2px;
+    font-family: var(--font-mono);
+  }
+
+  .sprint-nav {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .sprint-btn {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .sprint-btn:hover { background: var(--surface2); color: var(--text); }
+  .sprint-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  .badge {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .badge-active { background: rgba(34,201,122,0.15); color: var(--green); }
+  .badge-closed { background: rgba(122,127,148,0.15); color: var(--text-muted); }
+
+  /* Main layout */
+  .main { padding: 24px 32px; max-width: 1400px; }
+
+  /* Metrics row */
+  .metrics-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .metric-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+  }
+
+  .metric-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+
+  .metric-value {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--text);
+  }
+
+  .metric-value.green { color: var(--green); }
+  .metric-value.amber { color: var(--amber); }
+  .metric-value.blue { color: var(--blue); }
+  .metric-value.purple { color: var(--purple); }
+
+  /* Progress bar */
+  .progress-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .progress-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    min-width: 160px;
+  }
+
+  .progress-track {
+    flex: 1;
+    height: 8px;
+    background: var(--surface2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--green);
+    transition: width 0.5s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  .progress-pct {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--green);
+    min-width: 36px;
+    text-align: right;
+  }
+
+  /* Charts row */
+  .charts-row {
+    display: grid;
+    grid-template-columns: 260px minmax(0,1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+  }
+
+  .panel-title {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 14px;
+  }
+
+  /* Donut legend */
+  .donut-wrap { position: relative; width: 160px; height: 160px; margin: 0 auto 14px; }
+  .donut-center {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    pointer-events: none;
+  }
+  .donut-center-val { font-size: 24px; font-weight: 600; color: var(--text); }
+  .donut-center-lbl { font-size: 10px; color: var(--text-muted); font-family: var(--font-mono); }
+
+  .legend { display: flex; flex-direction: column; gap: 6px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+  .legend-count { margin-left: auto; font-family: var(--font-mono); font-size: 11px; color: var(--text); }
+
+  /* Project bars panel */
+  .proj-bars { display: flex; flex-direction: column; gap: 10px; }
+  .proj-row { display: flex; flex-direction: column; gap: 4px; }
+  .proj-meta { display: flex; justify-content: space-between; font-size: 12px; }
+  .proj-name { color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 80%; }
+  .proj-count { font-family: var(--font-mono); color: var(--text); font-size: 11px; }
+  .proj-track { height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
+  .proj-fill { height: 100%; border-radius: 2px; background: var(--accent); }
+
+  /* Team grid */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .team-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 600; color: var(--accent);
+    flex-shrink: 0; font-family: var(--font-mono);
+  }
+
+  .team-name { font-size: 12px; font-weight: 500; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .team-stats { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); margin-top: 1px; }
+
+  /* Table */
+  .table-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .table-toolbar {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .table-toolbar .panel-title { margin: 0; flex: 1; }
+
+  select {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 5px 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text-muted);
+    cursor: pointer;
+    outline: none;
+  }
+
+  select:focus { border-color: var(--accent); color: var(--text); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; }
+  thead tr { background: var(--surface2); }
+  th {
+    text-align: left; padding: 9px 14px;
+    font-family: var(--font-mono); font-size: 10px; font-weight: 500;
+    color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  td { padding: 9px 14px; border-top: 1px solid var(--border); color: var(--text-muted); }
+  tr:hover td { background: var(--surface2); }
+
+  .key-cell { color: var(--accent); font-family: var(--font-mono); font-weight: 500; }
+  .summary-cell { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .pill {
+    font-family: var(--font-mono);
+    font-size: 10px; padding: 2px 8px;
+    border-radius: 4px; white-space: nowrap;
+    font-weight: 500;
+  }
+
+  .sp-cell { text-align: center; font-family: var(--font-mono); }
+
+  /* Footer links */
+  .footer-links {
+    display: flex; gap: 16px; justify-content: flex-end;
+    font-size: 11px; font-family: var(--font-mono);
+    margin-bottom: 24px;
+  }
+  .footer-links a { color: var(--accent); text-decoration: none; opacity: 0.8; }
+  .footer-links a:hover { opacity: 1; }
+
+  @media (max-width: 768px) {
+    .main { padding: 16px; }
+    .metrics-row { grid-template-columns: repeat(3, 1fr); }
+    .charts-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>DevOps sprint dashboard</h1>
+    <p id="sprint-meta">—</p>
+  </div>
+  <div class="sprint-nav" id="sprint-nav"></div>
+</div>
+
+<div class="main">
+
+  <div class="metrics-row" id="metrics-row"></div>
+
+  <div class="progress-wrap">
+    <span class="progress-label" id="progress-label">—</span>
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+    <span class="progress-pct" id="progress-pct">0%</span>
+  </div>
+
+  <div class="charts-row">
+    <div class="panel">
+      <p class="panel-title">Status breakdown</p>
+      <div class="donut-wrap">
+        <canvas id="donut" role="img" aria-label="Donut chart of issue statuses">Issue status distribution</canvas>
+        <div class="donut-center">
+          <span class="donut-center-val" id="donut-done">0</span>
+          <span class="donut-center-lbl">done</span>
+        </div>
+      </div>
+      <div class="legend" id="status-legend"></div>
+    </div>
+
+    <div class="panel">
+      <p class="panel-title">Issues by project</p>
+      <div class="proj-bars" id="proj-bars"></div>
+    </div>
+  </div>
+
+  <p class="panel-title" style="margin-bottom:10px; font-family: var(--font-mono); font-size:10px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em;">Team workload</p>
+  <div class="team-grid" id="team-grid"></div>
+
+  <div class="table-panel">
+    <div class="table-toolbar">
+      <p class="panel-title">All issues</p>
+      <select id="status-filter">
+        <option value="all">All statuses</option>
+        <option value="In Progress">In Progress</option>
+        <option value="To Do">To Do</option>
+        <option value="Done (Production)">Done (Production)</option>
+        <option value="Parked">Parked</option>
+        <option value="MOVED TO QA">Moved to QA</option>
+        <option value="Canceled">Canceled</option>
+      </select>
+      <select id="project-filter">
+        <option value="all">All projects</option>
+      </select>
+    </div>
+    <div style="overflow-x:auto;">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:80px;">Key</th>
+            <th>Summary</th>
+            <th style="width:130px;">Project</th>
+            <th style="width:140px;">Status</th>
+            <th style="width:120px;">Assignee</th>
+            <th style="width:40px;">SP</th>
+          </tr>
+        </thead>
+        <tbody id="issue-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <a href="https://ecentive.atlassian.net/jira/software/c/projects/AWI/boards/747/backlog" target="_blank">Open in Jira &rarr;</a>
+    <a href="https://ecentive.atlassian.net/wiki/spaces/SD/pages/152502273" target="_blank">Confluence reports &rarr;</a>
+  </div>
+
+</div>
+
+<script>
+const SPRINTS = {
+  'Sprint 0': {
+    name: 'DevOps Team Sprint 0',
+    period: '7 Apr – 20 Apr 2026',
+    state: 'Active',
+    issues: [
+      {key:"ECA-102",summary:"feature: MTN: Add ACTIVATION DATE field to Manual Claim submission form",project:"E-Centive App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"ECA-101",summary:"Vodapay Queries: Add new support ticket type",project:"E-Centive App",status:"Canceled",assignee:"Louis Phetla",sp:8},
+      {key:"ECA-100",summary:"feature (APPAPI): Multiple Serial Number Digital Power",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:13},
+      {key:"ECA-99",summary:"feature (APPAPI/APP): ProfileController user migration to Ignite",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:13},
+      {key:"ECA-98",summary:"feature (APP): Adding Polls on user login",project:"E-Centive App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"ECA-97",summary:"feature (APP): Monthly User Branch confirmation",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-146",summary:"feature (APP): Status updates and transaction history in claim details",project:"Manhattan App",status:"To Do",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-145",summary:"feature (APP): Claim access from transactions",project:"Manhattan App",status:"To Do",assignee:"Louis Phetla",sp:8},
+      {key:"ECA-96",summary:"feature (APPAPI): Create Support Ticket Model",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:21},
+      {key:"ECA-95",summary:"feature (APPAPI): Support Ticket Submission Endpoint",project:"E-Centive App",status:"Done (Production)",assignee:"Louis Phetla",sp:8},
+      {key:"ECA-94",summary:"feature (APPAPI): Monthly User Branch confirmation",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-39",summary:"update(APP): Volume Incentive Modal",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-151",summary:"update(APP): Volume Incentive Modal v2",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-142",summary:"feature (APP): Forced Update Middleware",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-141",summary:"feature (APP): Core Permissions Middleware Implementation",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-140",summary:"update (APP): OEM Wallet Balance singleton",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-150",summary:"feature (APP): Github Action App Version String",project:"Manhattan App",status:"Canceled",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-124",summary:"feature (APP): Make Card Primary Under PayCentral Cards",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-129",summary:"feature (APP): Updating Profile Picture Implementation",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-143",summary:"update (APP): Auth interceptor listener",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:3},
+      {key:"MAPP-161",summary:"feature (APP): PayCentral Switching On/Off per SP",project:"Manhattan App",status:"To Do",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-126",summary:"feature (APP): Brand Hub Implementation",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-148",summary:"update (APP): Onboarding Completion",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-19",summary:"feature (APP): User Check",project:"Manhattan App",status:"In Progress",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-138",summary:"feature (APP): User Migration From Current App",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-128",summary:"feature (APP): Network Connectivity",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"ECA-104",summary:"ad hoc (APPAPI): Trimming APPAPI logs",project:"E-Centive App",status:"Canceled",assignee:"Louis Phetla",sp:5},
+      {key:"ECC-32",summary:"User Relation UI Display and Management improvements",project:"E-Centive Core",status:"In Progress",assignee:"Brijwanth Jakhotia",sp:13},
+      {key:"MAPP-135",summary:"update (APP): Auth Layer Rework",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:13},
+      {key:"MAPP-136",summary:"feature (APP): Dev and prod environment setup",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-134",summary:"feature update (APP): Next Best Step Level Filter",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-147",summary:"feature (APP): boosted bundles",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:3},
+      {key:"MAPP-133",summary:"feature (APP): TermsAndConditions Implementation",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"ECA-103",summary:"bugFix (APPAPI): MC Endpoint User Check IN",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:8},
+      {key:"MAPP-125",summary:"feature (APP): OEM Claims Export Implementation",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-127",summary:"feature (APP): Transaction History Export",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAN-423",summary:"bugfix (APP): broken e-centive endpoints",project:"Manhattan",status:"removed",assignee:"Louis Phetla",sp:5},
+      {key:"ECA-105",summary:"feature (APPAPI): Maintenance Mode Implementation",project:"E-Centive App",status:"To Do",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-154",summary:"feature update: Wallet",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-153",summary:"feature update: brand hub",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-155",summary:"feature new: card wallet fees",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-156",summary:"feature: in-app notifications",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"MAPP-157",summary:"feature new: ecentive card wallet fees",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-158",summary:"feature update: loading states",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-159",summary:"feature update: brandhub view",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-160",summary:"bugfix: broken e-centive and ignite home pages",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-152",summary:"bugfix: leaderboard summary",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"MAPP-137",summary:"feature update: support ticket view + chat func",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:0},
+      {key:"ECA-53",summary:"feature (APPAPI): User ID in LogRequests",project:"E-Centive App",status:"Parked",assignee:"Louis Phetla",sp:3},
+      {key:"IGNC-106",summary:"Manager achievements endpoint",project:"Ignite Core",status:"Canceled",assignee:"Wesley Classen",sp:0},
+      {key:"ECC-1213",summary:"Add GPS Coordinates to User and Branch Addresses",project:"E-Centive Core",status:"Parked",assignee:"Brijwanth Jakhotia",sp:13},
+      {key:"ECC-1214",summary:"Annual FICA Document Verification",project:"E-Centive Core",status:"In Progress",assignee:"Brijwanth Jakhotia",sp:8},
+      {key:"PROD-45",summary:"Retail Connect Pro PRD",project:"Product",status:"In Progress",assignee:"Tristan Strike",sp:0},
+      {key:"ECC-1219",summary:"Extend Polls with Conditional Required Questions",project:"E-Centive Core",status:"To Do",assignee:"Brijwanth Jakhotia",sp:8},
+      {key:"MINT-108",summary:"Manual Claim Submission",project:"Manhattan Integration",status:"Done (Production)",assignee:"Wesley Classen",sp:13},
+      {key:"MAPP-106",summary:"feature (APP): MFA Implementation",project:"Manhattan App",status:"Parked",assignee:"Louis Phetla",sp:13},
+      {key:"RCB-11",summary:"Retail Connect Pipeline IAC Implementation",project:"Retail Connect Backend",status:"MOVED TO QA",assignee:"Leandra Sellar",sp:29},
+      {key:"ECTA-196",summary:"MC Automation of OEM Claims",project:"E-Centive Test Automation",status:"MOVED TO QA",assignee:"Rodrick",sp:8},
+      {key:"ECTA-197",summary:"MC_Automation of OEM Products",project:"E-Centive Test Automation",status:"MOVED TO QA",assignee:"Rodrick",sp:0},
+      {key:"ECA-74",summary:"feature (APP/APPAPI): Feedback Module Implementation",project:"E-Centive App",status:"Parked",assignee:"Louis Phetla",sp:8},
+      {key:"MINT-116",summary:"Update SES to use correct domain",project:"Manhattan Integration",status:"MOVED TO QA",assignee:"Wesley Classen",sp:8},
+      {key:"MAPP-113",summary:"feature: Elevated Role Views Implementation",project:"Manhattan App",status:"In Progress",assignee:"Louis Phetla",sp:21},
+      {key:"ECA-86",summary:"cleanup(APP): Removing ObjectBox Local DB",project:"E-Centive App",status:"Parked",assignee:"Louis Phetla",sp:8},
+      {key:"ECC-1284",summary:"MTN ONLY: Reverse and Generate Claims by Transaction Date",project:"E-Centive Core",status:"In Progress",assignee:"Brijwanth Jakhotia",sp:3},
+      {key:"PROD-80",summary:"Gather user feedback on Ignite Dashboards",project:"Product",status:"In Progress",assignee:"Nelisiwe",sp:0},
+      {key:"PROD-92",summary:"Current State Analysis",project:"Product",status:"Parked",assignee:"Tristan Strike",sp:0},
+      {key:"PROD-93",summary:"Create Wireframes and Update Interactive Prototypes",project:"Product",status:"Parked",assignee:"Tristan Strike",sp:0},
+      {key:"PROD-94",summary:"Analysis of Pro Predictive addition to current metric",project:"Product",status:"Parked",assignee:"Tristan Strike",sp:0},
+      {key:"PROD-95",summary:"Actionable Analytics",project:"Product",status:"Parked",assignee:"Tristan Strike",sp:0},
+      {key:"ECC-1300",summary:"Manufacture Staff restructure",project:"E-Centive Core",status:"Ready For Production",assignee:"Philton Nengobela",sp:21},
+      {key:"ECA-93",summary:"hotfix: Additional Manual Claim User Checks",project:"E-Centive App",status:"Done (Production)",assignee:"Louis Phetla",sp:3},
+      {key:"PROD-96",summary:"Jira Audit",project:"Product",status:"Done (Production)",assignee:"Tristan Strike",sp:0},
+      {key:"DT-13",summary:"Empty state for Manual Claims - Copy on date selector",project:"Design Team",status:"To Do",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"ECC-1311",summary:"Bref 2 Migration",project:"E-Centive Core",status:"In Progress",assignee:"Wesley Classen",sp:21},
+      {key:"MINT-130",summary:"Cognito IAC Implementation",project:"Manhattan Integration",status:"In Progress",assignee:"Leandra Sellar",sp:0},
+      {key:"DT-12",summary:"Balance score card for Cell C",project:"Design Team",status:"Done",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"ECC-1321",summary:"Add New Company Type & Company to Cell C",project:"E-Centive Core",status:"MOVED TO QA",assignee:"Philton Nengobela",sp:0},
+      {key:"DT-11",summary:"E-Centive - Notifications screen",project:"Design Team",status:"To Do",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"PROD-121",summary:"Telkom Branch Target Tracking — Initial Scope Overview",project:"Product",status:"In Progress",assignee:"Tristan Strike",sp:0},
+      {key:"MFE-383",summary:"Franchisee Balance Score Card: Mobile UI",project:"Manhattan Frontend",status:"MOVED TO QA",assignee:"Membathisi Mcetywa",sp:3},
+      {key:"DT-10",summary:"Ignite - Franchisee Balanced Scorecard Desktop (Cell C)",project:"Design Team",status:"In Progress",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"DT-9",summary:"Balanced Scorecard - Input form design",project:"Design Team",status:"Done",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"ECC-1322",summary:"Job to update SMS Group Message stuck in Progress to Complete",project:"E-Centive Core",status:"To Do",assignee:"Brijwanth Jakhotia",sp:3},
+      {key:"ECC-1324",summary:"HotFix View Claim to use temp signed route",project:"E-Centive Core",status:"In Progress",assignee:"Philton Nengobela",sp:3},
+      {key:"DT-8",summary:"App - Franchisee and Manager Role Designs",project:"Design Team",status:"To Do",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"DT-7",summary:"Telkom Balanced Scorecard",project:"Design Team",status:"In Review",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"ECTA-215",summary:"Automate Cell C E-Wallet Module UI Test Coverage",project:"E-Centive Test Automation",status:"MOVED TO QA",assignee:"Rodrick",sp:0},
+      {key:"ECTA-216",summary:"Automate Cell C Finance Module UI Test Coverage",project:"E-Centive Test Automation",status:"In Progress",assignee:"Rodrick",sp:0},
+      {key:"ECTA-217",summary:"Cell C Support Tickets UI Automation Test Coverage",project:"E-Centive Test Automation",status:"To Do",assignee:"Rodrick",sp:0},
+      {key:"MFE-389",summary:"SP specific content config",project:"Manhattan Frontend",status:"Parked",assignee:"Membathisi Mcetywa",sp:3},
+      {key:"MFE-390",summary:"Telkom Campaign: April",project:"Manhattan Frontend",status:"Done (Production)",assignee:"Membathisi Mcetywa",sp:3},
+      {key:"MAPP-122",summary:"feat: Campaign Updates & Enhancements",project:"Manhattan App",status:"Done (Production)",assignee:"Louis Phetla",sp:5},
+      {key:"ECC-1331",summary:"Company level cash out limitation",project:"E-Centive Core",status:"To Do",assignee:"Philton Nengobela",sp:5},
+      {key:"ECC-1332",summary:"Avg claim payment duration",project:"E-Centive Core",status:"To Do",assignee:"Philton Nengobela",sp:8},
+      {key:"AWI-28",summary:"Develop Ignite Status logic",project:"Master Board",status:"In Progress",assignee:"Satish Singh",sp:0},
+      {key:"DT-28",summary:"E-Centive & Ignite Webpage Download App links",project:"Design Team",status:"To Do",assignee:"Ashley Mduduzi Ncube",sp:0},
+      {key:"MAPP-139",summary:"adhoc: Providing App Links on Website",project:"Manhattan App",status:"To Do",assignee:"Louis Phetla",sp:1},
+      {key:"ECC-1334",summary:"FICA Documentation upload on registration",project:"E-Centive Core",status:"To Do",assignee:"Brijwanth Jakhotia",sp:5},
+      {key:"MFE-391",summary:"Application download banner and link action",project:"Manhattan Frontend",status:"To Do",assignee:"Membathisi Mcetywa",sp:3},
+      {key:"PROD-124",summary:"Content Planning",project:"Product",status:"In Progress",assignee:"Nelisiwe",sp:0}
+    ]
+  }
+};
+
+const STATUS_COLORS = {
+  'Done (Production)': '#22c97a','Done': '#22c97a','MOVED TO QA': '#4f8ef7',
+  'In Progress': '#f5a623','To Do': '#9b72f5','Parked': '#4a4f63',
+  'Canceled': '#f05c5c','removed': '#f05c5c','Ready For Production': '#2dd4bf','In Review': '#c084fc'
+};
+const STATUS_BG = {
+  'Done (Production)': 'rgba(34,201,122,0.12)','Done': 'rgba(34,201,122,0.12)',
+  'MOVED TO QA': 'rgba(79,142,247,0.12)','In Progress': 'rgba(245,166,35,0.12)',
+  'To Do': 'rgba(155,114,245,0.12)','Parked': 'rgba(74,79,99,0.3)',
+  'Canceled': 'rgba(240,92,92,0.12)','removed': 'rgba(240,92,92,0.12)',
+  'Ready For Production': 'rgba(45,212,191,0.12)','In Review': 'rgba(192,132,252,0.12)'
+};
+
+let currentSprint = 'Sprint 0';
+let currentStatus = 'all';
+let currentProject = 'all';
+let donutChart = null;
+
+function stats(issues) {
+  const done = issues.filter(i => i.status==='Done (Production)'||i.status==='Done').length;
+  return {
+    total: issues.length,
+    sp: issues.reduce((s,i)=>s+(i.sp||0),0),
+    done,
+    inProgress: issues.filter(i=>i.status==='In Progress').length,
+    qa: issues.filter(i=>i.status==='MOVED TO QA').length,
+    parked: issues.filter(i=>i.status==='Parked').length,
+    pct: Math.round((done/issues.length)*100)
+  };
+}
+
+function renderAll() {
+  const s = SPRINTS[currentSprint];
+  const issues = s.issues;
+  const st = stats(issues);
+
+  // Nav
+  document.getElementById('sprint-nav').innerHTML = Object.keys(SPRINTS).map(k =>
+    `<button class="sprint-btn${k===currentSprint?' active':''}" onclick="switchSprint('${k}')">${k}</button>`
+  ).join('');
+
+  // Meta
+  const stateClass = s.state==='Active' ? 'badge-active' : 'badge-closed';
+  document.getElementById('sprint-meta').innerHTML =
+    `${s.name} &nbsp;&nbsp; ${s.period} &nbsp;&nbsp;<span class="badge ${stateClass}">${s.state}</span>`;
+
+  // Metrics
+  document.getElementById('metrics-row').innerHTML = `
+    <div class="metric-card"><p class="metric-label">Total issues</p><p class="metric-value">${st.total}</p></div>
+    <div class="metric-card"><p class="metric-label">Story points</p><p class="metric-value">${st.sp}</p></div>
+    <div class="metric-card"><p class="metric-label">Done</p><p class="metric-value green">${st.done}</p></div>
+    <div class="metric-card"><p class="metric-label">In progress</p><p class="metric-value amber">${st.inProgress}</p></div>
+    <div class="metric-card"><p class="metric-label">Moved to QA</p><p class="metric-value blue">${st.qa}</p></div>
+  `;
+
+  // Progress
+  document.getElementById('progress-fill').style.width = st.pct + '%';
+  document.getElementById('progress-pct').textContent = st.pct + '%';
+  document.getElementById('progress-label').textContent = `${st.done} of ${st.total} issues complete`;
+
+  // Donut
+  const statusOrder = ['Done (Production)','Done','MOVED TO QA','Ready For Production','In Progress','To Do','Parked','Canceled'];
+  const counts = statusOrder.map(s => issues.filter(i=>i.status===s).length).filter((_,i)=>statusOrder[i]);
+  const labels = ['Done (Prod)','Done','QA','Ready','In Progress','To Do','Parked','Canceled'];
+  const colors = statusOrder.map(s => STATUS_COLORS[s]||'#4a4f63');
+  if (donutChart) { donutChart.destroy(); donutChart = null; }
+  donutChart = new Chart(document.getElementById('donut'), {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: counts, backgroundColor: colors, borderWidth: 0 }] },
+    options: { responsive:true, maintainAspectRatio:true, cutout:'68%', plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${ctx.raw}` } } } }
+  });
+  document.getElementById('donut-done').textContent = st.done;
+
+  // Legend
+  document.getElementById('status-legend').innerHTML = labels.map((lbl,i) => counts[i] > 0 ? `
+    <div class="legend-item">
+      <span class="legend-dot" style="background:${colors[i]}"></span>
+      <span>${lbl}</span>
+      <span class="legend-count">${counts[i]}</span>
+    </div>` : '').join('');
+
+  // Project bars
+  const proj = {};
+  issues.forEach(i => { proj[i.project]=(proj[i.project]||0)+1; });
+  const sorted = Object.entries(proj).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const max = sorted[0][1];
+  document.getElementById('proj-bars').innerHTML = sorted.map(([name,count]) => `
+    <div class="proj-row">
+      <div class="proj-meta">
+        <span class="proj-name">${name}</span>
+        <span class="proj-count">${count}</span>
+      </div>
+      <div class="proj-track"><div class="proj-fill" style="width:${Math.round((count/max)*100)}%"></div></div>
+    </div>
+  `).join('');
+
+  // Team
+  const team = {};
+  issues.forEach(i => {
+    if(!team[i.assignee]) team[i.assignee]={issues:0,sp:0};
+    team[i.assignee].issues++;
+    team[i.assignee].sp+=i.sp||0;
+  });
+  const teamSorted = Object.entries(team).sort((a,b)=>b[1].issues-a[1].issues);
+  document.getElementById('team-grid').innerHTML = teamSorted.map(([name,d]) => {
+    const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+    return `<div class="team-card">
+      <div class="avatar">${initials}</div>
+      <div style="overflow:hidden;">
+        <p class="team-name">${name}</p>
+        <p class="team-stats">${d.issues} issues · ${d.sp} SP</p>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Project filter options
+  const projects = [...new Set(issues.map(i=>i.project))].sort();
+  const pf = document.getElementById('project-filter');
+  pf.innerHTML = '<option value="all">All projects</option>' + projects.map(p=>`<option value="${p}"${currentProject===p?' selected':''}>${p}</option>`).join('');
+
+  renderTable(issues);
+}
+
+function renderTable(issues) {
+  let f = issues;
+  if(currentStatus!=='all') f=f.filter(i=>i.status===currentStatus);
+  if(currentProject!=='all') f=f.filter(i=>i.project===currentProject);
+  document.getElementById('issue-tbody').innerHTML = f.map(i=>`
+    <tr>
+      <td class="key-cell">${i.key}</td>
+      <td class="summary-cell" title="${i.summary}">${i.summary}</td>
+      <td style="color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${i.project}</td>
+      <td><span class="pill" style="background:${STATUS_BG[i.status]||'rgba(74,79,99,0.3)'};color:${STATUS_COLORS[i.status]||'#4a4f63'}">${i.status}</span></td>
+      <td style="color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${i.assignee}</td>
+      <td class="sp-cell">${i.sp||'—'}</td>
+    </tr>
+  `).join('');
+}
+
+function switchSprint(k) {
+  currentSprint=k; currentStatus='all'; currentProject='all';
+  document.getElementById('status-filter').value='all';
+  renderAll();
+}
+
+document.getElementById('status-filter').addEventListener('change', e=>{ currentStatus=e.target.value; renderTable(SPRINTS[currentSprint].issues); });
+document.getElementById('project-filter').addEventListener('change', e=>{ currentProject=e.target.value; renderTable(SPRINTS[currentSprint].issues); });
+
+renderAll();
+</script>
+</body>
+</html>
