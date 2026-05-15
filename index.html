@@ -61,11 +61,13 @@ body { font-family: var(--font-display); background: var(--bg); color: var(--tex
 .proj-count { font-family: var(--font-mono); color: var(--text); font-size: 11px; }
 .proj-track { height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
 .proj-fill { height: 100%; border-radius: 2px; background: var(--accent); }
-.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; margin-bottom: 20px; }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; margin-bottom: 20px; }
 .team-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; display: flex; align-items: center; gap: 10px; }
 .avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--surface2); border: 1px solid var(--border2); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; color: var(--accent); flex-shrink: 0; font-family: var(--font-mono); }
 .team-name { font-size: 12px; font-weight: 500; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .team-stats { font-size: 11px; color: var(--text-muted); font-family: var(--font-mono); margin-top: 1px; }
+.team-sp-bar-wrap { height: 3px; background: var(--surface2); border-radius: 2px; margin-top: 5px; overflow: hidden; }
+.team-sp-bar { height: 100%; border-radius: 2px; background: var(--accent); transition: width 0.4s ease; }
 .table-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 32px; }
 .table-toolbar { padding: 12px 16px; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .table-toolbar .panel-title { margin: 0; flex: 1; }
@@ -197,7 +199,7 @@ const SPRINTS = {
       {key:'ECC-32',summary:'User Relation UI Display and Management improvements',project:'E-Centive Core',status:'Carried Over',assignee:'Brijwanth Jakhotia',sp:13},
       {key:'MAPP-135',summary:'update (APP): Auth Layer Rework',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:13},
       {key:'MAPP-136',summary:'feature (APP): Creating env for dev and prod environments',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:5},
-      {key:'MAPP-134',summary:'feature update (APP): Next Best Step \\\'Level\\\' Filter Implementation',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:8},
+      {key:'MAPP-134',summary:'feature update (APP): Next Best Step \'Level\' Filter Implementation',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:8},
       {key:'MAPP-147',summary:'feature (APP): boosted bundles',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:3},
       {key:'MAPP-133',summary:'feature (APP): TermsAndConditions Implementation',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:5},
       {key:'ECA-103',summary:'bugFix (APPAPI): MC Endpoint User Check IN',project:'E-Centive App',status:'Done (Production)',assignee:'Louis Phetla',sp:8},
@@ -248,7 +250,7 @@ const SPRINTS = {
       {key:'MFE-383',summary:'Franchisee Balance Score Card: Mobile UI',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:3},
       {key:'DT-10',summary:'Ignite - Franchisee Balanced Scorecard for Desktop (Cell C)',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'DT-9',summary:'Balanced Scorecard - Input form design',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
-      {key:'ECC-1322',summary:'Create a Job to update the SMS Group Message which stuck in \\"In Progress\\" to \\"Complete\\"',project:'E-Centive Core',status:'Carried Over',assignee:'Brijwanth Jakhotia',sp:3},
+      {key:'ECC-1322',summary:'Create a Job to update the SMS Group Message which stuck in "In Progress" to "Complete"',project:'E-Centive Core',status:'Carried Over',assignee:'Brijwanth Jakhotia',sp:3},
       {key:'ECC-1324',summary:'HotFix View Claim to use temp signed route',project:'E-Centive Core',status:'Done (Production)',assignee:'Philton Nengobela',sp:3},
       {key:'DT-8',summary:'App - Franchisee and Manager Role Designs',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'DT-7',summary:'Telkom Franchise & Branch Targets',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
@@ -358,7 +360,7 @@ const SPRINTS = {
       {key:'ECC-1321',summary:'Add New Company Type & Company to Cell C',project:'E-Centive Core',status:'Done (Production)',assignee:'Philton Nengobela',sp:0},
       {key:'DT-180',summary:'Cell C HQ',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'MFE-383',summary:'Franchisee Balance Score Card: Mobile UI',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:3},
-      {key:'ECC-1322',summary:'Create a Job to update the SMS Group Message which stuck in \\"In Progress\\" to \\"Complete\\"',project:'E-Centive Core',status:'Carried Over',assignee:'Brijwanth Jakhotia',sp:3},
+      {key:'ECC-1322',summary:'Create a Job to update the SMS Group Message which stuck in "In Progress" to "Complete"',project:'E-Centive Core',status:'Carried Over',assignee:'Brijwanth Jakhotia',sp:3},
       {key:'ECC-1325',summary:'SP training assignment storage, role groups config, and enrollment API endpoints',project:'E-Centive Core',status:'Carried Over',assignee:'Tobie Kruger',sp:0},
       {key:'DT-7',summary:'Telkom Franchise & Branch Targets',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'ECTA-215',summary:'Automate Cell C E-Wallet Module - UI Test Coverage (Playwright)',project:'Test Automation',status:'Done (Production)',assignee:'Rodrick',sp:0},
@@ -452,23 +454,23 @@ const SPRINTS = {
       {key:'ECC-1339',summary:'Add Turbo Tariff Plus to Volume and Basic',project:'E-Centive Core',status:'MOVED TO QA',assignee:'Philton Nengobela',sp:8},
       {key:'DT-194',summary:'IxE Social - Interview Video for LinkedIn',project:'Design Team',status:'Done',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'PROD-136',summary:'Pro Dashboard & Wireframes',project:'Product',status:'Done (Production)',assignee:'Tristan Strike',sp:0},
-      {key:'PROD-142',summary:'TBM Integration - Product Requirements & Specification: Define product requirements and specifications for TBM integration into Ignite and E-Centive',project:'Product',status:'To Do',assignee:'Tristan Strike',sp:0},
+      {key:'PROD-142',summary:'TBM Integration - Product Requirements & Specification',project:'Product',status:'To Do',assignee:'Tristan Strike',sp:0},
       {key:'ECC-1362',summary:'Fix duplicate poll submissions',project:'E-Centive Core',status:'Done (Production)',assignee:'Brijwanth Jakhotia',sp:3},
       {key:'ECC-1367',summary:'Update Telkom logo on SP and MC',project:'E-Centive Core',status:'To Do',assignee:'Philton Nengobela',sp:0},
       {key:'DT-209',summary:'Training Platform — Learner (Agent) App View',project:'Design Team',status:'In Progress',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'ECA-110',summary:'feat: Bref File Attachments Limit',project:'E-Centive App',status:'Done (Production)',assignee:'Louis Phetla',sp:8},
       {key:'PROD-145',summary:'Claude Skills for Copy Across Platform',project:'Product',status:'To Do',assignee:'Tristan Strike',sp:0},
       {key:'ECC-1389',summary:'Migrate MTN/OM/CE API auth guard from Laravel session to Cognito JWT',project:'E-Centive Core',status:'In Progress',assignee:'Wesley Classen',sp:8},
-      {key:'ECC-1392',summary:'Clean up redundant .env.qa.* / .env.prod.* files and remove unused GitHub Actions YAMLs',project:'E-Centive Core',status:'To Do',assignee:'Wesley Classen',sp:2},
+      {key:'ECC-1392',summary:'Clean up redundant .env files and remove unused GitHub Actions YAMLs',project:'E-Centive Core',status:'To Do',assignee:'Wesley Classen',sp:2},
       {key:'AWI-44',summary:'Personalized User Message',project:'Master Board',status:'In Progress',assignee:'Satish Singh',sp:0},
-      {key:'PROD-146',summary:'Social Media Management —Content, Engagement & Page Growth',project:'Product',status:'In Progress',assignee:'Nelisiwe',sp:0},
+      {key:'PROD-146',summary:'Social Media Management — Content, Engagement & Page Growth',project:'Product',status:'In Progress',assignee:'Nelisiwe',sp:0},
       {key:'PROD-147',summary:'Content Planning & Research',project:'Product',status:'In Progress',assignee:'Nelisiwe',sp:0},
       {key:'PROD-148',summary:'Social Media Posts- Copy',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
       {key:'PROD-149',summary:'Social Media Posts- Visual Assets',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
       {key:'PROD-150',summary:'Schedule & Publish Posts',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
       {key:'PROD-151',summary:'Daily Algorithm & Engagement Activity',project:'Product',status:'In Progress',assignee:'Nelisiwe',sp:0},
-      {key:'PROD-152',summary:'Audience Growth ',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
-      {key:'PROD-153',summary:'Community Management ',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
+      {key:'PROD-152',summary:'Audience Growth',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
+      {key:'PROD-153',summary:'Community Management',project:'Product',status:'To Do',assignee:'Nelisiwe',sp:0},
       {key:'PROD-155',summary:'Performance Tracking & Optimisation',project:'Product',status:'In Progress',assignee:'Nelisiwe',sp:0},
       {key:'MAPP-166',summary:'feat: User self-account deletion request',project:'Manhattan App',status:'To Do',assignee:'Louis Phetla',sp:5},
       {key:'DT-212',summary:'User Self Deleting Profile',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
@@ -479,37 +481,37 @@ const SPRINTS = {
       {key:'DT-213',summary:'Product Incentives: Manufacturer Code/Turbo Tariff/Dealsheet ID',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'MAPP-168',summary:'feat: Product Incentives | Manufacture Code/DealSheet Code',project:'Manhattan App',status:'To Do',assignee:'Louis Phetla',sp:5},
       {key:'DT-214',summary:'Account Deactivated Screen',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
-      {key:'MFE-401',summary:'Incentives: Manufacture Code, Turbo-Tariff, and DealSheet Code (as incentives types)',project:'Manhattan Frontend',status:'To Do',assignee:'Membathisi Mcetywa',sp:0},
+      {key:'MFE-401',summary:'Incentives: Manufacture Code, Turbo-Tariff, and DealSheet Code',project:'Manhattan Frontend',status:'To Do',assignee:'Membathisi Mcetywa',sp:0},
       {key:'MINT-138',summary:'Product Incentives | Manufacture Code/DealSheet Code',project:'Manhattan Integration',status:'To Do',assignee:'Wesley Classen',sp:5},
-      {key:'MINT-139',summary:'User wallet\\\'s status is not ACTIVE ',project:'Manhattan Integration',status:'Done (Production)',assignee:'Wesley Classen',sp:3},
-      {key:'MAPP-170',summary:'User wallet\\\'s status INACTIVE ',project:'Manhattan App',status:'Ready For Production',assignee:'Louis Phetla',sp:5},
+      {key:'MINT-139',summary:'User wallet status is not ACTIVE',project:'Manhattan Integration',status:'Done (Production)',assignee:'Wesley Classen',sp:3},
+      {key:'MAPP-170',summary:'User wallet status INACTIVE',project:'Manhattan App',status:'Ready For Production',assignee:'Louis Phetla',sp:5},
       {key:'DT-215',summary:'Highlighting Claim Statuses',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
-      {key:'MINT-140',summary:'Check if Lambda uses SP\\\'s System Settings for Cashout Requirements',project:'Manhattan Integration',status:'Done (Production)',assignee:'Wesley Classen',sp:3},
-      {key:'MAPP-171',summary:'feat: SP\\\'s System Settings for CashOut Requirements',project:'Manhattan App',status:'Ready For Production',assignee:'Louis Phetla',sp:3},
-      {key:'MFE-402',summary:'Each user cashout should reference SP\\\'s System Settings for cashout requirements (from token)',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:0},
+      {key:'MINT-140',summary:'Check if Lambda uses SP System Settings for Cashout Requirements',project:'Manhattan Integration',status:'Done (Production)',assignee:'Wesley Classen',sp:3},
+      {key:'MAPP-171',summary:'feat: SP System Settings for CashOut Requirements',project:'Manhattan App',status:'Ready For Production',assignee:'Louis Phetla',sp:3},
+      {key:'MFE-402',summary:'Each user cashout should reference SP System Settings for cashout requirements',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:0},
       {key:'MAPP-172',summary:'Highlighting Claim Statuses',project:'Manhattan App',status:'Done (Production)',assignee:'Louis Phetla',sp:3},
       {key:'ECC-1397',summary:'List System Restrictions on Wallet Screen',project:'E-Centive Core',status:'To Do',assignee:'Philton Nengobela',sp:3},
       {key:'ECC-1398',summary:'Highlighting Claim Statuses',project:'E-Centive Core',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:2},
       {key:'DT-216',summary:'User primary branch confirmation on a monthly',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
       {key:'MFE-403',summary:'[ANALYSIS] Manhattan: brandless theming, navigation, and routing fallback for E-Centive-only users',project:'Manhattan Frontend',status:'In Progress',assignee:'Membathisi Mcetywa',sp:8},
       {key:'ECC-1401',summary:'Cutover plan — feature flag, parallel-run, and staged rollout for E-Centive-only user migration',project:'E-Centive Core',status:'To Do',assignee:'Tobie Kruger',sp:5},
-      {key:'MFE-404',summary:'Disable cashout button + functionality if user has cashout disabled (from token)',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:2},
+      {key:'MFE-404',summary:'Disable cashout button + functionality if user has cashout disabled',project:'Manhattan Frontend',status:'Done (Production)',assignee:'Membathisi Mcetywa',sp:2},
       {key:'MFE-405',summary:'Hostname-based SP context mapping — read Host header to determine SP branding and config',project:'Manhattan Frontend',status:'To Do',assignee:'Membathisi Mcetywa',sp:5},
       {key:'ECC-1403',summary:'manhattan_redirect cutover per SP — flip flag as each Manhattan frontend gate lifts',project:'E-Centive Core',status:'To Do',assignee:'Wesley Classen',sp:5},
       {key:'ECC-1404',summary:'Registration flow audit — document public vs invite-only onboarding per SP',project:'E-Centive Core',status:'Done (Production)',assignee:'Tobie Kruger',sp:3},
       {key:'ECC-1405',summary:'DNS cutover per SP — add SP domains to Vercel, update A records, validate',project:'E-Centive Core',status:'To Do',assignee:'Tobie Kruger',sp:3},
-      {key:'DT-217',summary:'E-Centive default theme design — brandless fallback for Manhattan (no partner brand)',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
-      {key:'ECC-1406',summary:'Config-driven registration schema — define per-SP form config in system_settings (pv3-sp)',project:'E-Centive Core',status:'Done (Production)',assignee:'Tobie Kruger',sp:5},
-      {key:'ECC-1407',summary:'Registration GraphQL resolvers — serve config + handle submissions (manhattan-api)',project:'E-Centive Core',status:'Canceled',assignee:'Tobie Kruger',sp:5},
+      {key:'DT-217',summary:'E-Centive default theme design — brandless fallback for Manhattan',project:'Design Team',status:'To Do',assignee:'Ashley Mduduzi Ncube',sp:0},
+      {key:'ECC-1406',summary:'Config-driven registration schema — define per-SP form config in system_settings',project:'E-Centive Core',status:'Done (Production)',assignee:'Tobie Kruger',sp:5},
+      {key:'ECC-1407',summary:'Registration GraphQL resolvers — serve config + handle submissions',project:'E-Centive Core',status:'Canceled',assignee:'Tobie Kruger',sp:5},
       {key:'MINT-141',summary:'Registration GraphQL resolvers — serve config + handle submissions (manhattan-api)',project:'Manhattan Integration',status:'Done (Production)',assignee:'Tobie Kruger',sp:5},
-      {key:'ECC-1410',summary:'Ignite dashboard: upstream error-shaped 200s silently shown as empty cards + global modal blocks page',project:'E-Centive Core',status:'Done (Production)',assignee:'Tobie Kruger',sp:3},
-      {key:'ECC-1412',summary:'Enable HTTP API access logging on all 10 SP API Gateways (5 prod + 5 QA)',project:'E-Centive Core',status:'Done (Production)',assignee:'Wesley Classen',sp:1},
+      {key:'ECC-1410',summary:'Ignite dashboard: upstream error-shaped 200s silently shown as empty cards',project:'E-Centive Core',status:'Done (Production)',assignee:'Tobie Kruger',sp:3},
+      {key:'ECC-1412',summary:'Enable HTTP API access logging on all 10 SP API Gateways',project:'E-Centive Core',status:'Done (Production)',assignee:'Wesley Classen',sp:1},
       {key:'ECC-1428',summary:'Gate manual claims by product category (allow_manual_claims flag)',project:'E-Centive Core',status:'Done (Production)',assignee:'Philton Nengobela',sp:3},
       {key:'MINT-142',summary:'Return full datetime for OemClaimUpdate.createdAt and stabilise ORDER BY on id',project:'Manhattan Integration',status:'To Do',assignee:'Wesley Classen',sp:2},
       {key:'MAPP-173',summary:'feat-fix: DateTime plus status ID in Claim Statuses',project:'Manhattan App',status:'Automation',assignee:'Louis Phetla',sp:2},
       {key:'AWI-58',summary:'Remove VC from the MC Finance > View Billing',project:'Master Board',status:'Done',assignee:'Brijwanth Jakhotia',sp:0},
       {key:'DT-218',summary:'E-Centive & Ignite Webpage Download App (mobile web image)',project:'Design Team',status:'In Review',assignee:'Ashley Mduduzi Ncube',sp:0},
-      {key:'ECC-1429',summary:'Support Ticket creation hangs indefinitely after clicking Create button with no validation error or success response displayed',project:'E-Centive Core',status:'Done (Production)',assignee:'Brijwanth Jakhotia',sp:0},
+      {key:'ECC-1429',summary:'Support Ticket creation hangs indefinitely after clicking Create button',project:'E-Centive Core',status:'Done (Production)',assignee:'Brijwanth Jakhotia',sp:0},
       {key:'ECC-1430',summary:'SupportController: fix save() crash, SQL injection, mass-assignment',project:'E-Centive Core',status:'Done (Production)',assignee:'Brijwanth Jakhotia',sp:5},
       {key:'ECC-1432',summary:'Data analysis: 31 active MC OEM users — login & route engagement (Jan–May 2026)',project:'E-Centive Core',status:'CEC Duplicates',assignee:'Tobie Kruger',sp:3},
       {key:'ECC-1433',summary:'Data analysis: 2026 SP support tickets — type, OEM, and SP breakdown',project:'E-Centive Core',status:'CEC Duplicates',assignee:'Tobie Kruger',sp:2},
@@ -535,6 +537,8 @@ const STATUS_BG = {
   'In Review':'rgba(192,132,252,0.12)','Carried Over':'rgba(100,116,139,0.2)',
   'CEC Duplicates':'rgba(148,163,184,0.12)','Automation':'rgba(232,121,249,0.12)'
 };
+
+
 
 let currentSprint = 'Sprint 2';
 let currentStatus = 'all';
@@ -582,7 +586,7 @@ function renderAll() {
     noteEl.style.display = 'none';
   }
 
-  // Metrics — swap QA for Carried Over on closed sprints
+  // Metrics
   const metric4 = isClosed
     ? `<div class="metric-card"><p class="metric-label">Carried Over</p><p class="metric-value slate">${st.carriedOver}</p></div>`
     : `<div class="metric-card"><p class="metric-label">Moved to QA</p><p class="metric-value blue">${st.qa}</p></div>`;
@@ -594,7 +598,7 @@ function renderAll() {
     <div class="metric-card"><p class="metric-label">In progress</p><p class="metric-value amber">${st.inProgress}</p></div>
     ${metric4}`;
 
-  // Progress — for closed sprints, done + carried over = full picture
+  // Progress
   document.getElementById('progress-fill').style.width = st.pct + '%';
   document.getElementById('progress-pct').textContent = st.pct + '%';
   document.getElementById('progress-label').textContent = isClosed
@@ -637,20 +641,40 @@ function renderAll() {
       <div class="proj-track"><div class="proj-fill" style="width:${Math.round((count/max)*100)}%"></div></div>
     </div>`).join('');
 
-  // Team
+  // Team workload — show committed SP (excludes Canceled + Carried Over)
   const team = {};
   issues.forEach(i => {
-    if(!team[i.assignee]) team[i.assignee]={issues:0,sp:0};
+    if (!team[i.assignee]) team[i.assignee] = { issues: 0, committedSP: 0, doneSP: 0 };
     team[i.assignee].issues++;
-    team[i.assignee].sp+=i.sp||0;
+    team[i.assignee].committedSP += i.sp || 0;
+    if (i.status === 'Done (Production)' || i.status === 'Done') {
+      team[i.assignee].doneSP += i.sp || 0;
+    }
   });
-  document.getElementById('team-grid').innerHTML = Object.entries(team).sort((a,b)=>b[1].issues-a[1].issues).map(([name,d]) => {
-    const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
-    return `<div class="team-card">
-      <div class="avatar">${initials}</div>
-      <div style="overflow:hidden;"><p class="team-name">${name}</p><p class="team-stats">${d.issues} issues · ${d.sp} SP</p></div>
-    </div>`;
-  }).join('');
+
+  // Find max committed SP for bar scaling
+  const maxSP = Math.max(...Object.values(team).map(d => d.committedSP), 1);
+
+  document.getElementById('team-grid').innerHTML = Object.entries(team)
+    .sort((a, b) => b[1].committedSP - a[1].committedSP)
+    .map(([name, d]) => {
+      const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+      const spLabel = d.committedSP > 0
+        ? `${d.committedSP} SP · ${d.issues} issues`
+        : `${d.issues} issues · no SP`;
+      const barPct = Math.round((d.committedSP / maxSP) * 100);
+      const spBar = d.committedSP > 0
+        ? `<div class="team-sp-bar-wrap"><div class="team-sp-bar" style="width:${barPct}%"></div></div>`
+        : '';
+      return `<div class="team-card">
+        <div class="avatar">${initials}</div>
+        <div style="overflow:hidden;flex:1;">
+          <p class="team-name">${name}</p>
+          <p class="team-stats">${spLabel}</p>
+          ${spBar}
+        </div>
+      </div>`;
+    }).join('');
 
   // Project filter
   const projects = [...new Set(issues.map(i=>i.project))].sort();
