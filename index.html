@@ -418,6 +418,20 @@ const SPRINTS = {
   'Sprint 2': {
     name: 'DevOps Team Sprint 2', period: '6 May 2026 – present',
     state: 'Active', generatedAt: '2026-05-12',
+    spOverride: {
+      'Tobie Kruger': 77,
+      'Louis Phetla': 45,
+      'Tristan Strike': 39,
+      'Rodrick': 35,
+      'Wesley Classen': 35,
+      'Nelisiwe': 32,
+      'Membathisi Mcetywa': 31,
+      'Ashley Mduduzi Ncube': 28,
+      'Philton Nengobela': 27,
+      'Brijwanth Jakhotia': 25,
+      'Leandra Sellar': 13,
+      'Satish Singh': 10
+    },
     issues: [
       {key:'RTC-70',summary:'Set up RC for CE',project:'Retail Connect',status:'To Do',assignee:'Tobie Kruger',sp:0},
       {key:'ECC-32',summary:'User Relation UI Display and Management improvements',project:'E-Centive Core',status:'To Do',assignee:'Brijwanth Jakhotia',sp:13},
@@ -641,29 +655,31 @@ function renderAll() {
       <div class="proj-track"><div class="proj-fill" style="width:${Math.round((count/max)*100)}%"></div></div>
     </div>`).join('');
 
-  // Team workload — show committed SP (excludes Canceled + Carried Over)
+  // Team workload — use spOverride (from Jira) if available, otherwise sum from issue data
+  const spOverride = s.spOverride || {};
   const team = {};
   issues.forEach(i => {
-    if (!team[i.assignee]) team[i.assignee] = { issues: 0, committedSP: 0, doneSP: 0 };
+    if (!team[i.assignee]) team[i.assignee] = { issues: 0, rawSP: 0 };
     team[i.assignee].issues++;
-    team[i.assignee].committedSP += i.sp || 0;
-    if (i.status === 'Done (Production)' || i.status === 'Done') {
-      team[i.assignee].doneSP += i.sp || 0;
-    }
+    team[i.assignee].rawSP += i.sp || 0;
   });
 
-  // Find max committed SP for bar scaling
-  const maxSP = Math.max(...Object.values(team).map(d => d.committedSP), 1);
+  // Apply overrides
+  Object.keys(team).forEach(name => {
+    team[name].sp = spOverride[name] !== undefined ? spOverride[name] : team[name].rawSP;
+  });
+
+  const maxSP = Math.max(...Object.values(team).map(d => d.sp), 1);
 
   document.getElementById('team-grid').innerHTML = Object.entries(team)
-    .sort((a, b) => b[1].committedSP - a[1].committedSP)
+    .sort((a, b) => b[1].sp - a[1].sp)
     .map(([name, d]) => {
       const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
-      const spLabel = d.committedSP > 0
-        ? `${d.committedSP} SP · ${d.issues} issues`
+      const spLabel = d.sp > 0
+        ? `${d.sp} SP · ${d.issues} issues`
         : `${d.issues} issues · no SP`;
-      const barPct = Math.round((d.committedSP / maxSP) * 100);
-      const spBar = d.committedSP > 0
+      const barPct = Math.round((d.sp / maxSP) * 100);
+      const spBar = d.sp > 0
         ? `<div class="team-sp-bar-wrap"><div class="team-sp-bar" style="width:${barPct}%"></div></div>`
         : '';
       return `<div class="team-card">
