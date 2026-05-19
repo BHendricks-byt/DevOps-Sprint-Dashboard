@@ -1,4 +1,4 @@
-name: Fetch Jira Sprint Data
+Name: Fetch Jira Sprint Data
 
 on:
   schedule:
@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch active sprint
+      - name: Fetch active sprint info
+        id: sprint
         env:
           JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
@@ -22,16 +23,125 @@ jobs:
         run: |
           curl -s -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
             "$JIRA_BASE_URL/rest/agile/1.0/board/747/sprint?state=active" \
-            -o sprint.json
+            -o active_sprint.json
+          echo "Sprint fetched"
 
+      - name: Fetch sprint issues
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: |
+          # Get active sprint ID
+          SPRINT_ID=$(cat active_sprint.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['values'][0]['id'])" 2>/dev/null || echo "")
+
+          if [ -z "$SPRINT_ID" ]; then
+            echo "No active sprint found"
+            exit 1
+          fi
+
+          echo "Active sprint ID: $SPRINT_ID"
+
+          # Fetch all issues in the sprint (paginate if needed)
           curl -s -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
-            "$JIRA_BASE_URL/rest/agile/1.0/board/747/issue?maxResults=200&fields=summary,status,assignee,customfield_10016,project" \
-            -o issues.json
+            "$JIRA_BASE_URL/rest/agile/1.0/sprint/$SPRINT_ID/issue?maxResults=500&fields=summary,status,assignee,customfield_10016,project,issuetype" \
+            -o raw_issues.json
 
-      - name: Commit updated data
+      - name: Transform to dashboard format
+        run: |
+          python3 << 'EOF'
+          import json
+          from datetime import datetime, timezone
+
+          # Load raw data
+          with open('active_sprint.json') as f:
+              sprint_data = json.load(f)
+
+          with open('raw_issues.json') as f:
+              issues_data = json.load(f)
+
+          sprint = sprint_data['values'][0]
+          sprint_name = sprint.get('name', 'Active Sprint')
+          sprint_state = sprint.get('state', 'active').capitalize()
+
+          # Parse dates
+          start_raw = sprint.get('startDate', '')
+          end_raw = sprint.get('endDate', '')
+          def fmt_date(d):
+              try:
+                  return datetime.fromisoformat(d.replace('Z','+00:00')).strftime('%-d %b %Y')
+              except:
+                  return d[:10] if d else '?'
+
+          period = f"{fmt_date(start_raw)} – {fmt_date(end_raw)}" if end_raw else f"{fmt_date(start_raw)} – present"
+
+          # Map Jira statuses to dashboard statuses
+          STATUS_MAP = {
+              'In Progress': 'In Progress',
+              'To Do': 'To Do',
+              'Done': 'Done (Production)',
+              'Done (Production)': 'Done (Production)',
+              'Moved To QA': 'MOVED TO QA',
+              'Moved to QA': 'MOVED TO QA',
+              'MOVED TO QA': 'MOVED TO QA',
+              'Ready For Production': 'Ready For Production',
+              'Ready for Production': 'Ready For Production',
+              'Parked': 'Parked',
+              'Canceled': 'Canceled',
+              'Cancelled': 'Canceled',
+              'Carried Over': 'Carried Over',
+              'In Review': 'In Review',
+              'CEC Duplicates': 'CEC Duplicates',
+              'Automation': 'Automation',
+          }
+
+          issues = []
+          for item in issues_data.get('issues', []):
+              fields = item.get('fields', {})
+              status_name = fields.get('status', {}).get('name', 'To Do')
+              mapped_status = STATUS_MAP.get(status_name, status_name)
+
+              assignee_field = fields.get('assignee')
+              assignee = assignee_field.get('displayName', 'Unassigned') if assignee_field else 'Unassigned'
+
+              project_field = fields.get('project', {})
+              project = project_field.get('name', 'Unknown')
+
+              sp = fields.get('customfield_10016')
+              sp_val = int(sp) if sp is not None else 0
+
+              issues.append({
+                  'key': item['key'],
+                  'summary': fields.get('summary', ''),
+                  'project': project,
+                  'status': mapped_status,
+                  'assignee': assignee,
+                  'sp': sp_val
+              })
+
+          # Determine sprint number from name (e.g. "Sprint 2" -> "Sprint 2")
+          import re
+          match = re.search(r'sprint\s*(\d+)', sprint_name, re.IGNORECASE)
+          sprint_label = f"Sprint {match.group(1)}" if match else sprint_name
+
+          output = {
+              'name': f"DevOps Team {sprint_label}",
+              'period': period,
+              'state': 'Active' if sprint_state.lower() == 'active' else sprint_state,
+              'generatedAt': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
+              'issues': issues
+          }
+
+          with open('sprint2.json', 'w') as f:
+              json.dump(output, f, indent=2)
+
+          print(f"Written sprint2.json with {len(issues)} issues")
+          EOF
+
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sprint.json issues.json
-          git diff --staged --quiet || git commit -m "chore: refresh Jira data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git add sprint2.json
+          git diff --staged --quiet || git commit -m "chore: refresh sprint data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
