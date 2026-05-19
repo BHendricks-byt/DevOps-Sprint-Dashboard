@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "6 May 2026 \u2013 20 May 2026",
   "state": "Active",
-  "generatedAt": "2026-05-19 13:18 UTC",
+  "generatedAt": "2026-05-19 16:37 UTC",
   "issues": [
     {
       "key": "ECA-106",
@@ -480,7 +480,7 @@
       "key": "MINT-137",
       "summary": "User primary branch confirmation on a monthly",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -1066,6 +1066,14 @@
       "project": "Organisational BI",
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1461",
+      "summary": "Expose monthly branch confirmation flow via APPAPI endpoints + refactor BranchController logic into a service class",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
       "sp": 5
     }
   ]
