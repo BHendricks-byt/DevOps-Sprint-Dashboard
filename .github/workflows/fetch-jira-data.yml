@@ -1,0 +1,37 @@
+name: Fetch Jira Sprint Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch active sprint
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: |
+          curl -s -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
+            "$JIRA_BASE_URL/rest/agile/1.0/board/747/sprint?state=active" \
+            -o sprint.json
+
+          curl -s -u "$JIRA_EMAIL:$JIRA_API_TOKEN" \
+            "$JIRA_BASE_URL/rest/agile/1.0/board/747/issue?maxResults=200&fields=summary,status,assignee,customfield_10016,project" \
+            -o issues.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sprint.json issues.json
+          git diff --staged --quiet || git commit -m "chore: refresh Jira data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
