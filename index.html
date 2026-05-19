@@ -729,7 +729,10 @@ function switchSprint(k) {
 document.getElementById('status-filter').addEventListener('change', e=>{ currentStatus=e.target.value; renderTable(SPRINTS[currentSprint].issues); });
 document.getElementById('project-filter').addEventListener('change', e=>{ currentProject=e.target.value; renderTable(SPRINTS[currentSprint].issues); });
 
-renderAll();
+fetch('sprint2.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(data => { SPRINTS['Sprint 2'] = data; renderAll(); })
+  .catch(() => renderAll());
 </script>
 </body>
 </html>
