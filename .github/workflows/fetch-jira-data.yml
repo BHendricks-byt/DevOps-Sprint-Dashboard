@@ -1,4 +1,4 @@
-Name: Fetch Jira Sprint Data
+Nname: Fetch Jira Sprint Data
 
 on:
   schedule:
