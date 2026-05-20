@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "6 May 2026 \u2013 20 May 2026",
   "state": "Active",
-  "generatedAt": "2026-05-20 02:43 UTC",
+  "generatedAt": "2026-05-20 06:44 UTC",
   "issues": [
     {
       "key": "ECA-106",
@@ -144,7 +144,7 @@
       "key": "PROD-116",
       "summary": "Prepare Leadership Review and Alignment Session",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -152,7 +152,7 @@
       "key": "PROD-117",
       "summary": "Break Down Approved Initiatives into Execution Tickets",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -160,7 +160,7 @@
       "key": "PROD-118",
       "summary": "Create Phase 1 Rollout Plan for Engagement Strategy",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -232,7 +232,7 @@
       "key": "ECC-1339",
       "summary": "Add Turbo Tariff Plus to Volume and Basic",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -384,7 +384,7 @@
       "key": "PROD-146",
       "summary": "Social Media Management \u2014Content, Engagement & Page Growth",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
