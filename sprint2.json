@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-21 06:48 UTC",
+  "generatedAt": "2026-05-21 10:36 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -85,16 +85,48 @@
       "sp": 0
     },
     {
-      "key": "PROD-165",
-      "summary": "Knowledge Base",
+      "key": "PROD-154",
+      "summary": "Daily Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-156",
+      "summary": "Social Media Post - Article Review & Editing",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-157",
+      "summary": "Social Media Post- Visuals",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-166",
+      "summary": "Social Proof Posts",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-163",
+      "summary": "Reassign Workflows",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
     {
-      "key": "PROD-163",
-      "summary": "Reassign Workflows",
+      "key": "PROD-165",
+      "summary": "Knowledge Base",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Tristan Strike",
@@ -173,14 +205,6 @@
       "sp": 0
     },
     {
-      "key": "MINT-135",
-      "summary": "Agent Performance Connection \u2014 Beacon V2 Widgets: Top Agents by Avg Beacon Point & Agents Needing Attention",
-      "project": "Manhattan Integration",
-      "status": "To Do",
-      "assignee": "Unassigned",
-      "sp": 0
-    },
-    {
       "key": "RCB-11",
       "summary": "Retail Connect Pipeline IAC Implementation",
       "project": "Retail Connect Backend",
@@ -240,7 +264,7 @@
       "key": "MAPP-188",
       "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -437,14 +461,6 @@
       "sp": 5
     },
     {
-      "key": "ECC-1445",
-      "summary": "JobProgress \u2014 real-time job progress over Laravel WebSockets",
-      "project": "E-Centive Core",
-      "status": "Parked",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "AWI-61",
       "summary": "WebSocket infrastructure \u2014 Laravel WebSockets sidecar + JobProgress mcapi endpoint in pv3-mc container",
       "project": "Master Board",
@@ -504,7 +520,7 @@
       "key": "ECC-1461",
       "summary": "Expose monthly branch confirmation flow via APPAPI endpoints + refactor BranchController logic into a service class",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -528,7 +544,7 @@
       "key": "MFE-430",
       "summary": "Birthday Middleware",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Membathisi Mcetywa",
       "sp": 0
     },
@@ -536,7 +552,7 @@
       "key": "MFE-432",
       "summary": "Communication Preferences",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Membathisi Mcetywa",
       "sp": 0
     },
@@ -544,7 +560,7 @@
       "key": "ECC-1464",
       "summary": "Hotfix: OEM Sales listing 27s Lambda timeout on filter_by_product (LIKE %term% over 12M rows)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 3
     },
@@ -552,7 +568,7 @@
       "key": "ECTA-204",
       "summary": "IGNITE Module Comprehensive Inspection: 7 Core Features (Dashboard, Agent Performance, Alerts, Beacon, Campaigns, Intelligence, Sales Velocity) - All Operational with Real-Time Data",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -573,20 +589,60 @@
       "sp": 8
     },
     {
+      "key": "ECTA-223",
+      "summary": "Automated tests for the Telkom registration page on telkom.v3ecentive.co.za/registration.",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1465",
+      "summary": "Auto-populate IMEI 1 Value in Claim Comment Field for IMEI 2 Claims",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 0
+    },
+    {
       "key": "MFE-433",
       "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Membathisi Mcetywa",
       "sp": 2
+    },
+    {
+      "key": "AWI-63",
+      "summary": "Nea Beacon Changes, data validation",
+      "project": "Master Board",
+      "status": "To Do",
+      "assignee": "Satish Singh",
+      "sp": 0
     },
     {
       "key": "MFE-434",
       "summary": "tariff claims triggers oem incentives claims fetch",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Membathisi Mcetywa",
       "sp": 3
+    },
+    {
+      "key": "AWI-64",
+      "summary": "Branch Auto grading and reclustering - Data and logic Validation",
+      "project": "Master Board",
+      "status": "To Do",
+      "assignee": "Satish Singh",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1472",
+      "summary": "Hotfix: OEM claims bulk update 27 s Lambda timeout \u2014 defer dispatch loop to queued setup job",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 2
     }
   ]
 }
