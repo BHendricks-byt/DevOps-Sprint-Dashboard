@@ -1,40 +1,16 @@
 {
-  "name": "DevOps Team Sprint 2",
-  "period": "6 May 2026 \u2013 20 May 2026",
+  "name": "DevOps Team Sprint 3",
+  "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-20 06:44 UTC",
+  "generatedAt": "2026-05-21 06:48 UTC",
   "issues": [
     {
-      "key": "ECA-106",
-      "summary": "feat update: Updating user payment providers based off of branch",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "ECA-110",
-      "summary": "feat: Bref File Attachments Limit",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
+      "key": "ECC-148",
+      "summary": "Imei Import > Retry Import",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
       "sp": 8
-    },
-    {
-      "key": "MAPP-172",
-      "summary": "Highlighting Claim Statuses",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-139",
-      "summary": "adhoc: Providing App Links to easy access on Website",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 1
     },
     {
       "key": "RTC-70",
@@ -53,52 +29,36 @@
       "sp": 13
     },
     {
-      "key": "ECTA-216",
-      "summary": "Automate Cell C Finance Module - UI Test Coverage (Playwright)",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
+      "key": "IGNC-162",
+      "summary": "Ignite > Branch Grading > Automation of re-clustering",
+      "project": "Ignite Core",
+      "status": "To Do",
+      "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
-      "key": "ECTA-217",
-      "summary": "Cell C Support Tickets \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-198",
-      "summary": "Cell C OEM Packages Management \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-200",
-      "summary": "Cell C OEM Sales \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-201",
-      "summary": "Cell C OEM User Verifications \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
+      "key": "MFE-431",
+      "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Leandra Sellar",
+      "sp": 3
     },
     {
       "key": "MINT-116",
       "summary": "Update SES to use correct domain",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 8
+    },
+    {
+      "key": "MFE-364",
+      "summary": "Campaigns Middleware",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 3
     },
     {
       "key": "IGNC-171",
@@ -106,46 +66,6 @@
       "project": "Ignite Core",
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "PROD-112",
-      "summary": "Perform Employee Engagement Gap Analysis",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-113",
-      "summary": "Design Tailored Employee Engagement Strategy",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-114",
-      "summary": "Define KPIs and Success Criteria for Engagement Initiatives",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-115",
-      "summary": "Develop 6\u201312 Month Employee Engagement Roadmap",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-116",
-      "summary": "Prepare Leadership Review and Alignment Session",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
       "sp": 0
     },
     {
@@ -162,6 +82,22 @@
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-165",
+      "summary": "Knowledge Base",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Tristan Strike",
+      "sp": 0
+    },
+    {
+      "key": "PROD-163",
+      "summary": "Reassign Workflows",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Tristan Strike",
       "sp": 0
     },
     {
@@ -184,31 +120,15 @@
       "key": "ECC-32",
       "summary": "User Relation UI Display and Management improvements",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Brijwanth Jakhotia",
       "sp": 13
-    },
-    {
-      "key": "ECC-1427",
-      "summary": "Verify Sale Record Job > Fix concurrency + branch-mismatch bugs",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1436",
-      "summary": "Hotfix: php crash in SPAPI + APPAPI support flows",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
     },
     {
       "key": "ECC-1284",
       "summary": "MTN ONLY: Reverse and Generate Claims based on Transaction Date",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -237,99 +157,11 @@
       "sp": 8
     },
     {
-      "key": "ECC-1331",
-      "summary": "Company level cash out limitation",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1367",
-      "summary": "Update Telkom logo on SP and MC",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "DT-221",
-      "summary": "New Office Entrance Logo's",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-194",
-      "summary": "IxE Social - Interview Video for LinkedIn",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "DT-209",
       "summary": "Training Platform \u2014 Learner (Agent) App View",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "PROD-45",
-      "summary": "Retail Connect Pro PRD",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-92",
-      "summary": "Current State Analysis",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-94",
-      "summary": "Analysis of Pro Predictive addition to current metric ",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-95",
-      "summary": "Actionable Analytics",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-93",
-      "summary": "Create Wireframes",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-136",
-      "summary": "Pro Dashboard & Wireframes",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
-      "key": "PROD-142",
-      "summary": "TBM Integration - Product Requirements & Specification: Define product requirements and specifications for TBM integration into Ignite and E-Centive",
-      "project": "Product",
-      "status": "MOVED TO QA",
-      "assignee": "Tristan Strike",
       "sp": 0
     },
     {
@@ -341,34 +173,26 @@
       "sp": 0
     },
     {
-      "key": "ECC-1362",
-      "summary": "Fix duplicate poll submissions",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 3
-    },
-    {
-      "key": "PROD-145",
-      "summary": "Claude Skills for Copy Across Platform",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
+      "key": "MINT-135",
+      "summary": "Agent Performance Connection \u2014 Beacon V2 Widgets: Top Agents by Avg Beacon Point & Agents Needing Attention",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Unassigned",
       "sp": 0
     },
     {
-      "key": "ECC-1389",
-      "summary": "Migrate MTN/OM/CE API auth guard from Laravel session to Cognito JWT",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
+      "key": "RCB-11",
+      "summary": "Retail Connect Pipeline IAC Implementation",
+      "project": "Retail Connect Backend",
+      "status": "MOVED TO QA",
+      "assignee": "Leandra Sellar",
+      "sp": 29
     },
     {
       "key": "ECC-1392",
       "summary": "Clean up redundant .env.qa.* / .env.prod.* files and remove unused GitHub Actions YAMLs",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -376,97 +200,65 @@
       "key": "AWI-44",
       "summary": "Personalized User Message",
       "project": "Master Board",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Satish Singh",
       "sp": 0
     },
     {
-      "key": "PROD-146",
-      "summary": "Social Media Management \u2014Content, Engagement & Page Growth",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-147",
-      "summary": "Content Planning & Research",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-148",
-      "summary": "Social Media Posts- Copy",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-149",
-      "summary": "Social Media Posts- Visual Assets",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-150",
-      "summary": "Schedule & Publish Posts",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-151",
-      "summary": "Daily Algorithm & Engagement Activity",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-152",
-      "summary": "Audience Growth ",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-153",
-      "summary": "Community Management ",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-155",
-      "summary": "Performance Tracking & Optimisation",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-173",
-      "summary": "feat-fix: DateTime plus status ID in Claim Statuses",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
       "key": "MAPP-167",
-      "summary": "feat: User primary branch confirmation on a monthly",
+      "summary": "feat: Monthly Branch Confirmation",
       "project": "Manhattan App",
       "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 8
+    },
+    {
+      "key": "MAPP-186",
+      "summary": "feat: Birthday Middleware",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-187",
+      "summary": "feat: Communication Preferences",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-185",
+      "summary": "feat: Make Card Primary | Modernise modal + verify flow works",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 8
+    },
+    {
+      "key": "MAPP-188",
+      "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "ECA-109",
+      "summary": "feature (APP): Claim access from transactions",
+      "project": "E-Centive App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-102",
+      "summary": "feature (APP): Updating Primary Branch",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 13
     },
     {
       "key": "MFE-400",
@@ -485,68 +277,12 @@
       "sp": 5
     },
     {
-      "key": "MAPP-168",
-      "summary": "feat: Product Incentives | Manufacture Code/DealSheet Code",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
-    },
-    {
-      "key": "MFE-401",
-      "summary": "Incentives: Manufacture Code, Turbo-Tariff, and DealSheet Code (as incentives types)",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 0
-    },
-    {
       "key": "MINT-138",
       "summary": "Product Incentives | Manufacture Code/DealSheet Code",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 8
-    },
-    {
-      "key": "MINT-139",
-      "summary": "User wallet's status is not ACTIVE ",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-170",
-      "summary": "User wallet's status INACTIVE ",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MINT-140",
-      "summary": "Check if Lambda uses SP's System Settings for Cashout Requirements",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-171",
-      "summary": "feat: SP's System Settings for CashOut Requirements",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MFE-402",
-      "summary": "Each user cashout should reference SP's System Settings for cashout requirements (from token)",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 0
     },
     {
       "key": "ECC-1397",
@@ -557,52 +293,12 @@
       "sp": 3
     },
     {
-      "key": "ECC-1398",
-      "summary": "Highlighting Claim Statuses",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 0
-    },
-    {
-      "key": "MFE-403",
-      "summary": "[ANALYSIS] Manhattan: brandless theming, navigation, and routing fallback for E-Centive-only users",
-      "project": "Manhattan Frontend",
-      "status": "In Progress",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 8
-    },
-    {
-      "key": "MFE-417",
-      "summary": "Bugfix: password reset from within the Ignite application",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 1
-    },
-    {
-      "key": "MFE-418",
-      "summary": "Directus Clean-up",
-      "project": "Manhattan Frontend",
-      "status": "Parked",
-      "assignee": "Bronwynn",
-      "sp": 0
-    },
-    {
       "key": "ECC-1401",
       "summary": "Cutover plan \u2014 feature flag, parallel-run, and staged rollout for E-Centive-only user migration",
       "project": "E-Centive Core",
       "status": "To Do",
       "assignee": "Tobie Kruger",
       "sp": 5
-    },
-    {
-      "key": "MFE-404",
-      "summary": "Disable cashout button + functionality if user has cashout disabled (from token)",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 0
     },
     {
       "key": "MFE-405",
@@ -613,11 +309,11 @@
       "sp": 5
     },
     {
-      "key": "ECC-1404",
-      "summary": "Registration flow audit \u2014 document public vs invite-only onboarding per SP",
+      "key": "ECC-1403",
+      "summary": "manhattan_redirect cutover per SP \u2014 flip flag as each Manhattan frontend gate lifts",
       "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
       "sp": 0
     },
     {
@@ -629,67 +325,11 @@
       "sp": 3
     },
     {
-      "key": "ECC-1406",
-      "summary": "Config-driven registration schema \u2014 define per-SP form config in system_settings (pv3-sp)",
+      "key": "ECC-1414",
+      "summary": "Sandbox Access & Initial API Testing",
       "project": "E-Centive Core",
-      "status": "Done (Production)",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1407",
-      "summary": "Registration GraphQL resolvers \u2014 serve config + handle submissions (manhattan-api)",
-      "project": "E-Centive Core",
-      "status": "Canceled",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-141",
-      "summary": "Registration GraphQL resolvers \u2014 serve config + handle submissions (manhattan-api)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1410",
-      "summary": "Ignite dashboard: upstream error-shaped 200s silently shown as empty cards + global modal blocks page",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1412",
-      "summary": "Enable HTTP API access logging on all 10 SP API Gateways (5 prod + 5 QA)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1428",
-      "summary": "Gate manual claims by product category (allow_manual_claims flag)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "MINT-142",
-      "summary": "Return full datetime for OemClaimUpdate.createdAt and stabilise ORDER BY on id",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "AWI-58",
-      "summary": "Remove VC from the MC Finance > View Billing",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
       "sp": 0
     },
     {
@@ -698,62 +338,6 @@
       "project": "Design Person",
       "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1429",
-      "summary": "Support Ticket creation hangs indefinitely after clicking Create button with no validation error or success response displayed",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1430",
-      "summary": "SupportController: fix save() crash, SQL injection, mass-assignment",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1432",
-      "summary": "Data analysis: 31 active MC OEM users \u2014 login & route engagement (Jan\u2013May 2026)",
-      "project": "E-Centive Core",
-      "status": "CEC Duplicates",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1433",
-      "summary": "Data analysis: 2026 SP support tickets \u2014 type, OEM, and SP breakdown",
-      "project": "E-Centive Core",
-      "status": "CEC Duplicates",
-      "assignee": "Tobie Kruger",
-      "sp": -2
-    },
-    {
-      "key": "ECC-1434",
-      "summary": "Data analysis: OEM special incentives (Volume + Model) loaded in last 14 months per SP",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1435",
-      "summary": "Data analysis: AWS bill Jan\u2013April 2026 \u2014 breakdown per platform / per SP / per OEM",
-      "project": "E-Centive Core",
-      "status": "CEC Duplicates",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1439",
-      "summary": "Migrate SP secrets to Bref runtime SSM resolution to free Lambda env-var budget",
-      "project": "E-Centive Core",
-      "status": "CEC Duplicates",
-      "assignee": "Wesley Classen",
       "sp": 0
     },
     {
@@ -853,62 +437,6 @@
       "sp": 5
     },
     {
-      "key": "TC-8",
-      "summary": "Set up training QA environment \u2014 bootstrap training-qa account + develop-branch deploy pipeline",
-      "project": "Training Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "AWI-59",
-      "summary": "Pin paramiko in daily-sftp-sync workflow (paramiko 5.0.0 breaks BCX host key)",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 1
-    },
-    {
-      "key": "TC-9",
-      "summary": "Migrate training-prod data + S3 content into training-qa, then wipe training-prod",
-      "project": "Training Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-144",
-      "summary": "Update manhattan-qa SSM training params to point at training-qa",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1444",
-      "summary": "Update pv3-mc + pv3-sp QA system_settings.training_api to point at training-qa",
-      "project": "E-Centive Core",
-      "status": "Canceled",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "AWI-60",
-      "summary": "Security: tighten CE storage bucket policies \u2014 remove anonymous s3:* grants (live since 2023-03-14)",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "TC-10",
-      "summary": "Fix migration-runner seed step import path (ModuleNotFoundError: shared)",
-      "project": "Training Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "ECC-1445",
       "summary": "JobProgress \u2014 real-time job progress over Laravel WebSockets",
       "project": "E-Centive Core",
@@ -949,38 +477,6 @@
       "sp": 2
     },
     {
-      "key": "MFE-415",
-      "summary": "Remove SP ID from claim updates query",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 0
-    },
-    {
-      "key": "ECA-112",
-      "summary": "Disable cash-out button proactively and surface API-provided reason",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": -3
-    },
-    {
-      "key": "ECA-111",
-      "summary": "Proactive cash-out eligibility surface on appapi/user_wallets",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "PROD-160",
-      "summary": "Investigate Regional Manager Role",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Tristan Strike",
-      "sp": 0
-    },
-    {
       "key": "ECC-1454",
       "summary": "Bump cognito-prod-cognito-triggers Lambda memory 256\u2192512 MB for CPU headroom",
       "project": "E-Centive Core",
@@ -997,76 +493,12 @@
       "sp": 13
     },
     {
-      "key": "ECC-1455",
-      "summary": "CellC call-centre registration broken \u2014 config-driven salesman_code validation ignores role's display_salesman_code flag",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 2
-    },
-    {
-      "key": "ECTA-220",
-      "summary": "Manhattan Frontend \u2013 Playwright Test Coverage for Change-Password Modal (User Management)",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-203",
-      "summary": "Cell C OEM Suspense Account \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-202",
-      "summary": "Cell C OEM Brand Hub \u2013 UI Automation Test Coverage",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1457",
-      "summary": "Hotfix: OEM claims export Lambda timeout on large date ranges \u2014 optimise SQL",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 8
-    },
-    {
       "key": "ECC-1459",
       "summary": "Hot Fix - OEM SP IMEI imports listing times out (N+1 over imei_import_logs)",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 3
-    },
-    {
-      "key": "ECTA-221",
-      "summary": "Automated tests for the MTN registration page on mtn.v3ecentive.co.za/registration.",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-222",
-      "summary": "Automated tests for the Cell C registration page on cellc.v3ecentive.co.za/registration.",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ORGBI-31",
-      "summary": "Produce a GitHub-based development output report",
-      "project": "Organisational BI",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 5
     },
     {
       "key": "ECC-1461",
@@ -1075,6 +507,86 @@
       "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "MINT-145",
+      "summary": "Birthday Middleware",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MINT-146",
+      "summary": "Communication Preferences",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-430",
+      "summary": "Birthday Middleware",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 0
+    },
+    {
+      "key": "MFE-432",
+      "summary": "Communication Preferences",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1464",
+      "summary": "Hotfix: OEM Sales listing 27s Lambda timeout on filter_by_product (LIKE %term% over 12M rows)",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 3
+    },
+    {
+      "key": "ECTA-204",
+      "summary": "IGNITE Module Comprehensive Inspection: 7 Core Features (Dashboard, Agent Performance, Alerts, Beacon, Campaigns, Intelligence, Sales Velocity) - All Operational with Real-Time Data",
+      "project": "E-Centive Test Automation",
+      "status": "To Do",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-208",
+      "summary": "Cell C User Management \u2014 Playwright Automation Coverage",
+      "project": "E-Centive Test Automation",
+      "status": "To Do",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-218",
+      "summary": "Cell C OEM Entities \u2013 UI Automation Test Coverage",
+      "project": "E-Centive Test Automation",
+      "status": "To Do",
+      "assignee": "Rodrick",
+      "sp": 8
+    },
+    {
+      "key": "MFE-433",
+      "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 2
+    },
+    {
+      "key": "MFE-434",
+      "summary": "tariff claims triggers oem incentives claims fetch",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 3
     }
   ]
 }
