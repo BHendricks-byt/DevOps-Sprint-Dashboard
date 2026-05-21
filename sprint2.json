@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-21 10:36 UTC",
+  "generatedAt": "2026-05-21 14:03 UTC",
   "issues": [
     {
       "key": "ECC-148",
       "summary": "Imei Import > Retry Import",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -160,7 +160,7 @@
       "key": "ECC-1284",
       "summary": "MTN ONLY: Reverse and Generate Claims based on Transaction Date",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -352,7 +352,7 @@
       "key": "ECC-1414",
       "summary": "Sandbox Access & Initial API Testing",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -600,7 +600,7 @@
       "key": "ECC-1465",
       "summary": "Auto-populate IMEI 1 Value in Claim Comment Field for IMEI 2 Claims",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Canceled",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -622,7 +622,7 @@
     },
     {
       "key": "MFE-434",
-      "summary": "tariff claims triggers oem incentives claims fetch",
+      "summary": "Tariff claims triggers oem claims fetch (single claim view)",
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Membathisi Mcetywa",
@@ -640,7 +640,7 @@
       "key": "ECC-1472",
       "summary": "Hotfix: OEM claims bulk update 27 s Lambda timeout \u2014 defer dispatch loop to queued setup job",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
     }
