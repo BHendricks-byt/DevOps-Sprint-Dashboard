@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-21 14:03 UTC",
+  "generatedAt": "2026-05-21 17:10 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -264,7 +264,7 @@
       "key": "MAPP-188",
       "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -296,7 +296,7 @@
       "key": "MINT-137",
       "summary": "User primary branch confirmation on a monthly",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
