@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-22 03:39 UTC",
+  "generatedAt": "2026-05-22 07:38 UTC",
   "issues": [
     {
       "key": "ECC-148",
       "summary": "Imei Import > Retry Import",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -40,7 +40,7 @@
       "key": "MFE-431",
       "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Leandra Sellar",
       "sp": 3
     },
@@ -88,7 +88,7 @@
       "key": "PROD-154",
       "summary": "Daily Engagement & Algorithm Boost",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -104,7 +104,7 @@
       "key": "PROD-157",
       "summary": "Social Media Post- Visuals",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -112,7 +112,7 @@
       "key": "PROD-166",
       "summary": "Social Proof Posts",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -184,7 +184,7 @@
       "key": "ECC-1339",
       "summary": "Add Turbo Tariff Plus to Volume and Basic",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Canceled",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -264,7 +264,7 @@
       "key": "MAPP-188",
       "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -309,11 +309,11 @@
       "sp": 8
     },
     {
-      "key": "ECC-1397",
+      "key": "MFE-435",
       "summary": "List System Restrictions on Wallet Screen",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Philton Nengobela",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Membathisi Mcetywa",
       "sp": 3
     },
     {
@@ -501,14 +501,6 @@
       "sp": 2
     },
     {
-      "key": "ECC-137",
-      "summary": "Automation of Exception Report",
-      "project": "E-Centive Core",
-      "status": "Automation",
-      "assignee": "Philton Nengobela",
-      "sp": 13
-    },
-    {
       "key": "ECC-1459",
       "summary": "Hot Fix - OEM SP IMEI imports listing times out (N+1 over imei_import_logs)",
       "project": "E-Centive Core",
@@ -523,6 +515,14 @@
       "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "ECC-137",
+      "summary": "Automation of Exception Report",
+      "project": "E-Centive Core",
+      "status": "Canceled",
+      "assignee": "Philton Nengobela",
+      "sp": 13
     },
     {
       "key": "MINT-145",
@@ -600,7 +600,7 @@
       "key": "ECC-1465",
       "summary": "Auto-populate IMEI 1 Value in Claim Comment Field for IMEI 2 Claims",
       "project": "E-Centive Core",
-      "status": "Canceled",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
