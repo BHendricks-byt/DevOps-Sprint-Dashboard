@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-22 13:27 UTC",
+  "generatedAt": "2026-05-22 16:01 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -302,7 +302,7 @@
     },
     {
       "key": "MINT-137",
-      "summary": "User primary branch confirmation on a monthly",
+      "summary": "User branch confirmation on a monthly",
       "project": "Manhattan Integration",
       "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
