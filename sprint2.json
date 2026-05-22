@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-22 10:44 UTC",
+  "generatedAt": "2026-05-22 13:27 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -96,7 +96,7 @@
       "key": "PROD-156",
       "summary": "Social Media Post - Article Review & Editing",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -147,6 +147,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "ECC-1473",
+      "summary": "ADHOC - Remove beneficiary user personal info from SP Finance Billing Export",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
     },
     {
       "key": "ECC-32",
@@ -643,14 +651,6 @@
       "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
-    },
-    {
-      "key": "ECC-1473",
-      "summary": "ADHOC - Remove beneficiary user personal info from SP Finance Billing Export",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 3
     }
   ]
 }
