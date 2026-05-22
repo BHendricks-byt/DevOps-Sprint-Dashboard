@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-22 07:38 UTC",
+  "generatedAt": "2026-05-22 10:44 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -614,7 +614,7 @@
     },
     {
       "key": "AWI-63",
-      "summary": "Nea Beacon Changes, data validation",
+      "summary": "New Beacon Changes, data validation",
       "project": "Master Board",
       "status": "To Do",
       "assignee": "Satish Singh",
@@ -624,7 +624,7 @@
       "key": "MFE-434",
       "summary": "Tariff claims triggers oem claims fetch (single claim view)",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Membathisi Mcetywa",
       "sp": 3
     },
@@ -643,6 +643,14 @@
       "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
+    },
+    {
+      "key": "ECC-1473",
+      "summary": "ADHOC - Remove beneficiary user personal info from SP Finance Billing Export",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
     }
   ]
 }
