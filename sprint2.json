@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-23 09:18 UTC",
+  "generatedAt": "2026-05-23 10:50 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -472,7 +472,7 @@
       "key": "AWI-61",
       "summary": "WebSocket infrastructure \u2014 Laravel WebSockets sidecar + JobProgress mcapi endpoint in pv3-mc container",
       "project": "Master Board",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
