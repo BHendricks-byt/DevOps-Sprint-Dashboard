@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-25 07:09 UTC",
+  "generatedAt": "2026-05-25 11:34 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -24,7 +24,7 @@
       "key": "ECC-1213",
       "summary": "Add GPS Coordinates to User and Branch Addresses",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "QA Cancelled",
       "assignee": "Brijwanth Jakhotia",
       "sp": 13
     },
@@ -152,7 +152,7 @@
       "key": "ECC-1473",
       "summary": "ADHOC - Remove beneficiary user personal info from SP Finance Billing Export",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -192,7 +192,7 @@
       "key": "ECC-1339",
       "summary": "Add Turbo Tariff Plus to Volume and Basic",
       "project": "E-Centive Core",
-      "status": "Canceled",
+      "status": "QA Cancelled",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -496,7 +496,7 @@
       "key": "ECC-1454",
       "summary": "Bump cognito-prod-cognito-triggers Lambda memory 256\u2192512 MB for CPU headroom",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -520,7 +520,7 @@
       "key": "ECC-137",
       "summary": "Automation of Exception Report",
       "project": "E-Centive Core",
-      "status": "Canceled",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -682,6 +682,14 @@
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1475",
+      "summary": "Show Product Bracket field for all OEM Incentive types",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Philton Nengobela",
       "sp": 0
     }
   ]
