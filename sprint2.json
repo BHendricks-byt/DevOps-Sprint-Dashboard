@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-25 11:34 UTC",
+  "generatedAt": "2026-05-25 14:43 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -197,18 +197,10 @@
       "sp": 8
     },
     {
-      "key": "DT-209",
-      "summary": "Training Platform \u2014 Learner (Agent) App View",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "IGNC-182",
       "summary": "Data Requirements for KPI feature",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Satish Singh",
       "sp": 0
     },
@@ -496,7 +488,7 @@
       "key": "ECC-1454",
       "summary": "Bump cognito-prod-cognito-triggers Lambda memory 256\u2192512 MB for CPU headroom",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -528,7 +520,7 @@
       "key": "MINT-145",
       "summary": "Birthday Middleware",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -680,7 +672,7 @@
       "key": "DT-240",
       "summary": "E-Centive Website copy update",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Parked",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -691,6 +683,30 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 0
+    },
+    {
+      "key": "DT-241",
+      "summary": "Monthly Branch Confirmation",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-209",
+      "summary": "Training Platform \u2014 Learner (Agent) App View",
+      "project": "Design Person",
+      "status": "Done (Production)",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-250",
+      "summary": "Fix broken Athena SQL in achievement-event insert that has silently dropped events",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Wesley Classen",
+      "sp": 1
     }
   ]
 }
