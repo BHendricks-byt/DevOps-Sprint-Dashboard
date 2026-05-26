@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-26 08:28 UTC",
+  "generatedAt": "2026-05-26 14:54 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -160,7 +160,7 @@
       "key": "ECC-32",
       "summary": "User Relation UI Display and Management improvements",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 13
     },
@@ -354,6 +354,14 @@
       "project": "E-Centive Core",
       "status": "Ready For Production",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "DT-241",
+      "summary": "Monthly Branch Confirmation",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
     {
@@ -693,18 +701,10 @@
       "sp": 0
     },
     {
-      "key": "DT-241",
-      "summary": "Monthly Branch Confirmation",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "DT-209",
       "summary": "Training Platform \u2014 Learner (Agent) App View",
       "project": "Design Person",
-      "status": "Done (Production)",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -715,6 +715,14 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 1
+    },
+    {
+      "key": "IGNC-251",
+      "summary": "core API: add /branches and /agents reusable selector endpoints",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
