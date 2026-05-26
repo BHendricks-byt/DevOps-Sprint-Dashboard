@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-26 14:54 UTC",
+  "generatedAt": "2026-05-26 17:53 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -720,7 +720,7 @@
       "key": "IGNC-251",
       "summary": "core API: add /branches and /agents reusable selector endpoints",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     }
