@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-26 04:41 UTC",
+  "generatedAt": "2026-05-26 08:28 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -160,7 +160,7 @@
       "key": "ECC-32",
       "summary": "User Relation UI Display and Management improvements",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 13
     },
@@ -227,6 +227,14 @@
       "status": "Done (Production)",
       "assignee": "Satish Singh",
       "sp": 0
+    },
+    {
+      "key": "MAPP-194",
+      "summary": "bug: PostHog session replay causing production jank and device overheating",
+      "project": "Manhattan App",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 1
     },
     {
       "key": "MAPP-167",
@@ -624,7 +632,7 @@
       "key": "ECC-1466",
       "summary": "Add Volume tab to OEM Finance Billing export (volume claims only, ordered by user_id + incentive_id, counter column)",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -680,7 +688,7 @@
       "key": "ECC-1475",
       "summary": "Show Product Bracket field for all OEM Incentive types",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
