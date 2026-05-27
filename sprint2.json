@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-27 10:59 UTC",
+  "generatedAt": "2026-05-27 14:29 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -221,20 +221,28 @@
       "sp": 0
     },
     {
-      "key": "MAPP-194",
-      "summary": "bug: PostHog session replay causing production jank and device overheating",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 1
-    },
-    {
       "key": "MAPP-167",
       "summary": "feat: Monthly Branch Confirmation",
       "project": "Manhattan App",
       "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 8
+    },
+    {
+      "key": "MAPP-188",
+      "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
+      "project": "Manhattan App",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "MAPP-194",
+      "summary": "bug: PostHog session replay causing production jank and device overheating",
+      "project": "Manhattan App",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 1
     },
     {
       "key": "MAPP-186",
@@ -259,14 +267,6 @@
       "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 8
-    },
-    {
-      "key": "MAPP-188",
-      "summary": "bug: Cash Out | Wallet shows negative balance when cashing out full amount",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
     },
     {
       "key": "ECA-109",
@@ -720,9 +720,17 @@
       "key": "IGNC-252",
       "summary": "core API: per-agent NBS lookup on /bundles/next-best-steps?user_id=Y",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "MINT-147",
+      "summary": "AppSync: wire role-aware selector endpoints + per-agent NBS lookup (igniteBranches, igniteAgents, igniteBundlesNextBestSteps)",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
