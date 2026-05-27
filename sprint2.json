@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-27 14:29 UTC",
+  "generatedAt": "2026-05-27 17:42 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -728,7 +728,7 @@
       "key": "MINT-147",
       "summary": "AppSync: wire role-aware selector endpoints + per-agent NBS lookup (igniteBranches, igniteAgents, igniteBundlesNextBestSteps)",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     }
