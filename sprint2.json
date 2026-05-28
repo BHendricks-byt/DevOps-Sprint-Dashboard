@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-28 06:49 UTC",
+  "generatedAt": "2026-05-28 10:51 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -739,6 +739,14 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "ECC-1478",
+      "summary": "Load PayCentral Cards into the Console Backend",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 1
     }
   ]
 }
