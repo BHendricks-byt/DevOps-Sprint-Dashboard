@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-28 10:51 UTC",
+  "generatedAt": "2026-05-28 14:34 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -605,20 +605,20 @@
       "sp": 0
     },
     {
-      "key": "MFE-433",
-      "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
-      "project": "Manhattan Frontend",
-      "status": "In Progress",
-      "assignee": "Membathisi Mcetywa",
-      "sp": 2
-    },
-    {
       "key": "MFE-400",
       "summary": "User primary branch confirmation on a monthly",
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Membathisi Mcetywa",
       "sp": 0
+    },
+    {
+      "key": "MFE-433",
+      "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
+      "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Membathisi Mcetywa",
+      "sp": 2
     },
     {
       "key": "AWI-63",
@@ -747,6 +747,14 @@
       "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 1
+    },
+    {
+      "key": "ECC-1479",
+      "summary": "Fix: Volume incentive save fails silently on prod \u2014 oem_product_bracket_id binds NULL post-ECC-1339",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 2
     }
   ]
 }
