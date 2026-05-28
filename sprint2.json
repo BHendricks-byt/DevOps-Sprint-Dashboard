@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-28 02:37 UTC",
+  "generatedAt": "2026-05-28 06:49 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -190,7 +190,7 @@
     },
     {
       "key": "IGNC-182",
-      "summary": "Data Requirements for KPI feature",
+      "summary": "Telkom - Data Requirements for KPI feature",
       "project": "Ignite Core",
       "status": "Done (Production)",
       "assignee": "Satish Singh",
@@ -568,7 +568,7 @@
       "key": "ECTA-204",
       "summary": "IGNITE Module Comprehensive Inspection: 7 Core Features (Dashboard, Agent Performance, Alerts, Beacon, Campaigns, Intelligence, Sales Velocity) - All Operational with Real-Time Data",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -576,7 +576,7 @@
       "key": "ECTA-208",
       "summary": "Cell C User Management \u2014 Playwright Automation Coverage",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -584,7 +584,7 @@
       "key": "ECTA-218",
       "summary": "Cell C OEM Entities \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 8
     },
@@ -608,7 +608,7 @@
       "key": "MFE-433",
       "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Membathisi Mcetywa",
       "sp": 2
     },
@@ -729,6 +729,14 @@
       "summary": "AppSync: wire role-aware selector endpoints + per-agent NBS lookup (igniteBranches, igniteAgents, igniteBundlesNextBestSteps)",
       "project": "Manhattan Integration",
       "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
+      "key": "MFE-441",
+      "summary": "role-aware NBS view: branch + agent selectors for managers and franchisees",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
     }
