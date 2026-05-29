@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-29 06:49 UTC",
+  "generatedAt": "2026-05-29 10:40 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -264,15 +264,23 @@
       "key": "MAPP-185",
       "summary": "feat: Make Card Primary | Modernise modal + verify flow works",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 8
+    },
+    {
+      "key": "ECA-113",
+      "summary": "feature (BE): Paginate /claims and /wallet/get_transactions endpoints",
+      "project": "E-Centive App",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 0
     },
     {
       "key": "ECA-109",
       "summary": "feature (APP): Claim access from transactions",
       "project": "E-Centive App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -349,10 +357,18 @@
       "sp": 0
     },
     {
+      "key": "DT-209",
+      "summary": "Training Platform \u2014 Learner (Agent) App View",
+      "project": "Design Person",
+      "status": "QA Cancelled",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "DT-241",
       "summary": "Monthly Branch Confirmation",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -672,7 +688,7 @@
       "key": "AWI-66",
       "summary": "Users cannot log in on Staging \u2014 login page shows \"Invalid input: Client is not enabled for OAuth2.0 flows.\"",
       "project": "Master Board",
-      "status": "To Do",
+      "status": "Automation",
       "assignee": "Leandra Sellar",
       "sp": 0
     },
@@ -690,14 +706,6 @@
       "project": "E-Centive Core",
       "status": "Done (Production)",
       "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "DT-209",
-      "summary": "Training Platform \u2014 Learner (Agent) App View",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
     {
