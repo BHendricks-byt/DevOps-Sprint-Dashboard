@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-05-29 10:40 UTC",
+  "generatedAt": "2026-05-29 13:54 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -221,6 +221,14 @@
       "sp": 0
     },
     {
+      "key": "MAPP-185",
+      "summary": "feat: Make Card Primary | Modernise modal + verify flow works",
+      "project": "Manhattan App",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 8
+    },
+    {
       "key": "MAPP-167",
       "summary": "feat: Monthly Branch Confirmation",
       "project": "Manhattan App",
@@ -261,16 +269,8 @@
       "sp": 0
     },
     {
-      "key": "MAPP-185",
-      "summary": "feat: Make Card Primary | Modernise modal + verify flow works",
-      "project": "Manhattan App",
-      "status": "Automation",
-      "assignee": "Louis Phetla",
-      "sp": 8
-    },
-    {
       "key": "ECA-113",
-      "summary": "feature (BE): Paginate /claims and /wallet/get_transactions endpoints",
+      "summary": "feature (APPAPI): Paginate /claims and /wallet/get_transactions endpoints",
       "project": "E-Centive App",
       "status": "In Progress",
       "assignee": "Louis Phetla",
@@ -763,6 +763,14 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "DT-242",
+      "summary": "Dashboard / Home page \u2014 Desktop Web design",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 13
     }
   ]
 }
