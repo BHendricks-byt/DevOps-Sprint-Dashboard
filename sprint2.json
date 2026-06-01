@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-01 05:23 UTC",
+  "generatedAt": "2026-06-01 10:36 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -592,7 +592,7 @@
       "key": "ECTA-208",
       "summary": "Cell C User Management \u2014 Playwright Automation Coverage",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -600,7 +600,7 @@
       "key": "ECTA-218",
       "summary": "Cell C OEM Entities \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "QA Cancelled",
       "assignee": "Rodrick",
       "sp": 8
     },
@@ -608,7 +608,7 @@
       "key": "ECTA-223",
       "summary": "Automated tests for the Telkom registration page on telkom.v3ecentive.co.za/registration.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -688,7 +688,7 @@
       "key": "AWI-66",
       "summary": "Users cannot log in on Staging \u2014 login page shows \"Invalid input: Client is not enabled for OAuth2.0 flows.\"",
       "project": "Master Board",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Leandra Sellar",
       "sp": 0
     },
@@ -771,6 +771,22 @@
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
+    },
+    {
+      "key": "DT-243",
+      "summary": "Training Platform \u2014 Full Training List Page (App)",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Unassigned",
+      "sp": 13
+    },
+    {
+      "key": "IGNC-257",
+      "summary": "Telkom deals pipeline failing on packages_ice partition cap (100-writer limit)",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
