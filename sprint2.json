@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-01 10:36 UTC",
+  "generatedAt": "2026-06-01 16:34 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -48,7 +48,7 @@
       "key": "MFE-364",
       "summary": "Campaigns Middleware",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Membathisi Mcetywa",
       "sp": 3
     },
@@ -624,7 +624,7 @@
       "key": "MFE-400",
       "summary": "User primary branch confirmation on a monthly",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Membathisi Mcetywa",
       "sp": 0
     },
@@ -768,15 +768,15 @@
       "key": "DT-242",
       "summary": "Dashboard / Home page \u2014 Desktop Web design",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
     },
     {
       "key": "DT-243",
-      "summary": "Training Platform \u2014 Full Training List Page (App)",
+      "summary": "Training Platform \u2014 Dashboard \"View All\" Destination Pages (App)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Unassigned",
       "sp": 13
     },
