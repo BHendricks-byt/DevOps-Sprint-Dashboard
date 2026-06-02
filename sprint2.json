@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-02 13:56 UTC",
+  "generatedAt": "2026-06-02 18:04 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -752,7 +752,7 @@
       "key": "DT-242",
       "summary": "Dashboard / Home page \u2014 Desktop Web design",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
     },
