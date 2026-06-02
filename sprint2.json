@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-02 09:47 UTC",
+  "generatedAt": "2026-06-02 13:56 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -112,7 +112,7 @@
       "key": "PROD-163",
       "summary": "Reassign Workflows",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -253,22 +253,6 @@
       "sp": 1
     },
     {
-      "key": "MAPP-186",
-      "summary": "feat: Birthday Middleware",
-      "project": "Manhattan App",
-      "status": "Backlog",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-187",
-      "summary": "feat: Communication Preferences",
-      "project": "Manhattan App",
-      "status": "Backlog",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
       "key": "ECA-113",
       "summary": "feature (APPAPI): Paginate /claims and /wallet/get_transactions endpoints",
       "project": "E-Centive App",
@@ -280,17 +264,9 @@
       "key": "ECA-109",
       "summary": "feature (APP): Claim access from transactions",
       "project": "E-Centive App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
-    },
-    {
-      "key": "MAPP-102",
-      "summary": "feature (APP): Updating Primary Branch",
-      "project": "Manhattan App",
-      "status": "To Do",
-      "assignee": "Louis Phetla",
-      "sp": 13
     },
     {
       "key": "MINT-137",
@@ -776,7 +752,7 @@
       "key": "DT-242",
       "summary": "Dashboard / Home page \u2014 Desktop Web design",
       "project": "Design Person",
-      "status": "Done (Production)",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
     },
@@ -808,8 +784,32 @@
       "key": "ECC-1492",
       "summary": "ADHOC - Incentive Export - Volume Tabs shows inactive volume spiv.",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
+      "sp": 3
+    },
+    {
+      "key": "MINT-149",
+      "summary": "Correct \"Franchisee Assitant\" role-name typo (Telkom) so highest_role resolves to franchisee",
+      "project": "Manhattan Integration",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 1
+    },
+    {
+      "key": "MINT-150",
+      "summary": "Enable OEM claims export for Franchisee Assistant (role 11) \u2014 Telkom prod",
+      "project": "Manhattan Integration",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 1
+    },
+    {
+      "key": "MINT-151",
+      "summary": "OEM claims export: GROUP_CONCAT truncation caps staff/branch scope \u2192 incomplete exports",
+      "project": "Manhattan Integration",
+      "status": "Ready For Production",
+      "assignee": "Tobie Kruger",
       "sp": 3
     }
   ]
