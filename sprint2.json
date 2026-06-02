@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 2 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-02 05:08 UTC",
+  "generatedAt": "2026-06-02 09:47 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -613,6 +613,14 @@
       "sp": 0
     },
     {
+      "key": "ECTA-224",
+      "summary": "Automated tests for the OM registration page on om.v3ecentive.co.za/registration.",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
       "key": "ECC-1465",
       "summary": "Auto-populate IMEI 1 Value in Claim Comment Field for IMEI 2 Claims",
       "project": "E-Centive Core",
@@ -786,6 +794,22 @@
       "project": "Ignite Core",
       "status": "In Progress",
       "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
+      "key": "MINT-148",
+      "summary": "OEM claims export leaks other franchisees' claims via soft-deleted branch assignments",
+      "project": "Manhattan Integration",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 2
+    },
+    {
+      "key": "ECC-1492",
+      "summary": "ADHOC - Incentive Export - Volume Tabs shows inactive volume spiv.",
+      "project": "E-Centive Core",
+      "status": "Ready For Production",
+      "assignee": "Brijwanth Jakhotia",
       "sp": 3
     }
   ]
