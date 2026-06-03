@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 3",
   "period": "21 May 2026 \u2013 3 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-03 12:18 UTC",
+  "generatedAt": "2026-06-03 17:25 UTC",
   "issues": [
     {
       "key": "ECC-148",
@@ -597,6 +597,14 @@
       "sp": 0
     },
     {
+      "key": "ECTA-225",
+      "summary": "Automated tests for the CE registration page on ce.v3ecentive.co.za/registration.",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
       "key": "ECC-1465",
       "summary": "Auto-populate IMEI 1 Value in Claim Comment Field for IMEI 2 Claims",
       "project": "E-Centive Core",
@@ -851,6 +859,14 @@
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
+    },
+    {
+      "key": "MFE-442",
+      "summary": "OEM claims export UI: calendar-window presets + searchable, single-branch-aware scope selectors",
+      "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
