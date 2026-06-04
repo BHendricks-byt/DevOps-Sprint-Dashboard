@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-04 13:55 UTC",
+  "generatedAt": "2026-06-04 16:50 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -530,6 +530,14 @@
       "project": "Design Person",
       "status": "Backlog",
       "assignee": "Ashley Mduduzi Ncube",
+      "sp": 2
+    },
+    {
+      "key": "IGNC-260",
+      "summary": "Track Understand-Anything knowledge graph + add generated onboarding guide",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
       "sp": 2
     }
   ]
