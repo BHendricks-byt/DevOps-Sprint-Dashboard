@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-04 10:42 UTC",
+  "generatedAt": "2026-06-04 13:55 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -336,7 +336,7 @@
       "key": "MINT-152",
       "summary": "OEM export: drop free-form filter block (browse-only), keep agent/branch as safe in-scope narrow, lock to 1/3/6-month calendar windows",
       "project": "Manhattan Integration",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -376,13 +376,29 @@
       "key": "ECC-1480",
       "summary": "Phase 0 - Settings, Helpers, Data Migration.",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 0
     },
     {
       "key": "ECC-1481",
       "summary": "Phase 1 \u2014 Back-End gating (write + read), reminder job check, controller fallback.",
+      "project": "E-Centive Core",
+      "status": "Ready For Production",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1483",
+      "summary": "Phase 3 \u2014 DispatchPendingGeocodingJob, Monthly usage counter, Kernel registration.",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 1
+    },
+    {
+      "key": "ECC-1484",
+      "summary": "Phase 4 \u2014 Backfill job guards and artisan commands.",
       "project": "E-Centive Core",
       "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
@@ -392,9 +408,33 @@
       "key": "ECC-1482",
       "summary": "Phase 2 \u2014 Front-End gating and lazy-load Static Maps.",
       "project": "E-Centive Core",
+      "status": "Automation",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1485",
+      "summary": "Phase 5 \u2014 Places Autosuggest (session-tokenised)",
+      "project": "E-Centive Core",
       "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
+    },
+    {
+      "key": "ECC-1486",
+      "summary": "Phase 6 - Document the feature doc with the new sections, update and costing ceilings, Roll-out calendar",
+      "project": "E-Centive Core",
+      "status": "Ready For Production",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 1
+    },
+    {
+      "key": "ECC-1487",
+      "summary": "Phase 7 - QA \u2014 Verify per-phase tests, a manual Roll-out dry-run on a QA SP before June roll-out.",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
     },
     {
       "key": "MFE-435",
