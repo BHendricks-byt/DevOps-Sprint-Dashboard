@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-05 08:40 UTC",
+  "generatedAt": "2026-06-05 11:58 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -552,7 +552,7 @@
       "key": "DT-249",
       "summary": "Training Platform \u2014 Final Quiz / Certification Quiz Flow (Desktop Web)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 13
     },
@@ -563,6 +563,38 @@
       "status": "Backlog",
       "assignee": "Tristan Strike",
       "sp": 0
+    },
+    {
+      "key": "ECC-1494",
+      "summary": "Claims Export: Include Service Provider name in subject and applied filters in body of export-ready emails",
+      "project": "E-Centive Core",
+      "status": "Automation",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1495",
+      "summary": "Adhoc MTN Yellow Cart SDS implementation",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Philton Nengobela",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1496",
+      "summary": "Adhoc add column 'CONTRACT_DURATION' to Telkom call centre templates ",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Philton Nengobela",
+      "sp": 1
+    },
+    {
+      "key": "ECC-1497",
+      "summary": "OEM sales import: skip claim generation for blacklisted IMEIs (flag \"IMEI Number / Blacklisted\")",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Philton Nengobela",
+      "sp": 2
     }
   ]
 }
