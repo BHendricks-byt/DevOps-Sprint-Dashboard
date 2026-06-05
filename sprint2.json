@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-05 04:54 UTC",
+  "generatedAt": "2026-06-05 08:40 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -64,7 +64,7 @@
       "key": "MAPP-169",
       "summary": "feat: Leaderboard Tile Modal",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -123,6 +123,14 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "DT-247",
+      "summary": "Training Platform \u2014 Mini-Quiz Flow (Desktop Web)",
+      "project": "Design Person",
+      "status": "Done (Production)",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 13
     },
     {
       "key": "DT-218",
@@ -357,14 +365,6 @@
       "sp": 0
     },
     {
-      "key": "DT-247",
-      "summary": "Training Platform \u2014 Mini-Quiz Flow (Desktop Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 13
-    },
-    {
       "key": "MFE-442",
       "summary": "OEM claims export UI: calendar-window presets + searchable, single-branch-aware scope selectors",
       "project": "Manhattan Frontend",
@@ -392,7 +392,7 @@
       "key": "ECC-1483",
       "summary": "Phase 3 \u2014 DispatchPendingGeocodingJob, Monthly usage counter, Kernel registration.",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 1
     },
@@ -400,7 +400,7 @@
       "key": "ECC-1484",
       "summary": "Phase 4 \u2014 Backfill job guards and artisan commands.",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -408,7 +408,7 @@
       "key": "ECC-1482",
       "summary": "Phase 2 \u2014 Front-End gating and lazy-load Static Maps.",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -416,7 +416,7 @@
       "key": "ECC-1485",
       "summary": "Phase 5 \u2014 Places Autosuggest (session-tokenised)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -431,6 +431,14 @@
     {
       "key": "ECC-1487",
       "summary": "Phase 7 - QA \u2014 Verify per-phase tests, a manual Roll-out dry-run on a QA SP before June roll-out.",
+      "project": "E-Centive Core",
+      "status": "Ready For Production",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1488",
+      "summary": "CE and Cell C Roll-out and Observability (Feature)",
       "project": "E-Centive Core",
       "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
@@ -539,6 +547,22 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "DT-249",
+      "summary": "Training Platform \u2014 Final Quiz / Certification Quiz Flow (Desktop Web)",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 13
+    },
+    {
+      "key": "PROD-169",
+      "summary": "Assign Unassigned JIRA tickets",
+      "project": "Product",
+      "status": "Backlog",
+      "assignee": "Tristan Strike",
+      "sp": 0
     }
   ]
 }
