@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-08 11:52 UTC",
+  "generatedAt": "2026-06-08 15:37 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -56,7 +56,7 @@
       "key": "MAPP-105",
       "summary": "feature (APP): Product Incentive Filters",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -64,7 +64,7 @@
       "key": "MAPP-169",
       "summary": "feat: Leaderboard Tile Modal",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -493,6 +493,14 @@
       "sp": 0
     },
     {
+      "key": "MFE-443",
+      "summary": "Wallet cashout falsely blocked: availableCashoutAmount defaults to R0 until CardTable renders",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
       "key": "MFE-433",
       "summary": "Temporarily lock Ignite intro video until Ecentive only version is ready",
       "project": "Manhattan Frontend",
@@ -522,7 +530,7 @@
       "project": "Design Person",
       "status": "To Do",
       "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
+      "sp": 5
     },
     {
       "key": "ECTA-226",
@@ -714,6 +722,54 @@
       "project": "Design Person",
       "status": "Backlog",
       "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-262",
+      "summary": "Beacon V2 ETL: Base-centered scale + leaderboard new-fields (Telkom + CellC)",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-263",
+      "summary": "Beacon V2 core API: populate stubbed leaderboard fields + unrated NULL passthrough",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-264",
+      "summary": "Beacon V2 console/exec: rebase KPIs, 0.6/0.4 composite, alerts & Claude prose onto relative scale",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MINT-154",
+      "summary": "Beacon V2: expose relative beacon fields in GraphQL + handle \"Not rated\" nulls",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MFE-444",
+      "summary": "Beacon V2: diverging gauge (\u22122\u2026Base\u2026+4) + \"Not rated\" state (web)",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-199",
+      "summary": "Beacon V2: diverging gauge (\u22122\u2026Base\u2026+4) + \"Not rated\" state (mobile)",
+      "project": "Manhattan App",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
       "sp": 0
     }
   ]
