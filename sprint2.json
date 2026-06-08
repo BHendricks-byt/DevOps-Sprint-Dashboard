@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-08 06:37 UTC",
+  "generatedAt": "2026-06-08 11:52 UTC",
   "issues": [
     {
       "key": "IGNC-171",
       "summary": "New Beacon Calculation",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Backlog",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -48,7 +48,7 @@
       "key": "MAPP-198",
       "summary": "feat: Optimise campaign loading on dashboard (remove redundant re-fetch)",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -72,7 +72,7 @@
       "key": "MINT-137",
       "summary": "User branch confirmation on a monthly",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -122,6 +122,14 @@
       "project": "E-Centive Core",
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "DT-250",
+      "summary": "Design Spec \u2014 Status Dashboard Panel (Agent, Manager, Franchisee) - Mobile Web & App",
+      "project": "Design Person",
+      "status": "Done (Production)",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
     {
@@ -248,7 +256,7 @@
       "key": "MINT-145",
       "summary": "Birthday Middleware",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -280,7 +288,7 @@
       "key": "MINT-146",
       "summary": "Communication Preferences",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -289,6 +297,14 @@
       "summary": "Add Volume tab to OEM Finance Billing export (volume claims only, ordered by user_id + incentive_id, counter column)",
       "project": "E-Centive Core",
       "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1495",
+      "summary": "Adhoc MTN Yellow Cart SDS implementation",
+      "project": "E-Centive Core",
+      "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -456,7 +472,7 @@
       "key": "MFE-430",
       "summary": "Birthday Middleware",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -464,7 +480,7 @@
       "key": "MFE-432",
       "summary": "Communication Preferences",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -472,7 +488,7 @@
       "key": "MFE-400",
       "summary": "User primary branch confirmation on a monthly",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -560,7 +576,7 @@
       "key": "PROD-169",
       "summary": "Assign Unassigned JIRA tickets",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -573,14 +589,6 @@
       "sp": 3
     },
     {
-      "key": "ECC-1495",
-      "summary": "Adhoc MTN Yellow Cart SDS implementation",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Philton Nengobela",
-      "sp": 5
-    },
-    {
       "key": "ECC-1496",
       "summary": "Adhoc add column 'CONTRACT_DURATION' to Telkom call centre templates ",
       "project": "E-Centive Core",
@@ -589,24 +597,120 @@
       "sp": 1
     },
     {
-      "key": "DT-250",
-      "summary": "Design Spec \u2014 Status Dashboard Panel (Agent, Manager, Franchisee) - Mobile Web & App",
-      "project": "Design Person",
-      "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "ECC-1497",
       "summary": "OEM sales import: skip claim generation for blacklisted IMEIs (flag \"IMEI Number / Blacklisted\")",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
     },
     {
       "key": "DT-251",
       "summary": "Design Spec \u2014 Status Leaderboards (Agent, Manager, Franchisee) - Mobile & App",
+      "project": "Design Person",
+      "status": "Parked",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1499",
+      "summary": "Adhoc Remove Login as SP profiles",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Philton Nengobela",
+      "sp": 1
+    },
+    {
+      "key": "PROD-157",
+      "summary": "Social Media Post- Visuals",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-166",
+      "summary": "Social Proof Posts",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-170",
+      "summary": "Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "DT-252",
+      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
+    },
+    {
+      "key": "DT-253",
+      "summary": "Adv. Gamification: BeaconUpgrade \u2014 Scoring Model UI & Analytics \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Parked",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 13
+    },
+    {
+      "key": "DT-254",
+      "summary": "Adv. Gamification: Gamification Dashboard Panel \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-255",
+      "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-256",
+      "summary": "Adv. Gamification: Individual Challenge Engine \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-257",
+      "summary": "Adv. Gamification: Head-to-Head Battle Engine \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-258",
+      "summary": "Adv. Gamification: Team Territory Battle Engine \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-259",
+      "summary": "Adv. Gamification: Streak Keeper \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-260",
+      "summary": "Adv. Gamification: Points Ledger \u2014 Wireframes & Designs",
       "project": "Design Person",
       "status": "Backlog",
       "assignee": "Ashley Mduduzi Ncube",
