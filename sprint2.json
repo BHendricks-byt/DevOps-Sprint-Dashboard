@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-09 13:41 UTC",
+  "generatedAt": "2026-06-09 16:28 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -285,6 +285,14 @@
       "sp": 0
     },
     {
+      "key": "MINT-155",
+      "summary": "eWalletCashout resolver throws NameError ('logger' not defined) on any cashout failure, masking the real error",
+      "project": "Manhattan Integration",
+      "status": "Ready For Production",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
       "key": "MINT-146",
       "summary": "Communication Preferences",
       "project": "Manhattan Integration",
@@ -496,9 +504,9 @@
       "key": "MFE-443",
       "summary": "Wallet cashout falsely blocked: availableCashoutAmount defaults to R0 until CardTable renders",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
-      "sp": 2
+      "sp": 1
     },
     {
       "key": "MFE-433",
@@ -678,7 +686,7 @@
     },
     {
       "key": "DT-254",
-      "summary": "Adv. Gamification: Gamification Dashboard Panel \u2014 Wireframes & Designs",
+      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
