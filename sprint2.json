@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-09 10:31 UTC",
+  "generatedAt": "2026-06-09 13:41 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -104,7 +104,7 @@
       "key": "MAPP-187",
       "summary": "feat: Communication Preferences",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -784,9 +784,17 @@
       "key": "PROD-179",
       "summary": "Comrades Marathon Post",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 5
+    },
+    {
+      "key": "ECC-1509",
+      "summary": "Remove 'installers' SP from SP-QA-Fresh-Clones-v2 workflow",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 3
     }
   ]
 }
