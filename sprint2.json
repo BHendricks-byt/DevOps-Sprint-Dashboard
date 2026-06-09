@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-09 06:43 UTC",
+  "generatedAt": "2026-06-09 10:31 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -256,7 +256,7 @@
       "key": "MINT-145",
       "summary": "Birthday Middleware",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -288,7 +288,7 @@
       "key": "MINT-146",
       "summary": "Communication Preferences",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -472,7 +472,7 @@
       "key": "MFE-430",
       "summary": "Birthday Middleware",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -480,7 +480,7 @@
       "key": "MFE-432",
       "summary": "Communication Preferences",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -523,14 +523,6 @@
       "status": "Canceled",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
-    },
-    {
-      "key": "DT-219",
-      "summary": "App Beacon re-design",
-      "project": "Design Person",
-      "status": "To Do",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 5
     },
     {
       "key": "ECTA-226",
@@ -624,7 +616,7 @@
       "key": "ECC-1499",
       "summary": "Adhoc Remove Login as SP profiles",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 1
     },
@@ -640,13 +632,29 @@
       "key": "PROD-166",
       "summary": "Social Proof Posts",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
     {
       "key": "PROD-170",
       "summary": "Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-117",
+      "summary": "Break Down Approved Initiatives into Execution Tickets",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-118",
+      "summary": "Create Phase 1 Rollout Plan for Engagement Strategy",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
@@ -672,7 +680,7 @@
       "key": "DT-254",
       "summary": "Adv. Gamification: Gamification Dashboard Panel \u2014 Wireframes & Designs",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -771,6 +779,14 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "PROD-179",
+      "summary": "Comrades Marathon Post",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 5
     }
   ]
 }
