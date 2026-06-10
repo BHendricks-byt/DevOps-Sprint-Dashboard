@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-10 11:07 UTC",
+  "generatedAt": "2026-06-10 14:34 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -32,7 +32,7 @@
       "key": "MAPP-105",
       "summary": "feature (APP): Product Incentive Filters",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -80,7 +80,7 @@
       "key": "MAPP-187",
       "summary": "feat: Communication Preferences",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -152,7 +152,7 @@
       "key": "MAPP-196",
       "summary": "feat: User Documents Middleware",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -573,6 +573,38 @@
       "sp": 0
     },
     {
+      "key": "DT-262",
+      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Native App)",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-263",
+      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Desktop Web)",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-264",
+      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-265",
+      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "DT-255",
       "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
       "project": "Design Person",
@@ -698,38 +730,6 @@
       "project": "Product",
       "status": "To Do",
       "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "DT-262",
-      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Native App)",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-263",
-      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Desktop Web)",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-264",
-      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-265",
-      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     }
   ]
