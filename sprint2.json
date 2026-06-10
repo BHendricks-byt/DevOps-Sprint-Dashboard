@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-10 14:34 UTC",
+  "generatedAt": "2026-06-10 17:54 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -192,7 +192,7 @@
       "key": "ECC-1495",
       "summary": "Adhoc MTN Yellow Cart SDS implementation",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -216,7 +216,7 @@
       "key": "ECC-1493",
       "summary": "CLONE - Samsung SDS API Testing",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
