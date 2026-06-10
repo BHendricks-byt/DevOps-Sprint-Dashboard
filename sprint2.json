@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-10 02:49 UTC",
+  "generatedAt": "2026-06-10 07:05 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -21,34 +21,10 @@
       "sp": 0
     },
     {
-      "key": "ECC-1316",
-      "summary": "Integrate Training Management module into E-Centive Console (pv3-mc)",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1325",
-      "summary": "SP training assignment storage, role groups config, and enrollment API endpoints",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MFE-388",
-      "summary": "Training module \u2014 course list, course detail, module viewer, quiz",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "MAPP-198",
       "summary": "feat: Optimise campaign loading on dashboard (remove redundant re-fetch)",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -149,44 +125,12 @@
       "sp": 0
     },
     {
-      "key": "ECC-1441",
-      "summary": "Training (pv3-mc): round all displayed percentages to nearest whole number",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 1
-    },
-    {
-      "key": "ECC-1442",
-      "summary": "Training (pv3-mc): lock course content edits after publish",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 2
-    },
-    {
-      "key": "ECC-1443",
-      "summary": "Training (pv3-mc): post-publish admin flow \u2014 Review Content, assignees list, Analytics button",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 5
-    },
-    {
       "key": "MFE-406",
       "summary": "Training: fill progress bar on quiz pass + colour-coded score icon on module list items",
       "project": "Manhattan Frontend",
       "status": "To Do",
       "assignee": "Tobie Kruger",
       "sp": 3
-    },
-    {
-      "key": "MFE-407",
-      "summary": "Training (learner): round all displayed percentages to nearest whole number",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 1
     },
     {
       "key": "MFE-408",
@@ -197,52 +141,12 @@
       "sp": 3
     },
     {
-      "key": "TC-5",
-      "summary": "Validate course has at least one assignment before allowing publish",
-      "project": "Training Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 1
-    },
-    {
-      "key": "TC-6",
-      "summary": "Quiz timer defaults to 1 minute per question (generator + backfill)",
-      "project": "Training Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 1
-    },
-    {
-      "key": "MFE-409",
-      "summary": "Training (learner): render markdown formatting in AI-generated lesson content",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 2
-    },
-    {
-      "key": "TC-7",
-      "summary": "Reassignment: soft-revoke enrollments with progress; clean-remove enrollments without",
-      "project": "Training Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
       "key": "MFE-410",
       "summary": "Training (learner): show 'Unassigned' tag + disabled state for soft-revoked courses",
       "project": "Manhattan Frontend",
       "status": "To Do",
       "assignee": "Tobie Kruger",
       "sp": 2
-    },
-    {
-      "key": "MINT-143",
-      "summary": "Add Training GraphQL resolvers + training_enabled identity to manhattan-api",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 5
     },
     {
       "key": "ECC-1461",
@@ -488,7 +392,7 @@
       "key": "MFE-432",
       "summary": "Communication Preferences",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -504,7 +408,7 @@
       "key": "MFE-443",
       "summary": "Wallet cashout falsely blocked: availableCashoutAmount defaults to R0 until CardTable renders",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 1
     },
@@ -536,7 +440,7 @@
       "key": "ECTA-226",
       "summary": "Automate end-to-end UI testing for Cell C Branch Management (/sp/branch-management/2) using Playwright with POM \u2014 covering all 3 tabs and full CRUD self-cleanup on Branch, Branch Classification, and Region.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -800,7 +704,7 @@
       "key": "ECC-1509",
       "summary": "Remove 'installers' SP from SP-QA-Fresh-Clones-v2 workflow",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 3
     }
