@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-11 02:59 UTC",
+  "generatedAt": "2026-06-11 08:08 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -136,7 +136,7 @@
       "key": "MINT-145",
       "summary": "Birthday Middleware",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -168,7 +168,7 @@
       "key": "MINT-155",
       "summary": "eWalletCashout resolver throws NameError ('logger' not defined) on any cashout failure, masking the real error",
       "project": "Manhattan Integration",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -448,7 +448,7 @@
       "key": "IGNC-260",
       "summary": "Track Understand-Anything knowledge graph + add generated onboarding guide",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 2
     },
@@ -731,6 +731,14 @@
       "status": "To Do",
       "assignee": "Nelisiwe",
       "sp": 0
+    },
+    {
+      "key": "IGNC-265",
+      "summary": "Ignite dashboards 504 during morning athena_to_mysql_sync \u2014 raise Aurora Serverless max ACU from 5 to 8",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 2
     }
   ]
 }
