@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-11 19:30 UTC",
+  "generatedAt": "2026-06-11 21:56 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -768,7 +768,7 @@
       "key": "MINT-157",
       "summary": "Add primary-branch-required claim and set-primary-branch to the API",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -776,7 +776,7 @@
       "key": "MFE-446",
       "summary": "Fix redundant GraphQL calls on login/logout and dark-mode SSR hydration",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 3
     }
