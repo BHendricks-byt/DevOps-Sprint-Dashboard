@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-11 12:26 UTC",
+  "generatedAt": "2026-06-11 16:34 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -160,7 +160,7 @@
       "key": "MAPP-186",
       "summary": "feat: Birthday Middleware",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -352,7 +352,7 @@
       "key": "MFE-435",
       "summary": "List System Restrictions on Wallet Screen",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 3
     },
@@ -360,7 +360,7 @@
       "key": "MFE-430",
       "summary": "Birthday Middleware",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -395,6 +395,14 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "MINT-82",
+      "summary": "User registration endpoint",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
     },
     {
       "key": "AWI-92",
@@ -747,6 +755,22 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 0
+    },
+    {
+      "key": "MFE-445",
+      "summary": "Add primary branch popup when none is set",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MINT-157",
+      "summary": "Add primary-branch-required claim and set-primary-branch to the API",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 5
     }
   ]
 }
