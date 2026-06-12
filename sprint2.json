@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-12 10:50 UTC",
+  "generatedAt": "2026-06-12 14:01 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -400,7 +400,7 @@
       "key": "MINT-82",
       "summary": "User registration endpoint",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -432,7 +432,7 @@
       "key": "ECTA-227",
       "summary": "Automate end-to-end UI testing for Cell C Brand Management (/sp/brand-management/2) using Playwright with POM \u2014 read/edit/export surface only. Create-verify-delete intentionally not covered (see Risks).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -480,7 +480,7 @@
       "key": "ECC-1494",
       "summary": "Claims Export: Include Service Provider name in subject and applied filters in body of export-ready emails",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -576,7 +576,7 @@
       "key": "DT-254",
       "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
       "project": "Design Person",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -584,7 +584,7 @@
       "key": "DT-262",
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Native App)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -592,7 +592,7 @@
       "key": "DT-263",
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Desktop Web)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -600,15 +600,7 @@
       "key": "DT-264",
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
       "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-265",
-      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
-      "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -795,6 +787,30 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "MFE-448",
+      "summary": "Public registration forms on MFE \u2014 schema-driven per-OEM flows resolved from the access domain",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 8
+    },
+    {
+      "key": "ECC-1511",
+      "summary": "[SECURITY] Forced password reset for all E-Centive Console users",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Philton Nengobela",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1512",
+      "summary": "Registration config v2 \u2014 complete the form schema (base fields, steps, salesman_code source) for schema-driven MFE rendering (pv3-sp)",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
