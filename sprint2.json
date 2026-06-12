@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-12 01:43 UTC",
+  "generatedAt": "2026-06-12 06:29 UTC",
   "issues": [
     {
       "key": "IGNC-171",
@@ -779,6 +779,14 @@
       "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 3
+    },
+    {
+      "key": "IGNC-267",
+      "summary": "Beacon V2: migrate franchisee & manager /beacon/tag role functions (portfolio/branch gauges) to beacon_point + V2 strings",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
