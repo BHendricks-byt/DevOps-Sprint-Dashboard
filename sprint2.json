@@ -2,8 +2,16 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-15 03:34 UTC",
+  "generatedAt": "2026-06-15 09:55 UTC",
   "issues": [
+    {
+      "key": "MFE-431",
+      "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
+      "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
     {
       "key": "IGNC-171",
       "summary": "New Beacon Calculation",
@@ -200,7 +208,7 @@
       "key": "ECC-1217",
       "summary": "Dashboard widget > non-balancing claims",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -224,7 +232,7 @@
       "key": "ECC-1332",
       "summary": "Avg claim payment duration",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -259,6 +267,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "DT-254",
+      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
+      "project": "Design Person",
+      "status": "Parked",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
     },
     {
       "key": "DT-240",
@@ -573,14 +589,6 @@
       "sp": 13
     },
     {
-      "key": "DT-254",
-      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "DT-262",
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Native App)",
       "project": "Design Person",
@@ -744,7 +752,7 @@
       "key": "ECC-1510",
       "summary": "Cardholder Costs update",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -811,6 +819,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "DT-266",
+      "summary": "Migration \u2014 E-Centive Splash Login Screen update",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
     }
   ]
 }
