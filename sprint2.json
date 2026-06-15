@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-15 09:55 UTC",
+  "generatedAt": "2026-06-15 15:42 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -24,7 +24,7 @@
       "key": "PROD-165",
       "summary": "Knowledge Base",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -208,7 +208,7 @@
       "key": "ECC-1217",
       "summary": "Dashboard widget > non-balancing claims",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -272,7 +272,7 @@
       "key": "DT-254",
       "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
       "project": "Design Person",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -552,7 +552,7 @@
       "key": "PROD-170",
       "summary": "Engagement & Algorithm Boost",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -609,54 +609,6 @@
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
       "project": "Design Person",
       "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-255",
-      "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-256",
-      "summary": "Adv. Gamification: Individual Challenge Engine \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-257",
-      "summary": "Adv. Gamification: Head-to-Head Battle Engine \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-258",
-      "summary": "Adv. Gamification: Team Territory Battle Engine \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-259",
-      "summary": "Adv. Gamification: Streak Keeper \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-260",
-      "summary": "Adv. Gamification: Points Ledger \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -760,7 +712,7 @@
       "key": "MFE-445",
       "summary": "Add primary branch popup when none is set",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -768,7 +720,7 @@
       "key": "MINT-157",
       "summary": "Add primary-branch-required claim and set-primary-branch to the API",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -824,9 +776,17 @@
       "key": "DT-266",
       "summary": "Migration \u2014 E-Centive Splash Login Screen update",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
+    },
+    {
+      "key": "PROD-189",
+      "summary": "Youth Day Posts",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
     }
   ]
 }
