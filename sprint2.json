@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 4",
   "period": "4 Jun 2026 \u2013 17 Jun 2026",
   "state": "Active",
-  "generatedAt": "2026-06-17 03:28 UTC",
+  "generatedAt": "2026-06-17 08:41 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -109,6 +109,30 @@
       "sp": 0
     },
     {
+      "key": "DT-253",
+      "summary": "Adv. Gamification: BeaconUpgrade \u2014 Scoring Model UI & Analytics \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 13
+    },
+    {
+      "key": "DT-254",
+      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-266",
+      "summary": "Migration \u2014 E-Centive Splash Login Screen update",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
+    },
+    {
       "key": "DT-250",
       "summary": "Design Spec \u2014 Status Dashboard Panel (Agent, Manager, Franchisee) - Mobile Web & App",
       "project": "Design Person",
@@ -208,7 +232,7 @@
       "key": "ECC-1217",
       "summary": "Dashboard widget > non-balancing claims",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -216,7 +240,7 @@
       "key": "ECC-1270",
       "summary": "Agent Performance Leaderboard > System Usage & Login Activity widget",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -232,7 +256,7 @@
       "key": "ECC-1332",
       "summary": "Avg claim payment duration",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -267,14 +291,6 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
-    },
-    {
-      "key": "DT-254",
-      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
     },
     {
       "key": "DT-240",
@@ -456,6 +472,22 @@
       "key": "ECTA-228",
       "summary": "Automate end-to-end UI testing for Cell C Card Management (/sp/2/settings/cards/listing) using Playwright with POM \u2014 read-only listing, filters, per-page selector, and date-ranged Export.",
       "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-232",
+      "summary": "Automated end-to-end test coverage for the Cell C FAQs settings page.",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-229",
+      "summary": "Automate end-to-end UI testing for Cell C Company Management (/sp/company-management/2) using Playwright with POM \u2014 both tabs, filters, New Company form page, Export, and Edit. Create-verify-delete intentionally not covered (see Risks).",
+      "project": "E-Centive Test Automation",
       "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
@@ -520,7 +552,7 @@
       "key": "DT-251",
       "summary": "Design Spec \u2014 Status Leaderboards (Agent, Manager, Franchisee) - Mobile & App",
       "project": "Design Person",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -579,14 +611,6 @@
       "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
-    },
-    {
-      "key": "DT-253",
-      "summary": "Adv. Gamification: BeaconUpgrade \u2014 Scoring Model UI & Analytics \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Parked",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 13
     },
     {
       "key": "DT-262",
@@ -680,7 +704,7 @@
       "key": "PROD-180",
       "summary": "'You Said, We Did' communication",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -728,7 +752,7 @@
       "key": "MFE-446",
       "summary": "Fix redundant GraphQL calls on login/logout and dark-mode SSR hydration",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 3
     },
@@ -773,16 +797,16 @@
       "sp": 3
     },
     {
-      "key": "DT-266",
-      "summary": "Migration \u2014 E-Centive Splash Login Screen update",
-      "project": "Design Person",
-      "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 5
-    },
-    {
       "key": "PROD-189",
       "summary": "Youth Day Posts",
+      "project": "Product",
+      "status": "Done (Production)",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-190",
+      "summary": "LinkedIn Analytics",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
