@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-18 12:51 UTC",
+  "generatedAt": "2026-06-18 16:23 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -56,7 +56,7 @@
       "key": "MFE-451",
       "summary": "Implement co-branding on login, branch confirmation, and primary-branch screens",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -222,9 +222,9 @@
     },
     {
       "key": "MAPP-161",
-      "summary": "feature (APP): PayCentral Switching On/Off per SP",
+      "summary": "feat (APP): PayCentral Switching On/Off per SP",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Louis Phetla",
       "sp": 8
     },
