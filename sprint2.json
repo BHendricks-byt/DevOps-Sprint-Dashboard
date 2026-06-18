@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-18 05:13 UTC",
+  "generatedAt": "2026-06-18 09:51 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -78,7 +78,7 @@
     },
     {
       "key": "MAPP-201",
-      "summary": "feature (APP): Volume Incentive tab UX \u2014 seen/unseen indicator + keep brand sheet open",
+      "summary": "feat (APP): Volume Incentive tab UX \u2014 seen/unseen indicator + keep brand sheet open",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -152,7 +152,7 @@
       "key": "ECTA-237",
       "summary": "Automated end-to-end test coverage for the Cell C Support Groups settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -160,7 +160,7 @@
       "key": "ECTA-236",
       "summary": "Automated end-to-end test coverage for the Cell C Support Emails settings page.",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -190,7 +190,7 @@
     },
     {
       "key": "MAPP-104",
-      "summary": "feature (APP): User Account Deactivated View",
+      "summary": "feat (APP): User Account Deactivated View",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -198,7 +198,7 @@
     },
     {
       "key": "MAPP-31",
-      "summary": "feature (APP): Github Action to update the App Version String",
+      "summary": "feature (APP): CI/CD \u2014 Build Flavours, Auto-Versioning & Multi-Environment Distribution",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -222,7 +222,7 @@
     },
     {
       "key": "MAPP-101",
-      "summary": "feature (APP): PayCentral/Cash Out Unavailable",
+      "summary": "feat (APP): PayCentral/Cash Out Unavailable",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -288,7 +288,7 @@
       "key": "DT-265",
       "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -352,7 +352,7 @@
       "key": "PROD-198",
       "summary": "Engagement & Algorithm Boost",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -368,7 +368,7 @@
       "key": "PROD-195",
       "summary": "Social Media Copy",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -424,7 +424,7 @@
       "key": "PROD-191",
       "summary": "Content Planning & Research",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -513,6 +513,14 @@
       "summary": "MFE registration drops residential/official address \u2014 flat payload vs nested oracle contract",
       "project": "E-Centive Core",
       "status": "Ready For Production",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
+      "key": "MINT-159",
+      "summary": "Enable SMS MFA for Cognito (SA) \u2014 exit AWS SMS sandbox + raise spend limit (qa & prod)",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
     }
