@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-18 09:51 UTC",
+  "generatedAt": "2026-06-18 12:51 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -67,6 +67,14 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "DT-267",
+      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
+      "project": "Design Person",
+      "status": "To Do",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
     },
     {
       "key": "DT-220",
@@ -144,7 +152,7 @@
       "key": "ECTA-238",
       "summary": "Automated end-to-end test coverage for the Cell C Support Statuses settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -152,7 +160,7 @@
       "key": "ECTA-237",
       "summary": "Automated end-to-end test coverage for the Cell C Support Groups settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -160,7 +168,7 @@
       "key": "ECTA-236",
       "summary": "Automated end-to-end test coverage for the Cell C Support Emails settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -168,7 +176,7 @@
       "key": "ECTA-235",
       "summary": "Automated end-to-end test coverage for the Cell C Shortcodes settings page.",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
