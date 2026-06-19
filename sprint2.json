@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-19 12:01 UTC",
+  "generatedAt": "2026-06-19 15:46 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -72,7 +72,7 @@
       "key": "DT-268",
       "summary": "SP Logo's",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
     },
@@ -112,7 +112,7 @@
       "key": "MAPP-196",
       "summary": "feat: User Documents Middleware",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -227,14 +227,6 @@
       "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 8
-    },
-    {
-      "key": "MAPP-31",
-      "summary": "feature (APP): CI/CD \u2014 Build Flavours, Auto-Versioning & Multi-Environment Distribution",
-      "project": "Manhattan App",
-      "status": "To Do",
-      "assignee": "Louis Phetla",
-      "sp": 0
     },
     {
       "key": "MAPP-200",
@@ -472,7 +464,7 @@
       "key": "ECC-1510",
       "summary": "Cardholder Costs update",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -547,6 +539,22 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "ECC-1519",
+      "summary": "Non-Balancing Claims widget: exclude claims with R0.00 difference",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Philton Nengobela",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1520",
+      "summary": "Add \"Add All\" buttons for Company Types/Channels, Company/SubChannels and Limit to Branches when adding a Volume sPIV",
+      "project": "E-Centive Core",
+      "status": "Automation",
+      "assignee": "Philton Nengobela",
+      "sp": 0
     }
   ]
 }
