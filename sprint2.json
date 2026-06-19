@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-19 07:36 UTC",
+  "generatedAt": "2026-06-19 12:01 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -67,6 +67,22 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "DT-268",
+      "summary": "SP Logo's",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
+    },
+    {
+      "key": "DT-265",
+      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
     },
     {
       "key": "DT-267",
@@ -197,6 +213,14 @@
       "sp": 0
     },
     {
+      "key": "ECTA-230",
+      "summary": "Automated end-to-end test suite for the Telkom self-registration wizard (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
       "key": "MAPP-104",
       "summary": "feat (APP): User Account Deactivated View",
       "project": "Manhattan App",
@@ -293,14 +317,6 @@
       "sp": 0
     },
     {
-      "key": "DT-265",
-      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "IGNC-262",
       "summary": "Beacon V2 ETL: Base-centered scale + leaderboard new-fields (Telkom + CellC)",
       "project": "Ignite Core",
@@ -368,7 +384,7 @@
       "key": "PROD-196",
       "summary": "Social Media Visual Assets",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -384,7 +400,7 @@
       "key": "PROD-192",
       "summary": "Knowledge Base: Retire duplicate article and archive expired Dress Your Tech campaign content",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -392,7 +408,7 @@
       "key": "PROD-193",
       "summary": "Knowledge Base: Consolidate agent and manager role-variant articles into single role-aware articles",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -432,7 +448,7 @@
       "key": "PROD-191",
       "summary": "Content Planning & Research",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
