@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-22 01:59 UTC",
+  "generatedAt": "2026-06-22 07:33 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -224,7 +224,7 @@
       "key": "MAPP-104",
       "summary": "feat (APP): User Account Deactivated View",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 8
     },
@@ -251,6 +251,14 @@
       "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 3
+    },
+    {
+      "key": "IGNC-258",
+      "summary": "KPI target feature build",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     },
     {
       "key": "MINT-153",
