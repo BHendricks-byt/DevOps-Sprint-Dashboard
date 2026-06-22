@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-22 07:33 UTC",
+  "generatedAt": "2026-06-22 13:30 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -40,7 +40,7 @@
       "key": "MFE-351",
       "summary": "Implement Franchisee: Ecentive Dashboard",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -51,14 +51,6 @@
       "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 8
-    },
-    {
-      "key": "MFE-451",
-      "summary": "Implement co-branding on login, branch confirmation, and primary-branch screens",
-      "project": "Manhattan Frontend",
-      "status": "In Progress",
-      "assignee": "Wesley Classen",
-      "sp": 5
     },
     {
       "key": "ECC-1405",
@@ -112,7 +104,7 @@
       "key": "MAPP-196",
       "summary": "feat: User Documents Middleware",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -221,11 +213,27 @@
       "sp": 0
     },
     {
+      "key": "ECTA-242",
+      "summary": "Automated end-to-end test coverage for the Cell C System Configuration settings page across both tabs (Settings + Taxation).",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
       "key": "MAPP-104",
       "summary": "feat (APP): User Account Deactivated View",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
+      "sp": 8
+    },
+    {
+      "key": "MFE-451",
+      "summary": "Implement co-branding on login, branch confirmation, and primary-branch screens",
+      "project": "Manhattan Frontend",
+      "status": "Ready For Production",
+      "assignee": "Wesley Classen",
       "sp": 8
     },
     {
@@ -256,9 +264,9 @@
       "key": "IGNC-258",
       "summary": "KPI target feature build",
       "project": "Ignite Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
-      "sp": 0
+      "sp": 5
     },
     {
       "key": "MINT-153",
@@ -560,9 +568,17 @@
       "key": "ECC-1520",
       "summary": "Add \"Add All\" buttons for Company Types/Channels, Company/SubChannels and Limit to Branches when adding a Volume sPIV",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
+    },
+    {
+      "key": "MFE-454",
+      "summary": "Build Telkom KPI / Target-tracking scorecard (Manhattan front-end)",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 8
     }
   ]
 }
