@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-23 04:38 UTC",
+  "generatedAt": "2026-06-23 08:25 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -104,7 +104,7 @@
       "key": "MAPP-201",
       "summary": "feat (APP): Volume Incentive tab UX \u2014 seen/unseen indicator + keep brand sheet open",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -168,7 +168,7 @@
       "key": "ECTA-238",
       "summary": "Automated end-to-end test coverage for the Cell C Support Statuses settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -192,7 +192,7 @@
       "key": "ECTA-235",
       "summary": "Automated end-to-end test coverage for the Cell C Shortcodes settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -200,7 +200,7 @@
       "key": "ECTA-234",
       "summary": "Automated end-to-end test coverage for the Cell C Manufacturers settings page.",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -208,7 +208,7 @@
       "key": "ECTA-233",
       "summary": "Automated end-to-end test coverage for the Cell C IMEI Numbers settings page across all 5 tabs.",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -216,7 +216,7 @@
       "key": "ECTA-230",
       "summary": "Automated end-to-end test suite for the Telkom self-registration wizard (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -225,6 +225,14 @@
       "summary": "Automated end-to-end test coverage for the Cell C System Configuration settings page across both tabs (Settings + Taxation).",
       "project": "E-Centive Test Automation",
       "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-231",
+      "summary": "Automated end-to-end test suite for the Cell C self-registration wizard (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -288,8 +296,8 @@
       "key": "DT-240",
       "summary": "E-Centive Website copy update",
       "project": "Design Person",
-      "status": "Parked",
-      "assignee": "Ashley Mduduzi Ncube",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
@@ -416,7 +424,7 @@
       "key": "PROD-192",
       "summary": "Knowledge Base: Retire duplicate article and archive expired Dress Your Tech campaign content",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tristan Strike",
       "sp": 0
     },
