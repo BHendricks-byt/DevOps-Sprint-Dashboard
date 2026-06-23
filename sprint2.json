@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-23 08:25 UTC",
+  "generatedAt": "2026-06-23 11:37 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -48,7 +48,7 @@
       "key": "MFE-455",
       "summary": "Make Ignite onboarding fully Cognito-claim driven",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -136,7 +136,7 @@
       "key": "ECC-1495",
       "summary": "Adhoc MTN Yellow Cart SDS implementation",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -144,7 +144,7 @@
       "key": "ECC-1493",
       "summary": "CLONE - Samsung SDS API Testing",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -603,6 +603,14 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 8
+    },
+    {
+      "key": "PROD-199",
+      "summary": "User Communications: Manhattan Frontend Migration ",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
     }
   ]
 }
