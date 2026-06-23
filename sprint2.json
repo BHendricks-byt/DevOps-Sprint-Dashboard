@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-23 11:37 UTC",
+  "generatedAt": "2026-06-23 14:36 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -224,7 +224,7 @@
       "key": "ECTA-242",
       "summary": "Automated end-to-end test coverage for the Cell C System Configuration settings page across both tabs (Settings + Taxation).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -280,7 +280,7 @@
       "key": "IGNC-258",
       "summary": "KPI target feature build",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 5
     },
@@ -611,6 +611,14 @@
       "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
+    },
+    {
+      "key": "MINT-160",
+      "summary": "Franchisee WoW Graph endpoint",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 5
     }
   ]
 }
