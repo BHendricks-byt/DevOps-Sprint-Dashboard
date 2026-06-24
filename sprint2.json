@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-24 02:41 UTC",
+  "generatedAt": "2026-06-24 06:41 UTC",
   "issues": [
     {
       "key": "MFE-431",
@@ -104,7 +104,7 @@
       "key": "MAPP-201",
       "summary": "feat (APP): Volume Incentive tab UX \u2014 seen/unseen indicator + keep brand sheet open",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -200,7 +200,7 @@
       "key": "ECTA-234",
       "summary": "Automated end-to-end test coverage for the Cell C Manufacturers settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -608,7 +608,7 @@
       "key": "PROD-199",
       "summary": "User Communications: Manhattan Frontend Migration ",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
