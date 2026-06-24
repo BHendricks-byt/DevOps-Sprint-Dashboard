@@ -2,39 +2,15 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-24 06:41 UTC",
+  "generatedAt": "2026-06-24 10:17 UTC",
   "issues": [
-    {
-      "key": "MFE-431",
-      "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1401",
-      "summary": "Cutover plan \u2014 feature flag, parallel-run, and staged rollout for E-Centive-only user migration",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Tobie Kruger",
-      "sp": 5
-    },
     {
       "key": "MFE-405",
       "summary": "Hostname-based SP context mapping \u2014 read Host header to determine SP branding and config",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 5
-    },
-    {
-      "key": "ECC-1403",
-      "summary": "manhattan_redirect cutover per SP \u2014 flip flag as each Manhattan frontend gate lifts",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Wesley Classen",
-      "sp": 0
     },
     {
       "key": "MFE-351",
@@ -56,7 +32,7 @@
       "key": "MFE-452",
       "summary": "Add user documents route middleware",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -104,7 +80,7 @@
       "key": "MAPP-201",
       "summary": "feat (APP): Volume Incentive tab UX \u2014 seen/unseen indicator + keep brand sheet open",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -112,7 +88,7 @@
       "key": "MAPP-196",
       "summary": "feat: User Documents Middleware",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -120,7 +96,7 @@
       "key": "ECC-1466",
       "summary": "Add Volume tab to OEM Finance Billing export (volume claims only, ordered by user_id + incentive_id, counter column)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -240,7 +216,7 @@
       "key": "MAPP-104",
       "summary": "feat (APP): User Account Deactivated View",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 8
     },
@@ -365,30 +341,6 @@
       "sp": 0
     },
     {
-      "key": "MINT-154",
-      "summary": "Beacon V2: expose relative beacon fields in GraphQL + handle \"Not rated\" nulls",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MFE-444",
-      "summary": "Beacon V2: diverging gauge (\u22122\u2026Base\u2026+4) + \"Not rated\" state (web)",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-199",
-      "summary": "Beacon V2: diverging gauge (\u22122\u2026Base\u2026+4) + \"Not rated\" state (mobile)",
-      "project": "Manhattan App",
-      "status": "In Progress",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "PROD-181",
       "summary": "Establish ongoing suggestion box feedback loop",
       "project": "Product",
@@ -501,22 +453,6 @@
       "sp": 0
     },
     {
-      "key": "IGNC-267",
-      "summary": "Beacon V2: migrate franchisee & manager /beacon/tag role functions (portfolio/branch gauges) to beacon_point + V2 strings",
-      "project": "Ignite Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-158",
-      "summary": "Host-based SP resolution for public registration \u2014 ignitecpp.com domains, Origin-derived host, reject unmapped hosts",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "MFE-448",
       "summary": "Public registration forms on MFE \u2014 schema-driven per-OEM flows resolved from the access domain",
       "project": "Manhattan Frontend",
@@ -549,14 +485,6 @@
       "sp": 8
     },
     {
-      "key": "ECC-1512",
-      "summary": "Registration config v2 \u2014 complete the form schema (base fields, steps, salesman_code source) for schema-driven MFE rendering (pv3-sp)",
-      "project": "E-Centive Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
       "key": "ECC-1513",
       "summary": "MFE registration drops residential/official address \u2014 flat payload vs nested oracle contract",
       "project": "E-Centive Core",
@@ -565,10 +493,18 @@
       "sp": 3
     },
     {
+      "key": "MFE-431",
+      "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
+      "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
       "key": "MINT-159",
       "summary": "Enable SMS MFA for Cognito (SA) \u2014 exit AWS SMS sandbox + raise spend limit (qa & prod)",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -600,7 +536,7 @@
       "key": "ECC-1521",
       "summary": "Turbo Tariff Plus setup: management page + company / company-type targeting",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -616,9 +552,25 @@
       "key": "MINT-160",
       "summary": "Franchisee WoW Graph endpoint",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "MINT-161",
+      "summary": "Franchisee Claims Data endpoint",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MINT-162",
+      "summary": "Franchisee user volume claims endpoint",
+      "project": "Manhattan Integration",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
     }
   ]
 }
