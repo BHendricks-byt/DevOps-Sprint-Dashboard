@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-24 12:32 UTC",
+  "generatedAt": "2026-06-24 15:30 UTC",
   "issues": [
     {
       "key": "MFE-405",
@@ -104,7 +104,7 @@
       "key": "ECC-1270",
       "summary": "Agent Performance Leaderboard > System Usage & Login Activity widget",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -230,9 +230,9 @@
     },
     {
       "key": "MAPP-200",
-      "summary": "Upgrade Android Gradle, AGP & Kotlin toolchain (and track iOS SPM)",
+      "summary": "Upgrade Android Gradle, AGP & Kotlin toolchain",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -248,7 +248,7 @@
       "key": "MAPP-101",
       "summary": "feat (APP): PayCentral/Cash Out Unavailable",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -368,7 +368,7 @@
       "key": "PROD-195",
       "summary": "Social Media Copy",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -552,7 +552,7 @@
       "key": "MINT-160",
       "summary": "Franchisee WoW Graph endpoint",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -568,7 +568,7 @@
       "key": "MINT-162",
       "summary": "Franchisee user volume claims endpoint",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
