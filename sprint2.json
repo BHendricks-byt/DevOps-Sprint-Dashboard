@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-25 11:12 UTC",
+  "generatedAt": "2026-06-25 13:33 UTC",
   "issues": [
     {
       "key": "MFE-405",
@@ -184,7 +184,7 @@
       "key": "ECTA-233",
       "summary": "Automated end-to-end test coverage for the Cell C IMEI Numbers settings page across all 5 tabs.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -570,7 +570,7 @@
       "project": "Manhattan Integration",
       "status": "In Progress",
       "assignee": "Wesley Classen",
-      "sp": 0
+      "sp": 5
     },
     {
       "key": "ECC-1523",
