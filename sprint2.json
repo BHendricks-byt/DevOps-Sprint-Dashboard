@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-25 16:19 UTC",
+  "generatedAt": "2026-06-25 18:30 UTC",
   "issues": [
     {
       "key": "MFE-405",
@@ -587,6 +587,14 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 1
+    },
+    {
+      "key": "IGNC-271",
+      "summary": "Console KPI Targets endpoints \u2014 HQ network rollup (Telkom \u2192 Ignite \u2192 Targets)",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
