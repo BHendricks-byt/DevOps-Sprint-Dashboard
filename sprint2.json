@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-25 13:33 UTC",
+  "generatedAt": "2026-06-25 16:19 UTC",
   "issues": [
     {
       "key": "MFE-405",
@@ -259,6 +259,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 5
+    },
+    {
+      "key": "MINT-163",
+      "summary": "Cash-out eligibility on Manhattan GraphQL eWallet (company gate + per-provider/PayCentral availability)",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 0
     },
     {
       "key": "MINT-153",
@@ -560,7 +568,7 @@
       "key": "MINT-161",
       "summary": "Franchisee Claims Data endpoint",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -568,7 +576,7 @@
       "key": "MINT-162",
       "summary": "Franchisee user volume claims endpoint",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
