@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-25 18:30 UTC",
+  "generatedAt": "2026-06-25 20:52 UTC",
   "issues": [
     {
       "key": "MFE-405",
@@ -592,9 +592,17 @@
       "key": "IGNC-271",
       "summary": "Console KPI Targets endpoints \u2014 HQ network rollup (Telkom \u2192 Ignite \u2192 Targets)",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "ECC-1525",
+      "summary": "Ignite Targets console view (Telkom \u2192 Ignite \u2192 Targets) \u2014 HQ KPI scorecard",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 5
     }
   ]
 }
