@@ -2,8 +2,16 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-26 02:46 UTC",
+  "generatedAt": "2026-06-26 06:49 UTC",
   "issues": [
+    {
+      "key": "AWI-118",
+      "summary": "Telkom KPI Tracker: Design Validation & Spec Finalisation",
+      "project": "Master Board",
+      "status": "Building",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
     {
       "key": "MFE-405",
       "summary": "Hostname-based SP context mapping \u2014 read Host header to determine SP branding and config",
@@ -56,7 +64,7 @@
       "key": "DT-265",
       "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Parked",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -259,6 +267,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 5
+    },
+    {
+      "key": "DT-244",
+      "summary": "Design Validation",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
     },
     {
       "key": "MINT-163",
