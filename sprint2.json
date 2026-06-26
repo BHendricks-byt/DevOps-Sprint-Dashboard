@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-26 06:49 UTC",
+  "generatedAt": "2026-06-26 10:18 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -400,7 +400,7 @@
       "key": "PROD-192",
       "summary": "Knowledge Base: Retire duplicate article and archive expired Dress Your Tech campaign content",
       "project": "Product",
-      "status": "MOVED TO QA",
+      "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -408,7 +408,7 @@
       "key": "PROD-193",
       "summary": "Knowledge Base: Consolidate agent and manager role-variant articles into single role-aware articles",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -416,7 +416,7 @@
       "key": "PROD-194",
       "summary": "Knowledge Base: Scope training modules against Training platform timeline (AWI-68)",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -586,7 +586,7 @@
       "project": "Manhattan Integration",
       "status": "In Progress",
       "assignee": "Wesley Classen",
-      "sp": 0
+      "sp": 8
     },
     {
       "key": "MINT-162",
@@ -619,6 +619,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 5
+    },
+    {
+      "key": "IGNC-272",
+      "summary": "KPI classification not durable \u2014 sales_ice MERGE drops transactiontype/tariff/service; kpi_category zeroed on every sync",
+      "project": "Ignite Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
