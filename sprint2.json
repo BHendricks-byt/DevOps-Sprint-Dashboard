@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-26 12:30 UTC",
+  "generatedAt": "2026-06-26 15:23 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -400,7 +400,7 @@
       "key": "PROD-192",
       "summary": "Knowledge Base: Retire duplicate article and archive expired Dress Your Tech campaign content",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -424,7 +424,7 @@
       "key": "PROD-197",
       "summary": "Investigation: FAQ consolidation feasibility \u2014 Directus capability vs. E-Centive build cost",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -584,7 +584,7 @@
       "key": "MINT-161",
       "summary": "Franchisee Claims Data endpoint",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 8
     },
