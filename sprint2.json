@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-29 01:34 UTC",
+  "generatedAt": "2026-06-29 06:40 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -64,7 +64,7 @@
       "key": "DT-265",
       "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
       "project": "Design Person",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -272,7 +272,7 @@
       "key": "DT-244",
       "summary": "Design Validation",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -368,7 +368,7 @@
       "key": "PROD-181",
       "summary": "Establish ongoing suggestion box feedback loop",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -456,7 +456,7 @@
       "key": "PROD-182",
       "summary": "Create commission & KPI plain-language guide for call centre",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
