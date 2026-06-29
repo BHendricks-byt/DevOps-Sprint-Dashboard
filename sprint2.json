@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-29 11:54 UTC",
+  "generatedAt": "2026-06-29 15:35 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -64,7 +64,7 @@
       "key": "DT-244",
       "summary": "Design Validation",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -262,9 +262,9 @@
     },
     {
       "key": "MAPP-101",
-      "summary": "feat (APP): PayCentral/Cash Out Unavailable",
+      "summary": "feat(APP): Cash-out eligibility gating on eWallet (company gate + PayCentral availability)",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -280,7 +280,7 @@
       "key": "MINT-163",
       "summary": "Cash-out eligibility on Manhattan GraphQL eWallet (company gate + per-provider/PayCentral availability)",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -368,7 +368,7 @@
       "key": "PROD-181",
       "summary": "Establish ongoing suggestion box feedback loop",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -464,7 +464,7 @@
       "key": "PROD-187",
       "summary": "Create and publish Total Rewards Summary",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -552,7 +552,7 @@
       "key": "ECC-1521",
       "summary": "Turbo Tariff Plus setup: management page + company / company-type targeting",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -619,6 +619,14 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "MINT-165",
+      "summary": "Add oemClaimProducts query + fix pagination math in dashboard resolvers",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 5
     }
   ]
 }
