@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-29 06:40 UTC",
+  "generatedAt": "2026-06-29 11:54 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -59,6 +59,14 @@
       "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
+    },
+    {
+      "key": "DT-244",
+      "summary": "Design Validation",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
     },
     {
       "key": "DT-265",
@@ -269,14 +277,6 @@
       "sp": 5
     },
     {
-      "key": "DT-244",
-      "summary": "Design Validation",
-      "project": "Design Person",
-      "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "MINT-163",
       "summary": "Cash-out eligibility on Manhattan GraphQL eWallet (company gate + per-provider/PayCentral availability)",
       "project": "Manhattan Integration",
@@ -376,7 +376,7 @@
       "key": "PROD-198",
       "summary": "Engagement & Algorithm Boost",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -495,14 +495,6 @@
     {
       "key": "ECC-1131",
       "summary": "MC > User Management > add COMMUNICATION tab to MC profile",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Philton Nengobela",
-      "sp": 8
-    },
-    {
-      "key": "ECC-233",
-      "summary": "All SP's > Ingestion Template explanation & download page",
       "project": "E-Centive Core",
       "status": "To Do",
       "assignee": "Philton Nengobela",
