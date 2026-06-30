@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-30 13:06 UTC",
+  "generatedAt": "2026-06-30 16:00 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -96,7 +96,7 @@
       "key": "MAPP-206",
       "summary": "feature (APP): App version source-of-truth + auto-version GitHub Action",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -120,7 +120,7 @@
       "key": "ECC-1466",
       "summary": "Add Volume tab to OEM Finance Billing export (volume claims only, ordered by user_id + incentive_id, counter column)",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
