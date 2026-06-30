@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-30 03:50 UTC",
+  "generatedAt": "2026-06-30 07:47 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -24,7 +24,7 @@
       "key": "MFE-351",
       "summary": "Implement Franchisee: Ecentive Dashboard",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -152,7 +152,7 @@
       "key": "IGNC-257",
       "summary": "Telkom deals pipeline failing on packages_ice partition cap (100-writer limit)",
       "project": "Ignite Core",
-      "status": "Done (Production)",
+      "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -216,7 +216,7 @@
       "key": "ECTA-242",
       "summary": "Automated end-to-end test coverage for the Cell C System Configuration settings page across both tabs (Settings + Taxation).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -264,7 +264,7 @@
       "key": "MAPP-101",
       "summary": "feat(APP): Cash-out eligibility gating on eWallet (company gate + PayCentral availability)",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -568,7 +568,7 @@
       "key": "MINT-160",
       "summary": "Franchisee WoW Graph endpoint",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -576,7 +576,7 @@
       "key": "MINT-161",
       "summary": "Franchisee Claims Data endpoint",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -584,7 +584,7 @@
       "key": "MINT-162",
       "summary": "Franchisee user volume claims endpoint",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -621,10 +621,26 @@
       "sp": 0
     },
     {
+      "key": "ECTA-265",
+      "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-273",
+      "summary": "Points history not updating for user \u2013 stalled since 18 June 2026",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
       "key": "MINT-165",
       "summary": "Add oemClaimProducts query + fix pagination math in dashboard resolvers",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     }
