@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-30 10:51 UTC",
+  "generatedAt": "2026-06-30 13:06 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -90,6 +90,14 @@
       "project": "Design Person",
       "status": "To Do",
       "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-206",
+      "summary": "feature (APP): App version source-of-truth + auto-version GitHub Action",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
       "sp": 0
     },
     {
@@ -552,7 +560,7 @@
       "key": "ECC-1521",
       "summary": "Turbo Tariff Plus setup: management page + company / company-type targeting",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
