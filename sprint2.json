@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-06-30 07:47 UTC",
+  "generatedAt": "2026-06-30 10:51 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -24,7 +24,7 @@
       "key": "MFE-351",
       "summary": "Implement Franchisee: Ecentive Dashboard",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -32,7 +32,7 @@
       "key": "MFE-455",
       "summary": "Make Ignite onboarding fully Cognito-claim driven",
       "project": "Manhattan Frontend",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -248,7 +248,7 @@
       "key": "MAPP-200",
       "summary": "Upgrade Android Gradle, AGP & Kotlin toolchain",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -264,7 +264,7 @@
       "key": "MAPP-101",
       "summary": "feat(APP): Cash-out eligibility gating on eWallet (company gate + PayCentral availability)",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -280,7 +280,7 @@
       "key": "MINT-163",
       "summary": "Cash-out eligibility on Manhattan GraphQL eWallet (company gate + per-provider/PayCentral availability)",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -640,7 +640,7 @@
       "key": "MINT-165",
       "summary": "Add oemClaimProducts query + fix pagination math in dashboard resolvers",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     }
