@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 5",
   "period": "17 Jun 2026 \u2013 1 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-01 06:20 UTC",
+  "generatedAt": "2026-07-01 10:27 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -69,26 +69,10 @@
       "sp": 0
     },
     {
-      "key": "DT-265",
-      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-267",
-      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
-      "project": "Design Person",
-      "status": "To Do",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "DT-220",
       "summary": "Desktop Beacon re-design",
       "project": "Design Person",
-      "status": "To Do",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -96,7 +80,7 @@
       "key": "MAPP-206",
       "summary": "feature (APP): App version source-of-truth + auto-version GitHub Action",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -464,7 +448,7 @@
       "key": "PROD-182",
       "summary": "Create commission & KPI plain-language guide for call centre",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -472,7 +456,7 @@
       "key": "PROD-187",
       "summary": "Create and publish Total Rewards Summary",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -600,7 +584,7 @@
       "key": "ECC-1523",
       "summary": "Add Reference column to claim export",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 1
     },
@@ -629,14 +613,6 @@
       "sp": 0
     },
     {
-      "key": "ECTA-265",
-      "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
-      "project": "E-Centive Test Automation",
-      "status": "In Progress",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
       "key": "IGNC-273",
       "summary": "Points history not updating for user \u2013 stalled since 18 June 2026",
       "project": "Ignite Core",
@@ -651,6 +627,14 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "ECTA-266",
+      "summary": "Automated end-to-end test coverage for the Franchisee E-Centive Home page: the Ignite / E-Centive section toggle and the Claims Data, Users (Volume), and Units Week Over Week widgets, including all filter buttons and pagination.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
     }
   ]
 }
