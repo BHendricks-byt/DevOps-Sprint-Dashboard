@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-02 05:35 UTC",
+  "generatedAt": "2026-07-02 08:46 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -104,7 +104,7 @@
       "key": "MFE-399",
       "summary": "Turbo Tariff Plus Incentives",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -218,6 +218,14 @@
       "project": "Ignite Core",
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECA-115",
+      "summary": "feat: Updating Incentives View For Turbo-Tariff+ (v3_app)",
+      "project": "E-Centive App",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
       "sp": 0
     },
     {
@@ -360,7 +368,7 @@
       "key": "ECC-233",
       "summary": "All SP's > Ingestion Template explanation & download page",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -416,7 +424,7 @@
       "key": "ECTA-254",
       "summary": "Automated end-to-end test coverage for the Retail Connect Dashboard landing page (Welcome, Active Incentives, and Non-Balancing Claims).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -424,7 +432,7 @@
       "key": "ECTA-255",
       "summary": "Automated end-to-end test coverage for the Retail Connect Channel Performance module (Claim Data chart, network-gated filters, and the five volume sections).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -432,7 +440,7 @@
       "key": "ECTA-256",
       "summary": "Automated end-to-end test coverage for the Retail Connect Product Performance module (Product Segmentation, Value Vs Volume, and the Units Week Over Week ",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -440,7 +448,7 @@
       "key": "ECTA-257",
       "summary": "Automated end-to-end test coverage for the Retail Connect User Base module (Trailing 12 Months, Active User Base, SPIV Spend, New Branches, Demographics, and Support Tickets).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -448,7 +456,7 @@
       "key": "IGNC-272",
       "summary": "KPI classification not durable \u2014 sales_ice MERGE drops transactiontype/tariff/service; kpi_category zeroed on every sync",
       "project": "Ignite Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -464,7 +472,7 @@
       "key": "ECTA-265",
       "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -504,7 +512,7 @@
       "key": "PROD-203",
       "summary": "Performance Tracking & Optimization",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -512,7 +520,7 @@
       "key": "PROD-204",
       "summary": "Page Growth",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -530,6 +538,14 @@
       "project": "Product",
       "status": "To Do",
       "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "DT-271",
+      "summary": "KPI Targets designs \u2014 standardise Store vs Branch terminology (+ copy fixes)",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
       "sp": 0
     }
   ]
