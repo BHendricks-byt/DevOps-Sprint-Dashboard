@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-02 15:38 UTC",
+  "generatedAt": "2026-07-02 17:39 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -603,6 +603,38 @@
       "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "IGNC-288",
+      "summary": "HQ Targets: row trends blank in month-filtered views \u2014 trend must compare against the calendar-prior month",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-289",
+      "summary": "HQ Targets: in-progress month trends compare like-for-like MTD (same days into the prior month)",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-290",
+      "summary": "Console targets API: accept branchIds scope param for branch-scoped MC users",
+      "project": "Ignite Core",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1531",
+      "summary": "MC: gate Ignite Targets behind view-ignite-targets with per-user branch scoping",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
