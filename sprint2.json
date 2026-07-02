@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-02 19:15 UTC",
+  "generatedAt": "2026-07-02 20:39 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -640,7 +640,7 @@
       "key": "ECC-1532",
       "summary": "MC: Ignite Branch Permissions tab on the user profile (user_ignite_branch_scopes admin)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 0
     }
