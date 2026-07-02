@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-02 11:29 UTC",
+  "generatedAt": "2026-07-02 13:18 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -229,6 +229,14 @@
       "sp": 0
     },
     {
+      "key": "ECA-118",
+      "summary": "feat: Expose Turbo Tariff Plus weightings on the APPAPI OEM incentive endpoint (pv3-sp)",
+      "project": "E-Centive App",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
@@ -368,7 +376,7 @@
       "key": "ECC-233",
       "summary": "All SP's > Ingestion Template explanation & download page",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -587,6 +595,14 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "MINT-167",
+      "summary": "Add Turbo Tariff Plus to OEM incentive endpoints",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 5
     }
   ]
 }
