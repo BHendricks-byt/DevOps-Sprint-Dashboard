@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-02 08:46 UTC",
+  "generatedAt": "2026-07-02 11:29 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -424,7 +424,7 @@
       "key": "ECTA-254",
       "summary": "Automated end-to-end test coverage for the Retail Connect Dashboard landing page (Welcome, Active Incentives, and Non-Balancing Claims).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -432,7 +432,7 @@
       "key": "ECTA-255",
       "summary": "Automated end-to-end test coverage for the Retail Connect Channel Performance module (Claim Data chart, network-gated filters, and the five volume sections).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -440,7 +440,7 @@
       "key": "ECTA-256",
       "summary": "Automated end-to-end test coverage for the Retail Connect Product Performance module (Product Segmentation, Value Vs Volume, and the Units Week Over Week ",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -448,7 +448,7 @@
       "key": "ECTA-257",
       "summary": "Automated end-to-end test coverage for the Retail Connect User Base module (Trailing 12 Months, Active User Base, SPIV Spend, New Branches, Demographics, and Support Tickets).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -544,7 +544,47 @@
       "key": "DT-271",
       "summary": "KPI Targets designs \u2014 standardise Store vs Branch terminology (+ copy fixes)",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "To Do",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-286",
+      "summary": "Franchisee target-request templates (branch + agent) \u2014 standard FY intake artifacts",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 1
+    },
+    {
+      "key": "DT-272",
+      "summary": "KPI Targets \u2014 replace date-range filters with a single GLOBAL month selector",
+      "project": "Design Person",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-287",
+      "summary": "KPI targets: ecentive as source of truth \u2014 region attribution from master data + franchise-membership validation on load",
+      "project": "Ignite Core",
+      "status": "To Do",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1528",
+      "summary": "Fix wrong region on 3 Telkom/Migarda branches in master data (blocks ecentive-sourced geo reporting)",
+      "project": "E-Centive Core",
+      "status": "Canceled",
+      "assignee": "Tobie Kruger",
+      "sp": 1
+    },
+    {
+      "key": "DT-273",
+      "summary": "KPI Targets console \u2014 interactive prototype (Month selector + flow)",
+      "project": "Design Person",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     }
