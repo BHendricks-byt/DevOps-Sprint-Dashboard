@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-03 06:07 UTC",
+  "generatedAt": "2026-07-03 09:40 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -37,18 +37,18 @@
       "sp": 8
     },
     {
-      "key": "DT-244",
-      "summary": "Design Validation",
+      "key": "DT-267",
+      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
       "project": "Design Person",
       "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
     {
-      "key": "DT-267",
-      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
+      "key": "DT-244",
+      "summary": "Design Validation",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -232,7 +232,7 @@
       "key": "ECA-118",
       "summary": "feat: Expose Turbo Tariff Plus weightings on the APPAPI OEM incentive endpoint (pv3-sp)",
       "project": "E-Centive App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -384,7 +384,7 @@
       "key": "ECC-1489",
       "summary": "MTN Roll-out and Observability (Feature)",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -392,7 +392,7 @@
       "key": "ECC-1411",
       "summary": "Harden CardListingController::export \u2014 SQL injection, off-by-one date boundary, and unfiltered fall-through",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -424,7 +424,7 @@
       "key": "ECC-1525",
       "summary": "Ignite Targets console view (Telkom \u2192 Ignite \u2192 Targets) \u2014 HQ KPI scorecard",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 5
     },
@@ -624,7 +624,7 @@
       "key": "IGNC-290",
       "summary": "Console targets API: accept branchIds scope param for branch-scoped MC users",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -632,7 +632,7 @@
       "key": "ECC-1531",
       "summary": "MC: gate Ignite Targets behind view-ignite-targets with per-user branch scoping",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -640,8 +640,32 @@
       "key": "ECC-1532",
       "summary": "MC: Ignite Branch Permissions tab on the user profile (user_ignite_branch_scopes admin)",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-291",
+      "summary": "Prod kpi_targets: monthly Migarda branch+agent load to match QA (PK drop migration + data load)",
+      "project": "Ignite Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "DT-274",
+      "summary": "Turbo-Tariff Plus Screens",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
+    },
+    {
+      "key": "IGNC-292",
+      "summary": "sales_ice duplicate (reference, line_id) accumulation + sales MERGE not dedup-safe on source",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Unassigned",
       "sp": 0
     }
   ]
