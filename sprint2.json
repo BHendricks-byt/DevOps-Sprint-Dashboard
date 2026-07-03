@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-03 09:40 UTC",
+  "generatedAt": "2026-07-03 12:04 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -376,7 +376,7 @@
       "key": "ECC-233",
       "summary": "All SP's > Ingestion Template explanation & download page",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
