@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-03 12:04 UTC",
+  "generatedAt": "2026-07-03 14:38 UTC",
   "issues": [
     {
       "key": "AWI-118",
       "summary": "Telkom KPI Tracker: Design Validation & Spec Finalisation",
       "project": "Master Board",
-      "status": "Building",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -35,6 +35,14 @@
       "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 8
+    },
+    {
+      "key": "DT-274",
+      "summary": "Turbo-Tariff Plus Screens",
+      "project": "Design Person",
+      "status": "MOVED TO QA",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
     },
     {
       "key": "DT-267",
@@ -651,14 +659,6 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
-    },
-    {
-      "key": "DT-274",
-      "summary": "Turbo-Tariff Plus Screens",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 3
     },
     {
       "key": "IGNC-292",
