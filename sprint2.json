@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-06 08:56 UTC",
+  "generatedAt": "2026-07-06 12:45 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -208,7 +208,7 @@
       "key": "ECA-115",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+ (v3_app)",
       "project": "E-Centive App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -224,7 +224,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -643,6 +643,22 @@
       "status": "Backlog",
       "assignee": "Unassigned",
       "sp": 0
+    },
+    {
+      "key": "ECC-1533",
+      "summary": "OEM claims indextotal count times out (27s API Gateway) for users with many branches",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Philton Nengobela",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1534",
+      "summary": "deleteUserRelations leaves agents linked to a removed manager \u2014 clear reverse user_branches links (dedupe-aware)",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
     }
   ]
 }
