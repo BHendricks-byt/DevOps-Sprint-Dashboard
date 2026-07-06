@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-06 04:49 UTC",
+  "generatedAt": "2026-07-06 08:56 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -205,30 +205,6 @@
       "sp": 0
     },
     {
-      "key": "IGNC-262",
-      "summary": "Beacon V2 ETL: Base-centered scale + leaderboard new-fields (Telkom + CellC)",
-      "project": "Ignite Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-263",
-      "summary": "Beacon V2 core API: populate stubbed leaderboard fields + unrated NULL passthrough",
-      "project": "Ignite Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-264",
-      "summary": "Beacon V2 console/exec: rebase KPIs, 0.6/0.4 composite, alerts & Claude prose onto relative scale",
-      "project": "Ignite Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "ECA-115",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+ (v3_app)",
       "project": "E-Centive App",
@@ -336,7 +312,7 @@
       "key": "ECC-1521",
       "summary": "Turbo Tariff Plus setup: management page + company / company-type targeting",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -376,7 +352,7 @@
       "key": "ECC-401",
       "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -392,7 +368,7 @@
       "key": "ECC-1489",
       "summary": "MTN Roll-out and Observability (Feature)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 3
     },
@@ -408,7 +384,7 @@
       "key": "ECC-1458",
       "summary": "User Adress Export",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -608,7 +584,7 @@
       "key": "MINT-167",
       "summary": "Add Turbo Tariff Plus to OEM incentive endpoints",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
