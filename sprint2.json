@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-07 05:30 UTC",
+  "generatedAt": "2026-07-07 09:30 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -38,9 +38,9 @@
     },
     {
       "key": "DT-274",
-      "summary": "Turbo-Tariff Plus Screens",
+      "summary": "Turbo-Tariff Plus Screens Mobile and App",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 3
     },
@@ -48,7 +48,7 @@
       "key": "DT-267",
       "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -64,7 +64,7 @@
       "key": "DT-220",
       "summary": "Desktop Beacon re-design",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -144,7 +144,7 @@
       "key": "ECTA-240",
       "summary": "Automated end-to-end test coverage for the Cell C Communications module across all 4 sub-pages (Brand Outliers / Polls / Automated Reports / SMS) and the Communications hub landing page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -152,7 +152,7 @@
       "key": "ECTA-239",
       "summary": "Automated end-to-end test coverage for the Cell C Notifications settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -192,7 +192,7 @@
       "key": "DT-264",
       "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -240,13 +240,13 @@
       "key": "MAPP-210",
       "summary": "feat (APP): Franchisee e-Centive \u2014 Units Week-over-Week graph (+ charting foundation)",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
     {
       "key": "MAPP-211",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 multi-branch claims view",
+      "summary": "feat (APP): Franchisee e-Centive \u2014 Claims Data time-series chart",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -254,7 +254,7 @@
     },
     {
       "key": "MAPP-212",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 user volume claims",
+      "summary": "feat (APP): Franchisee e-Centive \u2014 user volume leaderboard (Volume / Change)",
       "project": "Manhattan App",
       "status": "To Do",
       "assignee": "Louis Phetla",
@@ -461,18 +461,66 @@
       "sp": 0
     },
     {
-      "key": "ECTA-258",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Home tab",
+      "key": "ECTA-265",
+      "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
     {
-      "key": "ECTA-265",
-      "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
+      "key": "ECTA-258",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Home tab",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-259",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Claims tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-264",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Settings tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-263",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Support tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-262",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only BrandHub tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-261",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Incentives tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-260",
+      "summary": "Automated end-to-end test coverage for the E-Centive Only Wallet tab.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -654,10 +702,42 @@
     },
     {
       "key": "ECC-1533",
-      "summary": "OEM claims indextotal count times out (27s API Gateway) for users with many branches",
+      "summary": "ADHOC OEM claims indextotal count times out (27s API Gateway) for users with many branches",
       "project": "E-Centive Core",
       "status": "Done (Production)",
       "assignee": "Philton Nengobela",
+      "sp": 3
+    },
+    {
+      "key": "DT-275",
+      "summary": "Turbo-Tariff Plus Screens Desktop",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
+    },
+    {
+      "key": "DT-276",
+      "summary": "Elanor - E-Centive Wallpapers",
+      "project": "Design Person",
+      "status": "To Do",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
+    },
+    {
+      "key": "MINT-168",
+      "summary": "Stop folding base into OEM/channel volume tier bonus",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 5
+    },
+    {
+      "key": "MFE-456",
+      "summary": "Show volume tiers as raw bonus, alongside TTP grades",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
       "sp": 3
     }
   ]
