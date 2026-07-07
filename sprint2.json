@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-07 09:30 UTC",
+  "generatedAt": "2026-07-07 12:22 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -34,6 +34,30 @@
       "project": "Manhattan Frontend",
       "status": "Canceled",
       "assignee": "Wesley Classen",
+      "sp": 8
+    },
+    {
+      "key": "DT-279",
+      "summary": "Telkom KPI Tracker \u2014 Agent",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
+    },
+    {
+      "key": "DT-277",
+      "summary": "Telkom KPI Tracker \u2014 Franchisee",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
+    },
+    {
+      "key": "DT-278",
+      "summary": "Telkom KPI Tracker \u2014 Manager",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
     {
@@ -112,7 +136,7 @@
       "key": "MFE-399",
       "summary": "Turbo Tariff Plus Incentives",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -544,21 +568,13 @@
       "key": "PROD-201",
       "summary": "Social Media Visual Assets",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
     {
       "key": "PROD-202",
       "summary": "Social Media Copy",
-      "project": "Product",
-      "status": "To Do",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-203",
-      "summary": "Performance Tracking & Optimization",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
@@ -568,7 +584,7 @@
       "key": "PROD-204",
       "summary": "Page Growth",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -583,6 +599,14 @@
     {
       "key": "PROD-206",
       "summary": "Research & Ideate Wellness Initiatives to implement",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-203",
+      "summary": "Performance Tracking & Optimization",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
@@ -728,7 +752,7 @@
       "key": "MINT-168",
       "summary": "Stop folding base into OEM/channel volume tier bonus",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -736,9 +760,17 @@
       "key": "MFE-456",
       "summary": "Show volume tiers as raw bonus, alongside TTP grades",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 3
+    },
+    {
+      "key": "MINT-170",
+      "summary": "productIncentiveBrands omits Volume incentives' brands",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
