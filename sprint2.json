@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-08 08:14 UTC",
+  "generatedAt": "2026-07-08 10:33 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -16,7 +16,7 @@
       "key": "ECC-1401",
       "summary": "Cutover \u2014 feature flag, parallel-run, and staged rollout for E-Centive-only user migration",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Tobie Kruger",
       "sp": 5
     },
@@ -37,6 +37,14 @@
       "sp": 8
     },
     {
+      "key": "DT-255",
+      "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "DT-275",
       "summary": "Turbo-Tariff Plus Screens Desktop",
       "project": "Design Person",
@@ -55,6 +63,22 @@
     {
       "key": "DT-267",
       "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-220",
+      "summary": "Desktop Beacon re-design",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
+      "key": "DT-264",
+      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
@@ -89,14 +113,6 @@
       "summary": "Design Validation \u2014 Telkom KPI MC View",
       "project": "Design Person",
       "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-220",
-      "summary": "Desktop Beacon re-design",
-      "project": "Design Person",
-      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -219,22 +235,6 @@
       "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
-    },
-    {
-      "key": "DT-264",
-      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-255",
-      "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "Backlog",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
     },
     {
       "key": "ECA-115",
@@ -621,14 +621,6 @@
       "sp": 0
     },
     {
-      "key": "DT-271",
-      "summary": "KPI Targets designs \u2014 standardise Store vs Branch terminology (+ copy fixes)",
-      "project": "Design Person",
-      "status": "To Do",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "IGNC-286",
       "summary": "Franchisee target-request templates (branch + agent) \u2014 standard FY intake artifacts",
       "project": "Ignite Core",
@@ -641,14 +633,6 @@
       "summary": "KPI Targets \u2014 replace date-range filters with a single GLOBAL month selector",
       "project": "Design Person",
       "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-287",
-      "summary": "KPI targets: ecentive as source of truth \u2014 region attribution from master data + franchise-membership validation on load",
-      "project": "Ignite Core",
-      "status": "To Do",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -722,14 +706,6 @@
       "project": "Ignite Core",
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-292",
-      "summary": "sales_ice duplicate (reference, line_id) accumulation + sales MERGE not dedup-safe on source",
-      "project": "Ignite Core",
-      "status": "Backlog",
-      "assignee": "Unassigned",
       "sp": 0
     },
     {
