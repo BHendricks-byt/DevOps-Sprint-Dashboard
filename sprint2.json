@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-08 16:26 UTC",
+  "generatedAt": "2026-07-08 17:58 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -760,6 +760,14 @@
       "key": "ECC-1536",
       "summary": "MC Ignite Targets: achieved/target hover tooltips on all percentages + xlsx export (per-franchisee sheets)",
       "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-295",
+      "summary": "Load network-wide FY26/27 KPI targets (9 franchises) from 2026-07-07 file \u2014 replace QA + prod sets",
+      "project": "Ignite Core",
       "status": "Backlog",
       "assignee": "Tobie Kruger",
       "sp": 0
