@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-08 10:33 UTC",
+  "generatedAt": "2026-07-08 12:15 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -34,6 +34,14 @@
       "project": "Manhattan Frontend",
       "status": "Canceled",
       "assignee": "Wesley Classen",
+      "sp": 8
+    },
+    {
+      "key": "DT-281",
+      "summary": "Notification System \u2014 Operator Screens",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
     {
@@ -256,7 +264,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -264,7 +272,7 @@
       "key": "MAPP-213",
       "summary": "feat (APP): Franchisee e-Centive dashboard \u2014 entry point, role-gating & assembly",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -554,14 +562,6 @@
       "project": "E-Centive Test Automation",
       "status": "Done (Production)",
       "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "AWI-128",
-      "summary": "Screen Saver / Wall paper design brief for E-Centive ",
-      "project": "Master Board",
-      "status": "To Do",
-      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
     {
