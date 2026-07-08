@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-08 05:34 UTC",
+  "generatedAt": "2026-07-08 08:14 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -37,6 +37,30 @@
       "sp": 8
     },
     {
+      "key": "DT-275",
+      "summary": "Turbo-Tariff Plus Screens Desktop",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
+    },
+    {
+      "key": "DT-274",
+      "summary": "Turbo-Tariff Plus Screens Mobile and App",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
+    },
+    {
+      "key": "DT-267",
+      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "DT-279",
       "summary": "Telkom KPI Tracker \u2014 Agent",
       "project": "Design Person",
@@ -61,26 +85,10 @@
       "sp": 8
     },
     {
-      "key": "DT-274",
-      "summary": "Turbo-Tariff Plus Screens Mobile and App",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 3
-    },
-    {
-      "key": "DT-267",
-      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "DT-244",
-      "summary": "Design Validation",
+      "summary": "Design Validation \u2014 Telkom KPI MC View",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -136,7 +144,7 @@
       "key": "MFE-399",
       "summary": "Turbo Tariff Plus Incentives",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -168,7 +176,7 @@
       "key": "ECTA-240",
       "summary": "Automated end-to-end test coverage for the Cell C Communications module across all 4 sub-pages (Brand Outliers / Polls / Automated Reports / SMS) and the Communications hub landing page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Backlog",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -176,7 +184,7 @@
       "key": "ECTA-239",
       "summary": "Automated end-to-end test coverage for the Cell C Notifications settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Backlog",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -262,9 +270,9 @@
     },
     {
       "key": "MAPP-210",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 Units Week-over-Week graph (+ charting foundation)",
+      "summary": "feat (APP): Franchisee e-Centive \u2014 Units Week over Week list (summary + full view)",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -312,7 +320,7 @@
       "key": "ECC-1327",
       "summary": "Export Incentives > update require",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -344,7 +352,7 @@
       "key": "ECTA-243",
       "summary": "Automated end-to-end test coverage for the MC-level Service Provider Configs settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -360,7 +368,7 @@
       "key": "ECTA-247",
       "summary": "Automated end-to-end test coverage for the MC-level Payment Provider Management page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -733,14 +741,6 @@
       "sp": 3
     },
     {
-      "key": "DT-275",
-      "summary": "Turbo-Tariff Plus Screens Desktop",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 3
-    },
-    {
       "key": "DT-276",
       "summary": "Elanor - E-Centive Wallpapers",
       "project": "Design Person",
@@ -760,7 +760,7 @@
       "key": "MFE-456",
       "summary": "Show volume tiers as raw bonus, alongside TTP grades",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Wesley Classen",
       "sp": 3
     },
@@ -770,6 +770,14 @@
       "project": "Manhattan Integration",
       "status": "In Progress",
       "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "DT-280",
+      "summary": "Retailability \u2014 Ignite Mandate PDF Update for Website",
+      "project": "Design Person",
+      "status": "To Do",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 2
     }
   ]
