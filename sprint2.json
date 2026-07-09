@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-09 04:27 UTC",
+  "generatedAt": "2026-07-09 07:59 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -320,7 +320,7 @@
       "key": "ECC-1327",
       "summary": "Export Incentives > update require",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -384,7 +384,7 @@
       "key": "ECC-401",
       "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
