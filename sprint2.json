@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-09 18:52 UTC",
+  "generatedAt": "2026-07-09 20:42 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -296,7 +296,7 @@
       "key": "MAPP-212",
       "summary": "feat (APP): Franchisee e-Centive \u2014 user volume leaderboard (Volume / Change)",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
