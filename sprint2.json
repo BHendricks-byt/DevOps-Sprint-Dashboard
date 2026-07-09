@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-09 07:59 UTC",
+  "generatedAt": "2026-07-09 11:10 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -35,6 +35,14 @@
       "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 8
+    },
+    {
+      "key": "DT-276",
+      "summary": "Elanor - E-Centive Wallpapers",
+      "project": "Design Person",
+      "status": "Done (Production)",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
     },
     {
       "key": "DT-281",
@@ -424,7 +432,7 @@
       "key": "ECC-1458",
       "summary": "User Adress Export",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -650,7 +658,7 @@
       "project": "Manhattan Integration",
       "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
-      "sp": 5
+      "sp": 8
     },
     {
       "key": "IGNC-288",
@@ -709,20 +717,12 @@
       "sp": 3
     },
     {
-      "key": "DT-276",
-      "summary": "Elanor - E-Centive Wallpapers",
-      "project": "Design Person",
-      "status": "To Do",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 5
-    },
-    {
       "key": "MINT-168",
       "summary": "Stop folding base into OEM/channel volume tier bonus",
       "project": "Manhattan Integration",
       "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
-      "sp": 5
+      "sp": 2
     },
     {
       "key": "MFE-456",
@@ -744,7 +744,7 @@
       "key": "DT-280",
       "summary": "Retailability \u2014 Ignite Mandate PDF Update for Website",
       "project": "Design Person",
-      "status": "To Do",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 2
     },
@@ -778,6 +778,22 @@
       "project": "E-Centive Core",
       "status": "Backlog",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1538",
+      "summary": "ADHOC - add description column to products",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Philton Nengobela",
+      "sp": 2
+    },
+    {
+      "key": "ECTA-267",
+      "summary": "Automate the new Ignite \u2192 Targets (\"KPI Targets\") page for the Telkom console.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
       "sp": 0
     }
   ]
