@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-10 06:24 UTC",
+  "generatedAt": "2026-07-10 09:58 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -333,14 +333,6 @@
       "sp": 0
     },
     {
-      "key": "ECC-1327",
-      "summary": "Export Incentives > update require",
-      "project": "E-Centive Core",
-      "status": "Automation",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
       "key": "MFE-431",
       "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
       "project": "Manhattan Frontend",
@@ -397,14 +389,6 @@
       "sp": 0
     },
     {
-      "key": "ECC-401",
-      "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
-      "project": "E-Centive Core",
-      "status": "Automation",
-      "assignee": "Philton Nengobela",
-      "sp": 13
-    },
-    {
       "key": "ECC-233",
       "summary": "All SP's > Ingestion Template explanation & download page",
       "project": "E-Centive Core",
@@ -443,6 +427,22 @@
       "status": "MOVED TO QA",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
+    },
+    {
+      "key": "ECC-1327",
+      "summary": "Export Incentives > update require",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Philton Nengobela",
+      "sp": 0
+    },
+    {
+      "key": "ECC-401",
+      "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Philton Nengobela",
+      "sp": 13
     },
     {
       "key": "ECC-1508",
@@ -592,7 +592,7 @@
       "key": "PROD-202",
       "summary": "Social Media Copy",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -792,7 +792,7 @@
       "key": "ECC-1538",
       "summary": "ADHOC - add description column to products",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
     },
@@ -802,6 +802,14 @@
       "project": "E-Centive Test Automation",
       "status": "Done (Production)",
       "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "PROD-207",
+      "summary": "Madiba Day Initiative- Team Engagement",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
       "sp": 0
     }
   ]
