@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-13 11:36 UTC",
+  "generatedAt": "2026-07-13 14:18 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -272,7 +272,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -296,7 +296,7 @@
       "key": "MAPP-211",
       "summary": "feat (APP): Franchisee e-Centive \u2014 Claims Data time-series chart",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -456,7 +456,7 @@
       "key": "ECC-1508",
       "summary": " Extend the \"Filters applied\" summary block in export-ready emails to all relevant export types, not just claims.",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "MOVED TO QA",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -752,7 +752,7 @@
       "key": "MINT-170",
       "summary": "productIncentiveBrands omits Volume incentives' brands",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -819,6 +819,14 @@
       "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
+    },
+    {
+      "key": "MINT-175",
+      "summary": "Source OEM & channel incentive detail from pv3 APPAPI + per-role volume tiers",
+      "project": "Manhattan Integration",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 8
     }
   ]
 }
