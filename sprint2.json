@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-13 04:55 UTC",
+  "generatedAt": "2026-07-13 08:12 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -448,7 +448,7 @@
       "key": "ECC-1508",
       "summary": " Extend the \"Filters applied\" summary block in export-ready emails to all relevant export types, not just claims.",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -584,7 +584,7 @@
       "key": "PROD-201",
       "summary": "Social Media Visual Assets",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -810,6 +810,14 @@
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1540",
+      "summary": "Cash Out e-wallet export downloads an empty Excel (headings only) \u2014 export still runs synchronously under bref/Lambda",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Brijwanth Jakhotia",
       "sp": 0
     }
   ]
