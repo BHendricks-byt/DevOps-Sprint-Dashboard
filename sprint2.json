@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-13 08:12 UTC",
+  "generatedAt": "2026-07-13 11:36 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -360,7 +360,7 @@
       "key": "ECTA-243",
       "summary": "Automated end-to-end test coverage for the MC-level Service Provider Configs settings page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -368,7 +368,7 @@
       "key": "ECTA-246",
       "summary": "Automated end-to-end test coverage for the MC-level PayCentral Card Management listing AND the Card Wallet Fees drill-down page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -376,7 +376,7 @@
       "key": "ECTA-247",
       "summary": "Automated end-to-end test coverage for the MC-level Payment Provider Management page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -384,7 +384,7 @@
       "key": "ECTA-248",
       "summary": "Automated end-to-end test coverage for the MC-level Finance Costing Management page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -443,6 +443,14 @@
       "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 13
+    },
+    {
+      "key": "ECC-1540",
+      "summary": "[Adhoc] Cash Out e-wallet export downloads an empty Excel (headings only) \u2014 export still runs synchronously under bref/Lambda",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 0
     },
     {
       "key": "ECC-1508",
@@ -608,7 +616,7 @@
       "key": "PROD-205",
       "summary": "Collect & Analyse Poll responses",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -624,7 +632,7 @@
       "key": "PROD-203",
       "summary": "Performance Tracking & Optimization",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -810,14 +818,6 @@
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1540",
-      "summary": "Cash Out e-wallet export downloads an empty Excel (headings only) \u2014 export still runs synchronously under bref/Lambda",
-      "project": "E-Centive Core",
-      "status": "In Progress",
-      "assignee": "Brijwanth Jakhotia",
       "sp": 0
     }
   ]
