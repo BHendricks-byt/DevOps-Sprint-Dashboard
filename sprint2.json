@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-13 14:18 UTC",
+  "generatedAt": "2026-07-13 16:54 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -179,6 +179,14 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "MFE-459",
+      "summary": "Fix 403 on hard reload of permission-gated pages",
+      "project": "Manhattan Frontend",
+      "status": "Ready For Production",
+      "assignee": "Wesley Classen",
+      "sp": 0
     },
     {
       "key": "MFE-399",
@@ -753,6 +761,14 @@
       "summary": "productIncentiveBrands omits Volume incentives' brands",
       "project": "Manhattan Integration",
       "status": "Done (Production)",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "MINT-171",
+      "summary": "productIncentiveBrands hasUpdate flag has hardcoded scope",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
       "assignee": "Wesley Classen",
       "sp": 2
     },
