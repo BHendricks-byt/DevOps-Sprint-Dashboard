@@ -2,8 +2,16 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 12:06 UTC",
+  "generatedAt": "2026-07-14 14:21 UTC",
   "issues": [
+    {
+      "key": "ECC-1390",
+      "summary": "Migrate all SP users to Manhattan frontend \u2014 Cognito auth, domain routing, legacy frontend retirement",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
     {
       "key": "AWI-118",
       "summary": "Telkom KPI Tracker: Design Validation & Spec Finalisation",
@@ -24,8 +32,8 @@
       "key": "ECC-1403",
       "summary": "manhattan_redirect cutover per SP \u2014 flip flag as each Manhattan frontend gate lifts",
       "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Wesley Classen",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
@@ -112,7 +120,7 @@
       "key": "DT-279",
       "summary": "Telkom KPI Tracker \u2014 Agent",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -120,7 +128,7 @@
       "key": "DT-277",
       "summary": "Telkom KPI Tracker \u2014 Franchisee",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -128,7 +136,7 @@
       "key": "DT-278",
       "summary": "Telkom KPI Tracker \u2014 Manager",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -216,7 +224,7 @@
       "key": "ECTA-240",
       "summary": "Automated end-to-end test coverage for the Cell C Communications module across all 4 sub-pages (Brand Outliers / Polls / Automated Reports / SMS) and the Communications hub landing page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -224,7 +232,7 @@
       "key": "ECTA-239",
       "summary": "Automated end-to-end test coverage for the Cell C Notifications settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -280,7 +288,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -288,7 +296,7 @@
       "key": "MAPP-213",
       "summary": "feat (APP): Franchisee e-Centive dashboard \u2014 entry point, role-gating & assembly",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -304,7 +312,7 @@
       "key": "MAPP-211",
       "summary": "feat (APP): Franchisee e-Centive \u2014 Claims Data time-series chart",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -320,7 +328,7 @@
       "key": "ECTA-241",
       "summary": "Automated end-to-end test coverage for the Cell C Terms & Conditions settings page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -624,7 +632,7 @@
       "key": "PROD-205",
       "summary": "Collect & Analyse Poll responses",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -858,6 +866,30 @@
       "project": "Manhattan Integration",
       "status": "Backlog",
       "assignee": "Wesley Classen",
+      "sp": 3
+    },
+    {
+      "key": "MINT-177",
+      "summary": "preToken: per-user ignite.enabled derived from role (non-retail \u2192 ecentive-only)",
+      "project": "Manhattan Integration",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1542",
+      "summary": "Seed per-SP ignite_role_config \u2014 role\u2192experience (ignite vs e-Centive-only) control surface",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1543",
+      "summary": "users:migrate-to-mfe \u2014 auditable artisan command to flag existing users for Manhattan migration",
+      "project": "E-Centive Core",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
       "sp": 3
     }
   ]
