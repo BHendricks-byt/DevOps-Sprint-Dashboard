@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 10:40 UTC",
+  "generatedAt": "2026-07-14 12:06 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -288,7 +288,7 @@
       "key": "MAPP-213",
       "summary": "feat (APP): Franchisee e-Centive dashboard \u2014 entry point, role-gating & assembly",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -464,7 +464,7 @@
       "key": "ECC-1508",
       "summary": " Extend the \"Filters applied\" summary block in export-ready emails to all relevant export types, not just claims.",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
