@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 06:05 UTC",
+  "generatedAt": "2026-07-14 08:33 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -280,7 +280,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -432,7 +432,7 @@
       "key": "ECC-1458",
       "summary": "User Adress Export",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -440,7 +440,7 @@
       "key": "ECC-1327",
       "summary": "Export Incentives > update require",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -448,7 +448,7 @@
       "key": "ECC-401",
       "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -834,6 +834,14 @@
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1541",
+      "summary": "ADHOC Add Pagination to Volume Page",
+      "project": "E-Centive Core",
+      "status": "Ready For Production",
+      "assignee": "Philton Nengobela",
       "sp": 0
     },
     {
