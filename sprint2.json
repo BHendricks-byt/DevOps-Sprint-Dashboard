@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 15:54 UTC",
+  "generatedAt": "2026-07-14 17:07 UTC",
   "issues": [
     {
       "key": "ECC-1390",
@@ -889,6 +889,14 @@
       "summary": "e-Centive dashboard shows \"error loading\" card for zero-claims users instead of an empty state",
       "project": "Manhattan Frontend",
       "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MINT-178",
+      "summary": "oemClaims/channelClaims resolvers don't match legacy claim visibility for non-retail roles (over- and under-exposure)",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
       "assignee": "Tobie Kruger",
       "sp": 0
     }
