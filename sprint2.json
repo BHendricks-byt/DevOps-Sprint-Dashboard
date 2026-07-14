@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 17:07 UTC",
+  "generatedAt": "2026-07-14 18:35 UTC",
   "issues": [
     {
       "key": "ECC-1390",
@@ -288,7 +288,7 @@
       "key": "MAPP-213",
       "summary": "feat (APP): Franchisee e-Centive dashboard \u2014 entry point, role-gating & assembly",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -304,7 +304,7 @@
       "key": "MAPP-211",
       "summary": "feat (APP): Franchisee e-Centive \u2014 Claims Data time-series chart",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -392,7 +392,7 @@
       "key": "ECTA-248",
       "summary": "Automated end-to-end test coverage for the MC-level Finance Costing Management page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -896,7 +896,7 @@
       "key": "MINT-178",
       "summary": "oemClaims/channelClaims resolvers don't match legacy claim visibility for non-retail roles (over- and under-exposure)",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 0
     }
