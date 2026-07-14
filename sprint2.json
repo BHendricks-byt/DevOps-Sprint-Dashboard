@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 08:33 UTC",
+  "generatedAt": "2026-07-14 10:40 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -851,6 +851,14 @@
       "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 8
+    },
+    {
+      "key": "MINT-176",
+      "summary": "Surface Volume incentives' brands in productIncentiveBrands without the query row-explosion",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 3
     }
   ]
 }
