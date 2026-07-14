@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 14:21 UTC",
+  "generatedAt": "2026-07-14 15:54 UTC",
   "issues": [
     {
       "key": "ECC-1390",
@@ -194,7 +194,7 @@
       "project": "Manhattan Frontend",
       "status": "Ready For Production",
       "assignee": "Wesley Classen",
-      "sp": 0
+      "sp": 1
     },
     {
       "key": "MFE-399",
@@ -208,17 +208,9 @@
       "key": "MFE-364",
       "summary": "Campaigns Middleware",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 3
-    },
-    {
-      "key": "MFE-453",
-      "summary": "Secure session handling for shared store PCs",
-      "project": "Manhattan Frontend",
-      "status": "To Do",
-      "assignee": "Wesley Classen",
-      "sp": 0
     },
     {
       "key": "ECTA-240",
@@ -776,7 +768,7 @@
       "key": "MINT-171",
       "summary": "productIncentiveBrands hasUpdate flag has hardcoded scope",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -864,7 +856,7 @@
       "key": "MINT-176",
       "summary": "Surface Volume incentives' brands in productIncentiveBrands without the query row-explosion",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Ready For Production",
       "assignee": "Wesley Classen",
       "sp": 3
     },
@@ -891,6 +883,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "MFE-460",
+      "summary": "e-Centive dashboard shows \"error loading\" card for zero-claims users instead of an empty state",
+      "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
