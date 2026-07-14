@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-14 03:42 UTC",
+  "generatedAt": "2026-07-14 06:05 UTC",
   "issues": [
     {
       "key": "AWI-118",
@@ -464,7 +464,7 @@
       "key": "ECC-1508",
       "summary": " Extend the \"Filters applied\" summary block in export-ready emails to all relevant export types, not just claims.",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
