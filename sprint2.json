@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-15 09:26 UTC",
+  "generatedAt": "2026-07-15 11:08 UTC",
   "issues": [
     {
       "key": "ECC-1390",
@@ -16,7 +16,7 @@
       "key": "AWI-118",
       "summary": "Telkom KPI Tracker: Design Validation & Spec Finalisation",
       "project": "Master Board",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -280,7 +280,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
