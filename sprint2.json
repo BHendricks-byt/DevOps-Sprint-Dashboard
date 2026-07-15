@@ -1,9 +1,17 @@
 {
-  "name": "DevOps Team Sprint 6",
-  "period": "1 Jul 2026 \u2013 15 Jul 2026",
+  "name": "DevOps Team Sprint 7",
+  "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-15 11:08 UTC",
+  "generatedAt": "2026-07-15 14:43 UTC",
   "issues": [
+    {
+      "key": "AWI-125",
+      "summary": "E-Centive Only user can open the Ignite Knowledge Base by going to the /manage/help link directly",
+      "project": "Master Board",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
     {
       "key": "ECC-1390",
       "summary": "Migrate all SP users to Manhattan frontend \u2014 Cognito auth, domain routing, legacy frontend retirement",
@@ -13,20 +21,52 @@
       "sp": 0
     },
     {
-      "key": "AWI-118",
-      "summary": "Telkom KPI Tracker: Design Validation & Spec Finalisation",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
       "key": "ECC-1401",
       "summary": "Cutover \u2014 feature flag, parallel-run, and staged rollout for E-Centive-only user migration",
       "project": "E-Centive Core",
       "status": "Canceled",
       "assignee": "Tobie Kruger",
       "sp": 5
+    },
+    {
+      "key": "MFE-298",
+      "summary": "Explore SP 2FA requirements",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-385",
+      "summary": "Manual Claim Mobile Component Update",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "MFE-453",
+      "summary": "Secure session handling for shared store PCs",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1514",
+      "summary": "Add all status to check if user exist on other SP's",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1524",
+      "summary": "Company management add Franchisee Assist",
+      "project": "E-Centive Core",
+      "status": "Automation",
+      "assignee": "Philton Nengobela",
+      "sp": 3
     },
     {
       "key": "ECC-1403",
@@ -45,108 +85,12 @@
       "sp": 8
     },
     {
-      "key": "DT-276",
-      "summary": "Elanor - E-Centive Wallpapers",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 5
-    },
-    {
-      "key": "DT-265",
-      "summary": "Beacon V2 \u2014 Console / Exec Analytics Rebase (Desktop Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-281",
-      "summary": "Notification System \u2014 Operator Screens",
+      "key": "DT-252",
+      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
-    },
-    {
-      "key": "DT-255",
-      "summary": "Adv. Gamification: Notification Rail \u2014 Wireframes & Designs",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-275",
-      "summary": "Turbo-Tariff Plus Screens Desktop",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 3
-    },
-    {
-      "key": "DT-274",
-      "summary": "Turbo-Tariff Plus Screens Mobile and App",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 3
-    },
-    {
-      "key": "DT-267",
-      "summary": "MFE-452 - User Document Upload Screen - Mobile Breakpoint",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-220",
-      "summary": "Desktop Beacon re-design",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-264",
-      "summary": "Beacon V2 \u2014 Diverging Gauge, Pill & Agent Surfaces (Mobile Web)",
-      "project": "Design Person",
-      "status": "In Progress",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
-    },
-    {
-      "key": "DT-279",
-      "summary": "Telkom KPI Tracker \u2014 Agent",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "DT-277",
-      "summary": "Telkom KPI Tracker \u2014 Franchisee",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "DT-278",
-      "summary": "Telkom KPI Tracker \u2014 Manager",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "DT-244",
-      "summary": "Design Validation \u2014 Telkom KPI MC View",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 0
     },
     {
       "key": "MINT-158",
@@ -176,7 +120,7 @@
       "key": "MFE-441",
       "summary": "role-aware NBS view: branch + agent selectors for managers and franchisees",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -189,44 +133,12 @@
       "sp": 3
     },
     {
-      "key": "MFE-459",
-      "summary": "Fix 403 on hard reload of permission-gated pages",
-      "project": "Manhattan Frontend",
-      "status": "Ready For Production",
-      "assignee": "Wesley Classen",
-      "sp": 1
-    },
-    {
-      "key": "MFE-399",
-      "summary": "Turbo Tariff Plus Incentives",
-      "project": "Manhattan Frontend",
-      "status": "Ready For Production",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
       "key": "MFE-364",
       "summary": "Campaigns Middleware",
       "project": "Manhattan Frontend",
       "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 3
-    },
-    {
-      "key": "ECTA-240",
-      "summary": "Automated end-to-end test coverage for the Cell C Communications module across all 4 sub-pages (Brand Outliers / Polls / Automated Reports / SMS) and the Communications hub landing page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-239",
-      "summary": "Automated end-to-end test coverage for the Cell C Notifications settings page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
     },
     {
       "key": "MAPP-161",
@@ -253,91 +165,27 @@
       "sp": 0
     },
     {
-      "key": "DT-252",
-      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
-      "project": "Design Person",
-      "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "ECA-115",
-      "summary": "feat: Updating Incentives View For Turbo-Tariff+ (v3_app)",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "ECA-118",
-      "summary": "feat: Expose Turbo Tariff Plus weightings on the APPAPI OEM incentive endpoint (pv3-sp)",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-162",
-      "summary": "feat: Updating Incentives View For Turbo-Tariff+",
-      "project": "Manhattan App",
-      "status": "Ready For Production",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-213",
-      "summary": "feat (APP): Franchisee e-Centive dashboard \u2014 entry point, role-gating & assembly",
-      "project": "Manhattan App",
-      "status": "Ready For Production",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-210",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 Units Week over Week list (summary + full view)",
-      "project": "Manhattan App",
-      "status": "Ready For Production",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-211",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 Claims Data time-series chart",
-      "project": "Manhattan App",
-      "status": "Ready For Production",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-212",
-      "summary": "feat (APP): Franchisee e-Centive \u2014 user volume leaderboard (Volume / Change)",
-      "project": "Manhattan App",
-      "status": "Ready For Production",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-241",
-      "summary": "Automated end-to-end test coverage for the Cell C Terms & Conditions settings page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "PROD-194",
-      "summary": "Knowledge Base: Scope training modules against Training platform timeline (AWI-68)",
+      "key": "PROD-184",
+      "summary": "Launch quarterly all-staff meeting (Q2 2026)",
       "project": "Product",
-      "status": "MOVED TO QA",
-      "assignee": "Tristan Strike",
+      "status": "Backlog",
+      "assignee": "Nelisiwe",
       "sp": 0
     },
     {
-      "key": "PROD-197",
-      "summary": "Investigation: FAQ consolidation feasibility \u2014 Directus capability vs. E-Centive build cost",
+      "key": "PROD-185",
+      "summary": "Build peer shoutouts programme on SharePoint",
       "project": "Product",
-      "status": "MOVED TO QA",
-      "assignee": "Tristan Strike",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-186",
+      "summary": "SharePoint engagement layer \u2014 phased activation (Phases A\u2013D)",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
       "sp": 0
     },
     {
@@ -357,306 +205,10 @@
       "sp": 8
     },
     {
-      "key": "ECC-1521",
-      "summary": "Turbo Tariff Plus setup: management page + company / company-type targeting",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 8
-    },
-    {
-      "key": "ECTA-243",
-      "summary": "Automated end-to-end test coverage for the MC-level Service Provider Configs settings page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-246",
-      "summary": "Automated end-to-end test coverage for the MC-level PayCentral Card Management listing AND the Card Wallet Fees drill-down page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-247",
-      "summary": "Automated end-to-end test coverage for the MC-level Payment Provider Management page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-248",
-      "summary": "Automated end-to-end test coverage for the MC-level Finance Costing Management page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECC-233",
-      "summary": "All SP's > Ingestion Template explanation & download page",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 8
-    },
-    {
-      "key": "ECC-1534",
-      "summary": "deleteUserRelations leaves agents linked to a removed manager \u2014 clear reverse user_branches links (dedupe-aware)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1489",
-      "summary": "MTN Roll-out and Observability (Feature)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1411",
-      "summary": "Harden CardListingController::export \u2014 SQL injection, off-by-one date boundary, and unfiltered fall-through",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1458",
-      "summary": "User Adress Export",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1327",
-      "summary": "Export Incentives > update require",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "ECC-401",
-      "summary": "URGENT UPDATE: Export Incentive > Turbo Tariff & Manufacture Code & Deal Code to be added",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 13
-    },
-    {
-      "key": "ECC-1540",
-      "summary": "[Adhoc] Cash Out e-wallet export downloads an empty Excel (headings only) \u2014 export still runs synchronously under bref/Lambda",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1508",
-      "summary": " Extend the \"Filters applied\" summary block in export-ready emails to all relevant export types, not just claims.",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
       "key": "IGNC-271",
       "summary": "Console KPI Targets endpoints \u2014 HQ network rollup (Telkom \u2192 Ignite \u2192 Targets)",
       "project": "Ignite Core",
       "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1525",
-      "summary": "Ignite Targets console view (Telkom \u2192 Ignite \u2192 Targets) \u2014 HQ KPI scorecard",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 5
-    },
-    {
-      "key": "ECTA-254",
-      "summary": "Automated end-to-end test coverage for the Retail Connect Dashboard landing page (Welcome, Active Incentives, and Non-Balancing Claims).",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-255",
-      "summary": "Automated end-to-end test coverage for the Retail Connect Channel Performance module (Claim Data chart, network-gated filters, and the five volume sections).",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-256",
-      "summary": "Automated end-to-end test coverage for the Retail Connect Product Performance module (Product Segmentation, Value Vs Volume, and the Units Week Over Week ",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-257",
-      "summary": "Automated end-to-end test coverage for the Retail Connect User Base module (Trailing 12 Months, Active User Base, SPIV Spend, New Branches, Demographics, and Support Tickets).",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-272",
-      "summary": "KPI classification not durable \u2014 sales_ice MERGE drops transactiontype/tariff/service; kpi_category zeroed on every sync",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-265",
-      "summary": "Automated end-to-end test coverage for confirming Ignite features do not appear in the E-Centive Only view.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-258",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Home tab",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-259",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Claims tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-264",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Settings tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-263",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Support tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-262",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only BrandHub tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-261",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Incentives tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-260",
-      "summary": "Automated end-to-end test coverage for the E-Centive Only Wallet tab.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "PROD-200",
-      "summary": "Content Planning & Research",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-201",
-      "summary": "Social Media Visual Assets",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-202",
-      "summary": "Social Media Copy",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-204",
-      "summary": "Page Growth",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-205",
-      "summary": "Collect & Analyse Poll responses",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-206",
-      "summary": "Research & Ideate Wellness Initiatives to implement",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-203",
-      "summary": "Performance Tracking & Optimization",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-286",
-      "summary": "Franchisee target-request templates (branch + agent) \u2014 standard FY intake artifacts",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 1
-    },
-    {
-      "key": "DT-272",
-      "summary": "KPI Targets \u2014 replace date-range filters with a single GLOBAL month selector",
-      "project": "Design Person",
-      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -669,196 +221,172 @@
       "sp": 1
     },
     {
-      "key": "DT-273",
-      "summary": "KPI Targets console \u2014 interactive prototype (Month selector + flow)",
-      "project": "Design Person",
-      "status": "Done (Production)",
+      "key": "AWI-131",
+      "summary": "Cutover Cell C to the Manhattan Front end",
+      "project": "Master Board",
+      "status": "Backlog",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
-      "key": "MINT-167",
-      "summary": "Add Turbo Tariff Plus to OEM incentive endpoints",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Wesley Classen",
+      "key": "AWI-132",
+      "summary": "Cutover OM to the Manhattan Front end",
+      "project": "Master Board",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "ECC-106",
+      "summary": "Manager Volume Incentive",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
+      "sp": 13
+    },
+    {
+      "key": "ECC-1210",
+      "summary": "Sale template dependencies and linking",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
       "sp": 8
     },
     {
-      "key": "IGNC-288",
-      "summary": "HQ Targets: row trends blank in month-filtered views \u2014 trend must compare against the calendar-prior month",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-289",
-      "summary": "HQ Targets: in-progress month trends compare like-for-like MTD (same days into the prior month)",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-290",
-      "summary": "Console targets API: accept branchIds scope param for branch-scoped MC users",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1531",
-      "summary": "MC: gate Ignite Targets behind view-ignite-targets with per-user branch scoping",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1532",
-      "summary": "MC: Ignite Branch Permissions tab on the user profile (user_ignite_branch_scopes admin)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-291",
-      "summary": "Prod kpi_targets: monthly Migarda branch+agent load to match QA (PK drop migration + data load)",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1533",
-      "summary": "ADHOC OEM claims indextotal count times out (27s API Gateway) for users with many branches",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 3
-    },
-    {
-      "key": "MINT-168",
-      "summary": "Stop folding base into OEM/channel volume tier bonus",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MFE-456",
-      "summary": "Show volume tiers as raw bonus, alongside TTP grades",
-      "project": "Manhattan Frontend",
-      "status": "Ready For Production",
-      "assignee": "Wesley Classen",
-      "sp": 3
-    },
-    {
-      "key": "MINT-170",
-      "summary": "productIncentiveBrands omits Volume incentives' brands",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MINT-171",
-      "summary": "productIncentiveBrands hasUpdate flag has hardcoded scope",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "DT-280",
-      "summary": "Retailability \u2014 Ignite Mandate PDF Update for Website",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 2
-    },
-    {
-      "key": "IGNC-294",
-      "summary": "Console targets API: raw achieved/target behind every percentage + /targets/export monthly dataset",
-      "project": "Ignite Core",
+      "key": "ECA-119",
+      "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
+      "project": "E-Centive App",
       "status": "Backlog",
-      "assignee": "Tobie Kruger",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "ECA-121",
+      "summary": "Display OEM product description on the E-Centive App incentive view",
+      "project": "E-Centive App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "MAPP-220",
+      "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated metrics page + Settings section (Ignite-off)",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-216",
+      "summary": "feature (APP): Volume Incentive device switcher \u2014 pin selected device + keep list visible while loading",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 0
+    },
+    {
+      "key": "MAPP-221",
+      "summary": "Display OEM product description on the Ignite incentive view",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "ECA-120",
+      "summary": "Return oem_products description in the E-Centive App OEM incentive APPAPI",
+      "project": "E-Centive App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 2
+    },
+    {
+      "key": "MINT-174",
+      "summary": "Expose oem_products description on OEM incentive GraphQL types",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "MAPP-219",
+      "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "MAPP-218",
+      "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "ECTA-244",
+      "summary": "Automated end-to-end test coverage for the MC-level Activity log page",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-245",
+      "summary": " Automated end-to-end test coverage for the MC-level System Setting page.",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-251",
+      "summary": "Automated end-to-end test coverage for the MC-level Console Roles Management page including a full create\u2192verify\u2192delete happy path.",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-250",
+      "summary": "Automated end-to-end test coverage for the MC-level Product Management hub across all 5 tabs (Manufacturers / Brands / Products / Product Segments / SPIV Tags).",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-253",
+      "summary": " Automated end-to-end test coverage for the MC-level SMS Portal Deferred API Webhooks listing page.",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-252",
+      "summary": "Automated end-to-end test coverage for the MC-level Roles Categories Management page including a full create\u2192verify\u2192delete happy path.",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-249",
+      "summary": "Automated end-to-end test coverage for the MC-level User Management page (Console admin users).",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
       "sp": 0
     },
     {
       "key": "ECC-1536",
       "summary": "MC Ignite Targets: achieved/target hover tooltips on all percentages + xlsx export (per-franchisee sheets)",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
-    },
-    {
-      "key": "IGNC-295",
-      "summary": "Load network-wide FY26/27 KPI targets (9 franchises) from 2026-07-07 file \u2014 replace QA + prod sets",
-      "project": "Ignite Core",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1537",
-      "summary": "SP ext-API: /extapi/regions endpoint (feeds ignite ecentive_regions sync)",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1538",
-      "summary": "ADHOC - add description column to products",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 2
-    },
-    {
-      "key": "ECTA-267",
-      "summary": "Automate the new Ignite \u2192 Targets (\"KPI Targets\") page for the Telkom console.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "PROD-207",
-      "summary": "Madiba Day Initiative- Team Engagement",
-      "project": "Product",
-      "status": "In Progress",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1541",
-      "summary": "ADHOC Add Pagination to Volume Page",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 0
-    },
-    {
-      "key": "MINT-175",
-      "summary": "Source OEM & channel incentive detail from pv3 APPAPI + per-role volume tiers",
-      "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
-      "assignee": "Wesley Classen",
-      "sp": 8
-    },
-    {
-      "key": "MINT-176",
-      "summary": "Surface Volume incentives' brands in productIncentiveBrands without the query row-explosion",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 3
     },
     {
       "key": "MINT-177",
@@ -901,12 +429,92 @@
       "sp": 0
     },
     {
-      "key": "ECC-1544",
-      "summary": "ADHOC - PayCentral balance response format change 500s /appapi/cards (Undefined array key \"Balance\")",
+      "key": "PROD-208",
+      "summary": "Schedule & Publish Content",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-209",
+      "summary": "Carousel Posts",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "DT-283",
+      "summary": "Claude Design System",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
+    },
+    {
+      "key": "ECC-125",
+      "summary": "Content Retention Management for SP",
       "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 3
+      "status": "To Do",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 21
+    },
+    {
+      "key": "ECC-15",
+      "summary": "Data retention mechanism",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 21
+    },
+    {
+      "key": "ECC-1545",
+      "summary": "Data Retention: configurable retention settings + admin UI",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 8
+    },
+    {
+      "key": "ECC-1546",
+      "summary": "Data Retention: RDS snapshot gate + yearly DB dump to S3",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 8
+    },
+    {
+      "key": "ECC-1547",
+      "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
+    },
+    {
+      "key": "AWI-126",
+      "summary": "Units Week Over Week table returns all-zero unit counts for every product and week, even though monthly claim data exists.",
+      "project": "Master Board",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "AWI-127",
+      "summary": "Support Tickets chart never renders a breakdown \u2014 the feed returns empty data and the chart flickers in and out.",
+      "project": "Master Board",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-293",
+      "summary": "Profile Navigation: Role-Appropriate Player Profile Access from Lists, Leaderboards & Campaign Widgets",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
     }
   ]
 }
