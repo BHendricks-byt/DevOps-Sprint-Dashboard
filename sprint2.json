@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 6",
   "period": "1 Jul 2026 \u2013 15 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-15 07:09 UTC",
+  "generatedAt": "2026-07-15 09:26 UTC",
   "issues": [
     {
       "key": "ECC-1390",
@@ -280,7 +280,7 @@
       "key": "MAPP-162",
       "summary": "feat: Updating Incentives View For Turbo-Tariff+",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -328,7 +328,7 @@
       "key": "PROD-194",
       "summary": "Knowledge Base: Scope training modules against Training platform timeline (AWI-68)",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -336,7 +336,7 @@
       "key": "PROD-197",
       "summary": "Investigation: FAQ consolidation feasibility \u2014 Directus capability vs. E-Centive build cost",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tristan Strike",
       "sp": 0
     },
@@ -840,7 +840,7 @@
       "key": "ECC-1541",
       "summary": "ADHOC Add Pagination to Volume Page",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 0
     },
@@ -899,6 +899,14 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "ECC-1544",
+      "summary": "ADHOC - PayCentral balance response format change 500s /appapi/cards (Undefined array key \"Balance\")",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Philton Nengobela",
+      "sp": 3
     }
   ]
 }
