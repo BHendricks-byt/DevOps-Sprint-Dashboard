@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-16 13:56 UTC",
+  "generatedAt": "2026-07-16 15:37 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -10,14 +10,6 @@
       "project": "Master Board",
       "status": "In Progress",
       "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1390",
-      "summary": "Migrate all SP users to Manhattan frontend \u2014 Cognito auth, domain routing, legacy frontend retirement",
-      "project": "E-Centive Core",
-      "status": "In Progress",
-      "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
