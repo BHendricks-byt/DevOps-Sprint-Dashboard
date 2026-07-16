@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-16 10:01 UTC",
+  "generatedAt": "2026-07-16 11:58 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -328,7 +328,7 @@
       "key": "ECTA-244",
       "summary": "Automated end-to-end test coverage for the MC-level Activity log page",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -432,7 +432,7 @@
       "key": "PROD-208",
       "summary": "Schedule & Publish Content",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -520,7 +520,7 @@
       "key": "ECC-1551",
       "summary": "(ADHOC) Support multiple manager roles per user role in manager_linking_beneficiary_relation",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 8
     },
