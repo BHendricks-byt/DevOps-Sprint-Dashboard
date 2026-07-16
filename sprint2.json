@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-16 18:37 UTC",
+  "generatedAt": "2026-07-16 19:57 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -314,7 +314,7 @@
       "project": "Manhattan App",
       "status": "In Progress",
       "assignee": "Louis Phetla",
-      "sp": 3
+      "sp": 5
     },
     {
       "key": "ECTA-244",
