@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-16 05:23 UTC",
+  "generatedAt": "2026-07-16 07:34 UTC",
   "issues": [
     {
       "key": "AWI-125",
       "summary": "E-Centive Only user can open the Ignite Knowledge Base by going to the /manage/help link directly",
       "project": "Master Board",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -64,7 +64,7 @@
       "key": "ECC-1524",
       "summary": "Company management add Franchisee Assist",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 3
     },
@@ -256,7 +256,7 @@
       "key": "ECA-119",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "E-Centive App",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -320,7 +320,7 @@
       "key": "MAPP-218",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -328,7 +328,7 @@
       "key": "ECTA-244",
       "summary": "Automated end-to-end test coverage for the MC-level Activity log page",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -336,7 +336,7 @@
       "key": "ECTA-245",
       "summary": " Automated end-to-end test coverage for the MC-level System Setting page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -368,7 +368,7 @@
       "key": "ECTA-252",
       "summary": "Automated end-to-end test coverage for the MC-level Roles Categories Management page including a full create\u2192verify\u2192delete happy path.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -440,7 +440,7 @@
       "key": "PROD-209",
       "summary": "Carousel Posts",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -472,7 +472,7 @@
       "key": "ECC-1545",
       "summary": "Data Retention: configurable retention settings + admin UI",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 8
     },
