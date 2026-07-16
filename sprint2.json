@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-16 07:34 UTC",
+  "generatedAt": "2026-07-16 10:01 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -64,7 +64,7 @@
       "key": "ECC-1524",
       "summary": "Company management add Franchisee Assist",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 3
     },
@@ -515,6 +515,22 @@
       "status": "Backlog",
       "assignee": "Wesley Classen",
       "sp": 0
+    },
+    {
+      "key": "ECC-1551",
+      "summary": "(ADHOC) Support multiple manager roles per user role in manager_linking_beneficiary_relation",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 8
+    },
+    {
+      "key": "MINT-179",
+      "summary": "SpDbConnect stacks execute retry wrapper on warm reuse, causes recursion crash",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
