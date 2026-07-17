@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-17 11:03 UTC",
+  "generatedAt": "2026-07-17 12:40 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -312,7 +312,7 @@
       "key": "MAPP-218",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 5
     },
