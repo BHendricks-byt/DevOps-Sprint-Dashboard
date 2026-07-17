@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-17 12:40 UTC",
+  "generatedAt": "2026-07-17 14:27 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -32,7 +32,7 @@
       "key": "MFE-385",
       "summary": "Manual Claim Mobile Component Update",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -48,7 +48,7 @@
       "key": "ECC-1514",
       "summary": "Add all status to check if user exist on other SP's",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Philton Nengobela",
       "sp": 3
     },
