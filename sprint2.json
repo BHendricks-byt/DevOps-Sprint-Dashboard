@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-17 09:04 UTC",
+  "generatedAt": "2026-07-17 11:03 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -520,7 +520,7 @@
       "key": "MINT-179",
       "summary": "SpDbConnect stacks execute retry wrapper on warm reuse, causes recursion crash",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     }
