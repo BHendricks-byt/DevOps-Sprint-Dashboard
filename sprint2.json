@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-20 08:21 UTC",
+  "generatedAt": "2026-07-20 11:20 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -384,7 +384,7 @@
       "key": "MINT-177",
       "summary": "preToken: per-user ignite.enabled derived from role (non-retail \u2192 ecentive-only)",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -392,7 +392,7 @@
       "key": "ECC-1542",
       "summary": "Seed per-SP ignite_role_config \u2014 role\u2192experience (ignite vs e-Centive-only) control surface",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -400,7 +400,7 @@
       "key": "ECC-1543",
       "summary": "users:migrate-to-mfe \u2014 auditable artisan command to flag existing users for Manhattan migration",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -416,7 +416,7 @@
       "key": "MINT-178",
       "summary": "oemClaims/channelClaims resolvers don't match legacy claim visibility for non-retail roles (over- and under-exposure)",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -546,6 +546,14 @@
       "project": "E-Centive Test Automation",
       "status": "Done (Production)",
       "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "MINT-180",
+      "summary": "Fix manual_claims_enabled eligibility SQL bug",
+      "project": "Manhattan Integration",
+      "status": "Done (Production)",
+      "assignee": "Wesley Classen",
       "sp": 0
     }
   ]
