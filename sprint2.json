@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-20 11:20 UTC",
+  "generatedAt": "2026-07-20 13:23 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -304,7 +304,7 @@
       "key": "MAPP-219",
       "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -554,6 +554,86 @@
       "project": "Manhattan Integration",
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-271",
+      "summary": "Automated positive registration coverage for all 6 MTN roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-272",
+      "summary": "Automated negative/validation registration coverage for all 6 MTN roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-273",
+      "summary": "Automated positive registration coverage for all 5 Cell C roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-274",
+      "summary": "Automated negative/validation registration coverage for all 5 Cell C roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-275",
+      "summary": "Automated positive registration coverage for all 6 Telkom roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-276",
+      "summary": "Automated negative/validation registration coverage for all 6 Telkom roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-277",
+      "summary": "Automated positive registration coverage for the OM Sales Agent role.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-278",
+      "summary": "Automated negative/validation registration coverage for the OM Sales Agent role.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-279",
+      "summary": "Automated positive registration coverage for both CE roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-280",
+      "summary": "Automated negative/validation registration coverage for both CE roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
       "sp": 0
     }
   ]
