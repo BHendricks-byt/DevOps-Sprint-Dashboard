@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-20 05:01 UTC",
+  "generatedAt": "2026-07-20 08:21 UTC",
   "issues": [
     {
       "key": "AWI-125",
       "summary": "E-Centive Only user can open the Ignite Knowledge Base by going to the /manage/help link directly",
       "project": "Master Board",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -48,7 +48,7 @@
       "key": "ECC-1514",
       "summary": "Add all status to check if user exist on other SP's",
       "project": "E-Centive Core",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 3
     },
@@ -240,7 +240,7 @@
       "key": "ECC-1210",
       "summary": "Sale template dependencies and linking",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -328,7 +328,7 @@
       "key": "ECTA-245",
       "summary": " Automated end-to-end test coverage for the MC-level System Setting page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -336,7 +336,7 @@
       "key": "ECTA-251",
       "summary": "Automated end-to-end test coverage for the MC-level Console Roles Management page including a full create\u2192verify\u2192delete happy path.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -360,7 +360,7 @@
       "key": "ECTA-252",
       "summary": "Automated end-to-end test coverage for the MC-level Roles Categories Management page including a full create\u2192verify\u2192delete happy path.",
       "project": "E-Centive Test Automation",
-      "status": "To Do",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -488,7 +488,7 @@
       "key": "AWI-126",
       "summary": "Units Week Over Week table returns all-zero unit counts for every product and week, even though monthly claim data exists.",
       "project": "Master Board",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -496,7 +496,7 @@
       "key": "AWI-127",
       "summary": "Support Tickets chart never renders a breakdown \u2014 the feed returns empty data and the chart flickers in and out.",
       "project": "Master Board",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -523,6 +523,30 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "ECTA-268",
+      "summary": "Automated end-to-end Playwright test coverage for the Cell C service provider portal and registration. ",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-269",
+      "summary": "Automated end-to-end Playwright test coverage for the OM service provider portal.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-270",
+      "summary": "Automated end-to-end Playwright test coverage for the CE service provider portal and registration. Coverage includes role-based access, portal navigation, registration validation, cross-SP duplicate checks, and system health checks for supported CE roles.",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
     }
   ]
 }
