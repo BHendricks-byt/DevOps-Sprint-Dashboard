@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 16:18 UTC",
+  "generatedAt": "2026-07-21 17:51 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -672,7 +672,7 @@
       "key": "ECC-1553",
       "summary": "MC: SESSION REPLAYS tab on SP user profile \u2014 embedded PostHog replays per user",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 5
     },
@@ -691,6 +691,14 @@
       "status": "Backlog",
       "assignee": "Louis Phetla",
       "sp": 1
+    },
+    {
+      "key": "ECC-1555",
+      "summary": "PostHog identity: composite \"{sp_id}:{user_id}\" distinct_id (user_ids collide across SPs)",
+      "project": "E-Centive Core",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
+      "sp": 3
     }
   ]
 }
