@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 05:33 UTC",
+  "generatedAt": "2026-07-21 08:14 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -10,6 +10,14 @@
       "project": "Master Board",
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "AWI-135",
+      "summary": "Cutover TBM and Call Centre Telkom to the Manhattan Front end",
+      "project": "Master Board",
+      "status": "Done (Production)",
+      "assignee": "Tobie Kruger",
       "sp": 0
     },
     {
@@ -88,7 +96,7 @@
       "key": "MINT-158",
       "summary": "Host-based SP resolution for public registration \u2014 ignitecpp.com domains, Origin-derived host, reject unmapped hosts",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -96,7 +104,7 @@
       "key": "MFE-448",
       "summary": "Public registration forms on MFE \u2014 schema-driven per-OEM flows resolved from the access domain",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 8
     },
@@ -104,7 +112,7 @@
       "key": "ECC-1512",
       "summary": "Registration config v2 \u2014 complete the form schema (base fields, steps, salesman_code source) for schema-driven MFE rendering (pv3-sp)",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -176,7 +184,7 @@
       "key": "PROD-186",
       "summary": "SharePoint engagement layer \u2014 phased activation (Phases A\u2013D)",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -248,7 +256,7 @@
       "key": "ECA-119",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "E-Centive App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -304,7 +312,7 @@
       "key": "MAPP-219",
       "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -424,7 +432,7 @@
       "key": "PROD-208",
       "summary": "Schedule & Publish Content",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -635,6 +643,22 @@
       "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
+    },
+    {
+      "key": "DT-284",
+      "summary": "Component Update - Date Picker",
+      "project": "Design Person",
+      "status": "To Do",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 5
+    },
+    {
+      "key": "MAPP-222",
+      "summary": "bug (APP): Brandhub product sheet only surfaces spec/brochure attachments \u2014 training decks and other files hidden",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 3
     }
   ]
 }
