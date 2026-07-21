@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 10:36 UTC",
+  "generatedAt": "2026-07-21 12:20 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -256,7 +256,7 @@
       "key": "ECA-119",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "E-Centive App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -312,7 +312,7 @@
       "key": "MAPP-219",
       "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -344,7 +344,7 @@
       "key": "ECTA-251",
       "summary": "Automated end-to-end test coverage for the MC-level Console Roles Management page including a full create\u2192verify\u2192delete happy path.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -376,7 +376,7 @@
       "key": "ECTA-249",
       "summary": "Automated end-to-end test coverage for the MC-level User Management page (Console admin users).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -494,17 +494,17 @@
     },
     {
       "key": "AWI-126",
-      "summary": "Units Week Over Week table returns all-zero unit counts for every product and week, even though monthly claim data exists.",
+      "summary": "Restore Retail Connect Units Week-over-Week and Support Tickets graphs (warehouse ETL frozen by Vodacom decommission)",
       "project": "Master Board",
       "status": "In Progress",
       "assignee": "Wesley Classen",
-      "sp": 0
+      "sp": 8
     },
     {
       "key": "AWI-127",
       "summary": "Support Tickets chart never renders a breakdown \u2014 the feed returns empty data and the chart flickers in and out.",
       "project": "Master Board",
-      "status": "In Progress",
+      "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -656,7 +656,7 @@
       "key": "MAPP-222",
       "summary": "bug (APP): Brandhub product sheet only surfaces spec/brochure attachments \u2014 training decks and other files hidden",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -664,7 +664,7 @@
       "key": "MAPP-224",
       "summary": "bug (APP): Cognito user migration never fires on sign-in \u2014 un-migrated users get \"Incorrect username or password\"",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     }
