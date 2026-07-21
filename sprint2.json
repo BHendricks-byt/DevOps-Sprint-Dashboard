@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 12:20 UTC",
+  "generatedAt": "2026-07-21 14:31 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -440,7 +440,7 @@
       "key": "PROD-209",
       "summary": "Carousel Posts",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -496,7 +496,7 @@
       "key": "AWI-126",
       "summary": "Restore Retail Connect Units Week-over-Week and Support Tickets graphs (warehouse ETL frozen by Vodacom decommission)",
       "project": "Master Board",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -667,6 +667,22 @@
       "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
+    },
+    {
+      "key": "ECC-1553",
+      "summary": "MC: SESSION REPLAYS tab on SP user profile \u2014 embedded PostHog replays per user",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1554",
+      "summary": "Cognito id/access/refresh tokens leak into PostHog via login URL query params",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 2
     }
   ]
 }
