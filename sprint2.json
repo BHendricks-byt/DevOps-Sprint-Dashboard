@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 14:31 UTC",
+  "generatedAt": "2026-07-21 16:18 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -256,7 +256,7 @@
       "key": "ECA-119",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "E-Centive App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -312,7 +312,7 @@
       "key": "MAPP-219",
       "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -320,7 +320,7 @@
       "key": "MAPP-218",
       "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -656,7 +656,7 @@
       "key": "MAPP-222",
       "summary": "bug (APP): Brandhub product sheet only surfaces spec/brochure attachments \u2014 training decks and other files hidden",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -664,7 +664,7 @@
       "key": "MAPP-224",
       "summary": "bug (APP): Cognito user migration never fires on sign-in \u2014 un-migrated users get \"Incorrect username or password\"",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -672,7 +672,7 @@
       "key": "ECC-1553",
       "summary": "MC: SESSION REPLAYS tab on SP user profile \u2014 embedded PostHog replays per user",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 5
     },
@@ -680,9 +680,17 @@
       "key": "ECC-1554",
       "summary": "Cognito id/access/refresh tokens leak into PostHog via login URL query params",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "MAPP-226",
+      "summary": "feat (APP): Claim Details \u2014 drop the empty comment container and align status with the date when a status update has no comment",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 1
     }
   ]
 }
