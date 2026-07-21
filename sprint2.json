@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 17:51 UTC",
+  "generatedAt": "2026-07-21 19:09 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -680,7 +680,7 @@
       "key": "ECC-1554",
       "summary": "Cognito id/access/refresh tokens leak into PostHog via login URL query params",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 2
     },
