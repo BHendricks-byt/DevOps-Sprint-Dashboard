@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-21 08:14 UTC",
+  "generatedAt": "2026-07-21 10:36 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -240,7 +240,7 @@
       "key": "ECC-106",
       "summary": "Manager Volume Incentive",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -248,7 +248,7 @@
       "key": "ECC-1210",
       "summary": "Sale template dependencies and linking",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -656,7 +656,15 @@
       "key": "MAPP-222",
       "summary": "bug (APP): Brandhub product sheet only surfaces spec/brochure attachments \u2014 training decks and other files hidden",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "Automation",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "MAPP-224",
+      "summary": "bug (APP): Cognito user migration never fires on sign-in \u2014 un-migrated users get \"Incorrect username or password\"",
+      "project": "Manhattan App",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     }
