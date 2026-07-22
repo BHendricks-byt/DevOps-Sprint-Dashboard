@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-22 12:54 UTC",
+  "generatedAt": "2026-07-22 14:59 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -197,12 +197,36 @@
       "sp": 3
     },
     {
+      "key": "IGNC-268",
+      "summary": "Ingest sales-line KPI classification fields (TARRIF, TRANSACTIONTYPE, SERVICE)",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
       "key": "MFE-454",
       "summary": "Build Telkom KPI / Target-tracking scorecard (Manhattan front-end)",
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 8
+    },
+    {
+      "key": "IGNC-269",
+      "summary": "Build /telkom/kpi-scorecard API \u2014 role-scoped target vs actual (Phase 1b/1c)",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 8
+    },
+    {
+      "key": "MINT-164",
+      "summary": "Expose KPI scorecard via AppSync \u2014 kpiScorecard passthrough resolver (Phase 1)",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     },
     {
       "key": "IGNC-271",
@@ -224,7 +248,7 @@
       "key": "AWI-131",
       "summary": "Cutover Cell C to the Manhattan Front end",
       "project": "Master Board",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
