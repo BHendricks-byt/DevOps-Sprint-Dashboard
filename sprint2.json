@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-22 06:24 UTC",
+  "generatedAt": "2026-07-22 09:06 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -32,7 +32,7 @@
       "key": "MFE-298",
       "summary": "Explore SP 2FA requirements",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -40,7 +40,7 @@
       "key": "MFE-385",
       "summary": "Manual Claim Mobile Component Update",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Parked",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -280,7 +280,7 @@
       "key": "MAPP-216",
       "summary": "feature (APP): Volume Incentive device switcher \u2014 pin selected device + keep list visible while loading",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -456,7 +456,7 @@
       "key": "ECC-125",
       "summary": "Content Retention Management for SP",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Brijwanth Jakhotia",
       "sp": 21
     },
@@ -464,7 +464,7 @@
       "key": "ECC-15",
       "summary": "Data retention mechanism",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "Canceled",
       "assignee": "Brijwanth Jakhotia",
       "sp": 21
     },
@@ -496,7 +496,7 @@
       "key": "AWI-126",
       "summary": "Restore Retail Connect Units Week-over-Week and Support Tickets graphs (warehouse ETL frozen by Vodacom decommission)",
       "project": "Master Board",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -688,7 +688,7 @@
       "key": "MAPP-226",
       "summary": "feat (APP): Claim Details \u2014 drop the empty comment container and align status with the date when a status update has no comment",
       "project": "Manhattan App",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 1
     },
@@ -699,6 +699,38 @@
       "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
+    },
+    {
+      "key": "MFE-464",
+      "summary": "Security: Cognito tokens (incl. refresh_token) passed in /login query string \u2014 leaked into PostHog, history & server logs",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MFE-465",
+      "summary": "ManagerTeam widget 500s for e-Centive-only managers (Ignite igniteBranchUsers on non-Ignite dashboard)",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MFE-466",
+      "summary": "Tariffs toggle shows DataError card on clean-empty channel results (empty-state mis-rendered as error)",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MFE-467",
+      "summary": "Update per SP support contact details on login page",
+      "project": "Manhattan Frontend",
+      "status": "Automation",
+      "assignee": "Wesley Classen",
+      "sp": 0
     }
   ]
 }
