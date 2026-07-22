@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-22 16:24 UTC",
+  "generatedAt": "2026-07-22 17:47 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -754,6 +754,14 @@
       "project": "Manhattan Frontend",
       "status": "Automation",
       "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-468",
+      "summary": "E-Centive views must honour e-Centive role/beneficiary nuance for non-retail roles (E-Centive side only)",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
       "sp": 0
     }
   ]
