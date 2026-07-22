@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-22 03:55 UTC",
+  "generatedAt": "2026-07-22 06:24 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -688,7 +688,7 @@
       "key": "MAPP-226",
       "summary": "feat (APP): Claim Details \u2014 drop the empty comment container and align status with the date when a status update has no comment",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "Parked",
       "assignee": "Louis Phetla",
       "sp": 1
     },
