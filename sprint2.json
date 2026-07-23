@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 11:50 UTC",
+  "generatedAt": "2026-07-23 13:41 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -176,7 +176,7 @@
       "key": "PROD-185",
       "summary": "Build peer shoutouts programme on SharePoint",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -275,6 +275,14 @@
       "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
+    },
+    {
+      "key": "MAPP-228",
+      "summary": "bug (APP): iOS app aborts to home screen \u2014 Impeller GPU crash InternalFlutterGpu_Texture_AsImage (SIGABRT), #1 fatal on iOS",
+      "project": "Manhattan App",
+      "status": "Ready For Production",
+      "assignee": "Louis Phetla",
+      "sp": 5
     },
     {
       "key": "ECA-119",
@@ -816,7 +824,7 @@
       "key": "MINT-185",
       "summary": "Gate login on account status (Active / Documents outstanding)",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -824,7 +832,7 @@
       "key": "MFE-471",
       "summary": "Documents gate: trigger on any non-Approved document",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     }
