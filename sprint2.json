@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 15:50 UTC",
+  "generatedAt": "2026-07-23 17:13 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -384,7 +384,7 @@
       "key": "ECTA-250",
       "summary": "Automated end-to-end test coverage for the MC-level Product Management hub across all 5 tabs (Manufacturers / Brands / Products / Product Segments / SPIV Tags).",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -408,7 +408,7 @@
       "key": "ECTA-249",
       "summary": "Automated end-to-end test coverage for the MC-level User Management page (Console admin users).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
