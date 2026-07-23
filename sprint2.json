@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 07:27 UTC",
+  "generatedAt": "2026-07-23 09:57 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -88,7 +88,7 @@
       "key": "DT-252",
       "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -544,7 +544,7 @@
       "key": "ECC-1551",
       "summary": "(ADHOC) Support multiple manager roles per user role in manager_linking_beneficiary_relation",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 8
     },
@@ -672,7 +672,7 @@
       "key": "DT-284",
       "summary": "Component Update - Date Picker",
       "project": "Design Person",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
     },
@@ -768,7 +768,7 @@
       "key": "MINT-183",
       "summary": "oemClaim: scope claim-detail row access via claim_visibility_scope (fix 404 for beneficiary-scope viewers)",
       "project": "Manhattan Integration",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -782,11 +782,27 @@
     },
     {
       "key": "DT-285",
-      "summary": "Multi-Company Wallet & Earnings Switcher \u2014 App/Mobile Design",
+      "summary": "Brand Earnings Breakdown \u2014 Transactions, Wallet & Home (App/Mobile Design)",
       "project": "Design Person",
       "status": "Backlog",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
+    },
+    {
+      "key": "MFE-470",
+      "summary": "Branch-confirmation gate traps users when the feature is disabled (OM migration blocker)",
+      "project": "Manhattan Frontend",
+      "status": "Canceled",
+      "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "MINT-184",
+      "summary": "Fix JSON boolean check blocking OM branch confirmation",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
