@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 13:41 UTC",
+  "generatedAt": "2026-07-23 15:50 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -200,7 +200,7 @@
       "key": "IGNC-268",
       "summary": "Ingest sales-line KPI classification fields (TARRIF, TRANSACTIONTYPE, SERVICE)",
       "project": "Ignite Core",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -835,6 +835,22 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
+    },
+    {
+      "key": "MFE-472",
+      "summary": "Documents gate: exclude ID Back from required documents",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MINT-187",
+      "summary": "preToken user_documents claim can return a stale document status",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
