@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 04:46 UTC",
+  "generatedAt": "2026-07-23 07:27 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -182,7 +182,7 @@
     },
     {
       "key": "PROD-186",
-      "summary": "SharePoint engagement layer \u2014 phased activation (Phases A\u2013D)",
+      "summary": "SharePoint engagement layer \u2014 (Phase A)",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
@@ -296,7 +296,7 @@
       "key": "MAPP-220",
       "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated metrics page + Settings section (Ignite-off)",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -752,7 +752,7 @@
       "key": "MFE-467",
       "summary": "Update per SP support contact details on login page",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -778,6 +778,14 @@
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "DT-285",
+      "summary": "Multi-Company Wallet & Earnings Switcher \u2014 App/Mobile Design",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     }
   ]
