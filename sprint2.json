@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-23 09:57 UTC",
+  "generatedAt": "2026-07-23 11:50 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -717,6 +717,14 @@
       "sp": 1
     },
     {
+      "key": "MINT-186",
+      "summary": "bug (API): userMigration re-mints a second Cognito user against a deactivated duplicate SP row after an email change \u2014 user locked out of the app on the wrong account",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
       "key": "ECC-1555",
       "summary": "PostHog identity: composite \"{sp_id}:{user_id}\" distinct_id (user_ids collide across SPs)",
       "project": "E-Centive Core",
@@ -800,9 +808,25 @@
       "key": "MINT-184",
       "summary": "Fix JSON boolean check blocking OM branch confirmation",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "MINT-185",
+      "summary": "Gate login on account status (Active / Documents outstanding)",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "MFE-471",
+      "summary": "Documents gate: trigger on any non-Approved document",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
     }
   ]
 }
