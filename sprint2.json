@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-24 05:33 UTC",
+  "generatedAt": "2026-07-24 08:14 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -48,7 +48,7 @@
       "key": "MFE-453",
       "summary": "Secure session handling for shared store PCs",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -82,14 +82,6 @@
       "project": "Manhattan Frontend",
       "status": "Canceled",
       "assignee": "Wesley Classen",
-      "sp": 8
-    },
-    {
-      "key": "DT-252",
-      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
-      "project": "Design Person",
-      "status": "MOVED TO QA",
-      "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
     {
@@ -677,6 +669,14 @@
       "sp": 0
     },
     {
+      "key": "DT-252",
+      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
+    },
+    {
       "key": "DT-284",
       "summary": "Component Update - Date Picker",
       "project": "Design Person",
@@ -840,7 +840,7 @@
       "key": "MFE-472",
       "summary": "Documents gate: exclude ID Back from required documents",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -848,9 +848,25 @@
       "key": "MINT-187",
       "summary": "preToken user_documents claim can return a stale document status",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "DT-286",
+      "summary": "Updating user profile to display Physical Address",
+      "project": "Design Person",
+      "status": "Backlog",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 3
+    },
+    {
+      "key": "DT-287",
+      "summary": "New Partner logo's to add2",
+      "project": "Design Person",
+      "status": "To Do",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 8
     }
   ]
 }
