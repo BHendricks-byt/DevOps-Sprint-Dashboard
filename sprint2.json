@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-24 10:31 UTC",
+  "generatedAt": "2026-07-24 12:15 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -280,7 +280,7 @@
       "key": "ECA-122",
       "summary": "Password reset claims OTP sent while silently dropping non-Active accounts \u2014 no OTP delivered",
       "project": "E-Centive App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -688,7 +688,7 @@
       "key": "DT-284",
       "summary": "Component Update - Date Picker",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
     },
