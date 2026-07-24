@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-24 12:15 UTC",
+  "generatedAt": "2026-07-24 14:19 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -880,7 +880,7 @@
       "key": "MINT-188",
       "summary": "Allow 'Pending' users to log in",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 1
     },
@@ -888,7 +888,7 @@
       "key": "MFE-473",
       "summary": "Add contact-support gate for non-active statuses",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -896,7 +896,7 @@
       "key": "MINT-189",
       "summary": "preToken: require Passport (not ID) documents for passport-based users",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     }
