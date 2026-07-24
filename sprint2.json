@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-24 08:14 UTC",
+  "generatedAt": "2026-07-24 10:31 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -272,7 +272,15 @@
       "key": "MAPP-228",
       "summary": "bug (APP): iOS app aborts to home screen \u2014 Impeller GPU crash InternalFlutterGpu_Texture_AsImage (SIGABRT), #1 fatal on iOS",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "ECA-122",
+      "summary": "Password reset claims OTP sent while silently dropping non-Active accounts \u2014 no OTP delivered",
+      "project": "E-Centive App",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -304,7 +312,7 @@
       "key": "MAPP-216",
       "summary": "feature (APP): Volume Incentive device switcher \u2014 pin selected device + keep list visible while loading",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 0
     },
@@ -720,7 +728,7 @@
       "key": "MAPP-226",
       "summary": "feat (APP): Claim Details \u2014 drop the empty comment container and align status with the date when a status update has no comment",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 1
     },
@@ -728,7 +736,7 @@
       "key": "MINT-186",
       "summary": "bug (API): userMigration re-mints a second Cognito user against a deactivated duplicate SP row after an email change \u2014 user locked out of the app on the wrong account",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Canceled",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -867,6 +875,30 @@
       "status": "To Do",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
+    },
+    {
+      "key": "MINT-188",
+      "summary": "Allow 'Pending' users to log in",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 1
+    },
+    {
+      "key": "MFE-473",
+      "summary": "Add contact-support gate for non-active statuses",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MINT-189",
+      "summary": "preToken: require Passport (not ID) documents for passport-based users",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
