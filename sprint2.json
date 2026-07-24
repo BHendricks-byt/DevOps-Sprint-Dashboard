@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-24 14:19 UTC",
+  "generatedAt": "2026-07-24 15:52 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -48,7 +48,7 @@
       "key": "MFE-453",
       "summary": "Secure session handling for shared store PCs",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -280,7 +280,7 @@
       "key": "ECA-122",
       "summary": "Password reset claims OTP sent while silently dropping non-Active accounts \u2014 no OTP delivered",
       "project": "E-Centive App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -899,6 +899,14 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "MINT-190",
+      "summary": "Re-home Cognito user on cross-SP email change",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 5
     }
   ]
 }
