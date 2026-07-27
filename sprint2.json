@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-27 13:23 UTC",
+  "generatedAt": "2026-07-27 15:56 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -200,7 +200,7 @@
       "key": "MFE-454",
       "summary": "Build Telkom KPI / Target-tracking scorecard (Manhattan front-end)",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 8
     },
