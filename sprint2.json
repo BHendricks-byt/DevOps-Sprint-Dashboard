@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-27 06:03 UTC",
+  "generatedAt": "2026-07-27 10:14 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -112,7 +112,7 @@
       "key": "MFE-441",
       "summary": "role-aware NBS view: branch + agent selectors for managers and franchisees",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Parked",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -160,7 +160,7 @@
       "key": "PROD-184",
       "summary": "Launch quarterly all-staff meeting (Q2 2026)",
       "project": "Product",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -256,7 +256,7 @@
       "key": "ECC-106",
       "summary": "Manager Volume Incentive",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -302,7 +302,7 @@
     },
     {
       "key": "MAPP-220",
-      "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated metrics page + Settings section (Ignite-off)",
+      "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated Insights tab (Ignite on & off)",
       "project": "Manhattan App",
       "status": "In Progress",
       "assignee": "Louis Phetla",
@@ -392,7 +392,7 @@
       "key": "ECTA-253",
       "summary": " Automated end-to-end test coverage for the MC-level SMS Portal Deferred API Webhooks listing page.",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -448,7 +448,7 @@
       "key": "MFE-460",
       "summary": "e-Centive dashboard shows \"error loading\" card for zero-claims users instead of an empty state",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -504,7 +504,7 @@
       "key": "ECC-1545",
       "summary": "Data Retention: configurable retention settings + admin UI",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 8
     },
@@ -520,7 +520,7 @@
       "key": "ECC-1547",
       "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -680,7 +680,7 @@
       "key": "DT-252",
       "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -784,7 +784,7 @@
       "key": "MFE-468",
       "summary": "E-Centive views must honour e-Centive role/beneficiary nuance for non-retail roles (E-Centive side only)",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -800,7 +800,7 @@
       "key": "MFE-469",
       "summary": "e-Centive claims list + detail: render viewer-scoped beneficiary tiers (drop hardcoded Submitter/Manager columns)",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -872,7 +872,7 @@
       "key": "DT-287",
       "summary": "New Partner logo's to add2",
       "project": "Design Person",
-      "status": "To Do",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -907,6 +907,22 @@
       "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "MINT-191",
+      "summary": "Queries against users table bypass Laravel SoftDeletes (missing deleted_at IS NULL)",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "MINT-193",
+      "summary": "SES email delivery logging for Cognito reset emails (prod &amp; QA)",
+      "project": "Manhattan Integration",
+      "status": "Done (Production)",
+      "assignee": "Wesley Classen",
+      "sp": 2
     }
   ]
 }
