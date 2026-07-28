@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-28 16:00 UTC",
+  "generatedAt": "2026-07-28 17:50 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -200,7 +200,7 @@
       "key": "MFE-454",
       "summary": "Build Telkom KPI / Target-tracking scorecard (Manhattan front-end)",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 8
     },
@@ -312,7 +312,7 @@
       "key": "MAPP-221",
       "summary": "Display OEM product description on the Ignite incentive view",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 3
     },
