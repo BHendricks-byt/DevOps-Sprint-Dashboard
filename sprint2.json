@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-28 06:23 UTC",
+  "generatedAt": "2026-07-28 09:14 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -48,7 +48,7 @@
       "key": "MFE-453",
       "summary": "Secure session handling for shared store PCs",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -509,14 +509,6 @@
       "sp": 8
     },
     {
-      "key": "ECC-1546",
-      "summary": "Data Retention: RDS snapshot gate + yearly DB dump to S3",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 8
-    },
-    {
       "key": "ECC-1547",
       "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
       "project": "E-Centive Core",
@@ -537,14 +529,6 @@
       "summary": "Support Tickets chart never renders a breakdown \u2014 the feed returns empty data and the chart flickers in and out.",
       "project": "Master Board",
       "status": "Canceled",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-293",
-      "summary": "Profile Navigation: Role-Appropriate Player Profile Access from Lists, Leaderboards & Campaign Widgets",
-      "project": "Ignite Core",
-      "status": "Backlog",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -680,7 +664,7 @@
       "key": "DT-252",
       "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -688,7 +672,7 @@
       "key": "DT-284",
       "summary": "Component Update - Date Picker",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 5
     },
@@ -822,7 +806,7 @@
     },
     {
       "key": "MINT-184",
-      "summary": "Fix JSON boolean check blocking OM branch confirmation",
+      "summary": "(bug) Fix JSON boolean check blocking OM branch confirmation",
       "project": "Manhattan Integration",
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
@@ -864,7 +848,7 @@
       "key": "DT-286",
       "summary": "Updating user profile to display Physical Address",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 3
     },
@@ -904,7 +888,7 @@
       "key": "MINT-190",
       "summary": "Re-home Cognito user on cross-SP email change",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Parked",
       "assignee": "Wesley Classen",
       "sp": 5
     },
