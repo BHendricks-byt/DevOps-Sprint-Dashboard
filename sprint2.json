@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-28 13:49 UTC",
+  "generatedAt": "2026-07-28 16:00 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -40,7 +40,7 @@
       "key": "MFE-385",
       "summary": "Manual Claim Mobile Component Update",
       "project": "Manhattan Frontend",
-      "status": "Parked",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -48,7 +48,7 @@
       "key": "MFE-453",
       "summary": "Secure session handling for shared store PCs",
       "project": "Manhattan Frontend",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -293,14 +293,6 @@
       "sp": 3
     },
     {
-      "key": "ECA-121",
-      "summary": "Display OEM product description on the E-Centive App incentive view",
-      "project": "E-Centive App",
-      "status": "Backlog",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
       "key": "MAPP-220",
       "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated Insights tab (Ignite on & off)",
       "project": "Manhattan App",
@@ -320,7 +312,15 @@
       "key": "MAPP-221",
       "summary": "Display OEM product description on the Ignite incentive view",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "ECA-121",
+      "summary": "Display OEM product description on the E-Centive App incentive view",
+      "project": "E-Centive App",
+      "status": "Canceled",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -328,7 +328,7 @@
       "key": "ECA-120",
       "summary": "Return oem_products description in the E-Centive App OEM incentive APPAPI",
       "project": "E-Centive App",
-      "status": "Parked",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 2
     },
@@ -336,7 +336,7 @@
       "key": "MINT-174",
       "summary": "Expose oem_products description on OEM incentive GraphQL types",
       "project": "Manhattan Integration",
-      "status": "Parked",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -384,7 +384,7 @@
       "key": "ECTA-250",
       "summary": "Automated end-to-end test coverage for the MC-level Product Management hub across all 5 tabs (Manufacturers / Brands / Products / Product Segments / SPIV Tags).",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -392,7 +392,7 @@
       "key": "ECTA-253",
       "summary": " Automated end-to-end test coverage for the MC-level SMS Portal Deferred API Webhooks listing page.",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -888,7 +888,7 @@
       "key": "MINT-190",
       "summary": "Re-home Cognito user on cross-SP email change",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 5
     },
@@ -906,6 +906,22 @@
       "project": "Manhattan Integration",
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "MFE-478",
+      "summary": "Manager KPI Targets view \u2014 branch-scoped scorecard landing (Manhattan front-end)",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
+      "sp": 3
+    },
+    {
+      "key": "MFE-479",
+      "summary": "Shared hydration-safe role gate \u2014 ROLES const + auth-store role primitive (de-magic KPI Targets gate)",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
       "sp": 2
     }
   ]
