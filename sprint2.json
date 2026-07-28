@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-28 11:33 UTC",
+  "generatedAt": "2026-07-28 13:49 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -328,7 +328,7 @@
       "key": "ECA-120",
       "summary": "Return oem_products description in the E-Centive App OEM incentive APPAPI",
       "project": "E-Centive App",
-      "status": "Backlog",
+      "status": "Parked",
       "assignee": "Louis Phetla",
       "sp": 2
     },
@@ -336,7 +336,7 @@
       "key": "MINT-174",
       "summary": "Expose oem_products description on OEM incentive GraphQL types",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Parked",
       "assignee": "Louis Phetla",
       "sp": 3
     },
