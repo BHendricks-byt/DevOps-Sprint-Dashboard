@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 7",
   "period": "15 Jul 2026 \u2013 29 Jul 2026",
   "state": "Active",
-  "generatedAt": "2026-07-29 06:25 UTC",
+  "generatedAt": "2026-07-29 09:19 UTC",
   "issues": [
     {
       "key": "AWI-125",
@@ -160,7 +160,7 @@
       "key": "PROD-184",
       "summary": "Launch quarterly all-staff meeting (Q2 2026)",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -168,7 +168,7 @@
       "key": "PROD-185",
       "summary": "Build peer shoutouts programme on SharePoint",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -312,7 +312,7 @@
       "key": "MAPP-221",
       "summary": "Display OEM product description on the Ignite incentive view",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
