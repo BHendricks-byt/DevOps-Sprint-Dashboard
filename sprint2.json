@@ -1,23 +1,391 @@
 {
-  "name": "DevOps Team Sprint 7",
-  "period": "15 Jul 2026 \u2013 29 Jul 2026",
+  "name": "DevOps Team Sprint 1",
+  "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-29 11:38 UTC",
+  "generatedAt": "2026-07-29 13:54 UTC",
   "issues": [
     {
-      "key": "AWI-125",
-      "summary": "E-Centive Only user can open the Ignite Knowledge Base by going to the /manage/help link directly",
-      "project": "Master Board",
-      "status": "Done (Production)",
+      "key": "MFE-462",
+      "summary": "feat (WEB): filter the incentives product list by product category",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 3
+    },
+    {
+      "key": "ECC-1557",
+      "summary": "Fix SMS Portal authentication failing on QA",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 5
+    },
+    {
+      "key": "MFE-385",
+      "summary": "Manual Claim Mobile Component Update",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "ECC-1248",
+      "summary": "Validate Data Integrity and Duplicates During Oem Product Incentive Import",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
+      "sp": 13
+    },
+    {
+      "key": "ECC-60",
+      "summary": "Integrate VerifyID with User Registration",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
+      "sp": 13
+    },
+    {
+      "key": "ECC-1546",
+      "summary": "Data Retention: RDS snapshot gate + yearly DB dump to S3",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 8
+    },
+    {
+      "key": "ECC-1547",
+      "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1548",
+      "summary": "Data Retention: FICA pre-expiry notification + status update",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1549",
+      "summary": "Data Retention: tests, dry-run validation & staged production rollout",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1550",
+      "summary": "Data Retention: expiry engine & cascade soft-delete across classifications",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 8
+    },
+    {
+      "key": "MFE-475",
+      "summary": "Registration documents flow: three bugs on the document upload step",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 8
+    },
+    {
+      "key": "IGNC-293",
+      "summary": "Profile Navigation: Role-Appropriate Player Profile Access from Lists, Leaderboards & Campaign Widgets",
+      "project": "Ignite Core",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 0
     },
     {
-      "key": "AWI-135",
-      "summary": "Cutover TBM and Call Centre Telkom to the Manhattan Front end",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
+      "key": "MINT-181",
+      "summary": "feat (API): return product category on productIncentives so clients can build category filters",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 3
+    },
+    {
+      "key": "ECTA-390",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Home tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-391",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Claims tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-392",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Wallet tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-393",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Incentives tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-394",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only BrandHub tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-395",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Settings tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-396",
+      "summary": "Automated end-to-end test coverage for the OM E-Centive Only Support tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-397",
+      "summary": "Automated co-branding and no-Ignite validation for the OM E-Centive Only frontend (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-398",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Home tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-399",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Claims tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-400",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Wallet tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-401",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Incentives tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-402",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only BrandHub tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-403",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Settings tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-404",
+      "summary": "Automated end-to-end test coverage for the CE E-Centive Only Support tab (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-405",
+      "summary": "Automated co-branding and no-Ignite validation for the CE E-Centive Only frontend (Sales Agent & Store Manager)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-406",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Home tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-407",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Claims tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-408",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Wallet tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-409",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Incentives tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-410",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only BrandHub tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-411",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Settings tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-412",
+      "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Support tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-413",
+      "summary": "Automated co-branding and no-Ignite validation for the Cell C E-Centive Only frontend (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-414",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Home tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-415",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Claims tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-416",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Wallet tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-417",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Incentives tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-418",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only BrandHub tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-419",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Settings tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-420",
+      "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Support tab (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-421",
+      "summary": "Automated co-branding and no-Ignite validation for the MTN E-Centive Only frontend (all roles)",
+      "project": "E-Centive Test Automation",
+      "status": "Backlog",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "PROD-100",
+      "summary": "Implement News & Announcements Section",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-106",
+      "summary": "Configure People & Culture Section",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-107",
+      "summary": "Integrate Feedback Channels and Forms",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
       "sp": 0
     },
     {
@@ -37,38 +405,6 @@
       "sp": 0
     },
     {
-      "key": "MFE-385",
-      "summary": "Manual Claim Mobile Component Update",
-      "project": "Manhattan Frontend",
-      "status": "In Progress",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MFE-453",
-      "summary": "Secure session handling for shared store PCs",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1514",
-      "summary": "Add all status to check if user exist on other SP's",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1524",
-      "summary": "Company management add Franchisee Assist",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 3
-    },
-    {
       "key": "ECC-1403",
       "summary": "manhattan_redirect cutover per SP \u2014 flip flag as each Manhattan frontend gate lifts",
       "project": "E-Centive Core",
@@ -85,42 +421,10 @@
       "sp": 8
     },
     {
-      "key": "MINT-158",
-      "summary": "Host-based SP resolution for public registration \u2014 ignitecpp.com domains, Origin-derived host, reject unmapped hosts",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MFE-448",
-      "summary": "Public registration forms on MFE \u2014 schema-driven per-OEM flows resolved from the access domain",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 8
-    },
-    {
-      "key": "ECC-1512",
-      "summary": "Registration config v2 \u2014 complete the form schema (base fields, steps, salesman_code source) for schema-driven MFE rendering (pv3-sp)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
       "key": "MFE-441",
       "summary": "role-aware NBS view: branch + agent selectors for managers and franchisees",
       "project": "Manhattan Frontend",
       "status": "Parked",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "IGNC-257",
-      "summary": "Telkom deals pipeline failing on packages_ice partition cap (100-writer limit)",
-      "project": "Ignite Core",
-      "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -157,18 +461,10 @@
       "sp": 0
     },
     {
-      "key": "PROD-184",
-      "summary": "Launch quarterly all-staff meeting (Q2 2026)",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
       "key": "PROD-185",
       "summary": "Build peer shoutouts programme on SharePoint",
       "project": "Product",
-      "status": "Done (Production)",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -181,76 +477,12 @@
       "sp": 0
     },
     {
-      "key": "MFE-431",
-      "summary": "Update AWS Cognito UserPool Client (Web Frontend) with Vercel Preview Deployment URLs via Github Actions",
-      "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "IGNC-268",
-      "summary": "Ingest sales-line KPI classification fields (TARRIF, TRANSACTIONTYPE, SERVICE)",
-      "project": "Ignite Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "MFE-454",
-      "summary": "Build Telkom KPI / Target-tracking scorecard (Manhattan front-end)",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 8
-    },
-    {
-      "key": "IGNC-269",
-      "summary": "Build /telkom/kpi-scorecard API \u2014 role-scoped target vs actual (Phase 1b/1c)",
-      "project": "Ignite Core",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 8
-    },
-    {
-      "key": "MINT-164",
-      "summary": "Expose KPI scorecard via AppSync \u2014 kpiScorecard passthrough resolver (Phase 1)",
-      "project": "Manhattan Integration",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "IGNC-271",
-      "summary": "Console KPI Targets endpoints \u2014 HQ network rollup (Telkom \u2192 Ignite \u2192 Targets)",
-      "project": "Ignite Core",
-      "status": "MOVED TO QA",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "ECC-1528",
       "summary": "Fix wrong region on 3 Telkom/Migarda branches in master data (blocks ecentive-sourced geo reporting)",
       "project": "E-Centive Core",
       "status": "Canceled",
       "assignee": "Tobie Kruger",
       "sp": 1
-    },
-    {
-      "key": "AWI-131",
-      "summary": "Cutover Cell C to the Manhattan Front end",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "AWI-132",
-      "summary": "Cutover OM to the Manhattan Front end",
-      "project": "Master Board",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
     },
     {
       "key": "ECC-106",
@@ -261,220 +493,12 @@
       "sp": 13
     },
     {
-      "key": "ECC-1210",
-      "summary": "Sale template dependencies and linking",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Philton Nengobela",
-      "sp": 8
-    },
-    {
-      "key": "MAPP-228",
-      "summary": "bug (APP): iOS app aborts to home screen \u2014 Impeller GPU crash InternalFlutterGpu_Texture_AsImage (SIGABRT), #1 fatal on iOS",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
-    },
-    {
-      "key": "ECA-122",
-      "summary": "Password reset claims OTP sent while silently dropping non-Active accounts \u2014 no OTP delivered",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
-    },
-    {
-      "key": "ECA-119",
-      "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
-      "key": "MAPP-220",
-      "summary": "feat (APP): Franchisee bottom-nav rework \u2014 dedicated Insights tab (Ignite on & off)",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-216",
-      "summary": "feature (APP): Volume Incentive device switcher \u2014 pin selected device + keep list visible while loading",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 0
-    },
-    {
-      "key": "MAPP-221",
-      "summary": "Display OEM product description on the Ignite incentive view",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
       "key": "ECA-121",
       "summary": "Display OEM product description on the E-Centive App incentive view",
       "project": "E-Centive App",
       "status": "Canceled",
       "assignee": "Louis Phetla",
       "sp": 3
-    },
-    {
-      "key": "ECA-120",
-      "summary": "Return oem_products description in the E-Centive App OEM incentive APPAPI",
-      "project": "E-Centive App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 2
-    },
-    {
-      "key": "MINT-174",
-      "summary": "Expose oem_products description on OEM incentive GraphQL types",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
-      "key": "MAPP-219",
-      "summary": "bug (APP): post-login gates (T&Cs, polls, notifications) don't fire for Ignite-off users",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
-    },
-    {
-      "key": "MAPP-218",
-      "summary": "Cap OS font scaling to prevent layout breakage at large accessibility text sizes",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 5
-    },
-    {
-      "key": "ECTA-244",
-      "summary": "Automated end-to-end test coverage for the MC-level Activity log page",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-245",
-      "summary": " Automated end-to-end test coverage for the MC-level System Setting page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-251",
-      "summary": "Automated end-to-end test coverage for the MC-level Console Roles Management page including a full create\u2192verify\u2192delete happy path.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-250",
-      "summary": "Automated end-to-end test coverage for the MC-level Product Management hub across all 5 tabs (Manufacturers / Brands / Products / Product Segments / SPIV Tags).",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-253",
-      "summary": " Automated end-to-end test coverage for the MC-level SMS Portal Deferred API Webhooks listing page.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-252",
-      "summary": "Automated end-to-end test coverage for the MC-level Roles Categories Management page including a full create\u2192verify\u2192delete happy path.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-249",
-      "summary": "Automated end-to-end test coverage for the MC-level User Management page (Console admin users).",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1536",
-      "summary": "MC Ignite Targets: achieved/target hover tooltips on all percentages + xlsx export (per-franchisee sheets)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-177",
-      "summary": "preToken: per-user ignite.enabled derived from role (non-retail \u2192 ecentive-only)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "ECC-1542",
-      "summary": "Seed per-SP ignite_role_config \u2014 role\u2192experience (ignite vs e-Centive-only) control surface",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1543",
-      "summary": "users:migrate-to-mfe \u2014 auditable artisan command to flag existing users for Manhattan migration",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "MFE-460",
-      "summary": "e-Centive dashboard shows \"error loading\" card for zero-claims users instead of an empty state",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-178",
-      "summary": "oemClaims/channelClaims resolvers don't match legacy claim visibility for non-retail roles (over- and under-exposure)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "PROD-208",
-      "summary": "Schedule & Publish Content",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
-    },
-    {
-      "key": "PROD-209",
-      "summary": "Carousel Posts",
-      "project": "Product",
-      "status": "Done (Production)",
-      "assignee": "Nelisiwe",
-      "sp": 0
     },
     {
       "key": "DT-283",
@@ -509,22 +533,6 @@
       "sp": 8
     },
     {
-      "key": "ECC-1547",
-      "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
-      "project": "E-Centive Core",
-      "status": "In Progress",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "AWI-126",
-      "summary": "Restore Retail Connect Units Week-over-Week and Support Tickets graphs (warehouse ETL frozen by Vodacom decommission)",
-      "project": "Master Board",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 8
-    },
-    {
       "key": "AWI-127",
       "summary": "Support Tickets chart never renders a breakdown \u2014 the feed returns empty data and the chart flickers in and out.",
       "project": "Master Board",
@@ -533,212 +541,12 @@
       "sp": 0
     },
     {
-      "key": "ECC-1551",
-      "summary": "(ADHOC) Support multiple manager roles per user role in manager_linking_beneficiary_relation",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 8
-    },
-    {
-      "key": "MINT-179",
-      "summary": "SpDbConnect stacks execute retry wrapper on warm reuse, causes recursion crash",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "ECTA-268",
-      "summary": "Automated end-to-end Playwright test coverage for the Cell C service provider portal and registration. ",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-269",
-      "summary": "Automated end-to-end Playwright test coverage for the OM service provider portal.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-270",
-      "summary": "Automated end-to-end Playwright test coverage for the CE service provider portal and registration. Coverage includes role-based access, portal navigation, registration validation, cross-SP duplicate checks, and system health checks for supported CE roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "MINT-180",
-      "summary": "Fix manual_claims_enabled eligibility SQL bug",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-271",
-      "summary": "Automated positive registration coverage for all 6 MTN roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-272",
-      "summary": "Automated negative/validation registration coverage for all 6 MTN roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-273",
-      "summary": "Automated positive registration coverage for all 5 Cell C roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-274",
-      "summary": "Automated negative/validation registration coverage for all 5 Cell C roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-275",
-      "summary": "Automated positive registration coverage for all 6 Telkom roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-276",
-      "summary": "Automated negative/validation registration coverage for all 6 Telkom roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-277",
-      "summary": "Automated positive registration coverage for the OM Sales Agent role.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-278",
-      "summary": "Automated negative/validation registration coverage for the OM Sales Agent role.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-279",
-      "summary": "Automated positive registration coverage for both CE roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "ECTA-280",
-      "summary": "Automated negative/validation registration coverage for both CE roles.",
-      "project": "E-Centive Test Automation",
-      "status": "Done (Production)",
-      "assignee": "Rodrick",
-      "sp": 0
-    },
-    {
-      "key": "DT-252",
-      "summary": "Franchisee Fixes \u2014 Wireframes & App/Frontend Designs",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "DT-284",
-      "summary": "Component Update - Date Picker",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 5
-    },
-    {
-      "key": "MAPP-222",
-      "summary": "bug (APP): Brandhub product sheet only surfaces spec/brochure attachments \u2014 training decks and other files hidden",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
-      "key": "MAPP-224",
-      "summary": "bug (APP): Cognito user migration never fires on sign-in \u2014 un-migrated users get \"Incorrect username or password\"",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
-      "key": "ECC-1553",
-      "summary": "MC: SESSION REPLAYS tab on SP user profile \u2014 embedded PostHog replays per user",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1554",
-      "summary": "Cognito id/access/refresh tokens leak into PostHog via login URL query params",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 2
-    },
-    {
-      "key": "MAPP-226",
-      "summary": "feat (APP): Claim Details \u2014 drop the empty comment container and align status with the date when a status update has no comment",
-      "project": "Manhattan App",
-      "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 1
-    },
-    {
       "key": "MINT-186",
       "summary": "bug (API): userMigration re-mints a second Cognito user against a deactivated duplicate SP row after an email change \u2014 user locked out of the app on the wrong account",
       "project": "Manhattan Integration",
       "status": "Canceled",
       "assignee": "Louis Phetla",
       "sp": 3
-    },
-    {
-      "key": "ECC-1555",
-      "summary": "PostHog identity: composite \"{sp_id}:{user_id}\" distinct_id (user_ids collide across SPs)",
-      "project": "E-Centive Core",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 3
-    },
-    {
-      "key": "MFE-464",
-      "summary": "Security: Cognito tokens (incl. refresh_token) passed in /login query string \u2014 leaked into PostHog, history & server logs",
-      "project": "Manhattan Frontend",
-      "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
     },
     {
       "key": "MFE-465",
@@ -753,38 +561,6 @@
       "summary": "Tariffs toggle shows DataError card on clean-empty channel results (empty-state mis-rendered as error)",
       "project": "Manhattan Frontend",
       "status": "Backlog",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MFE-467",
-      "summary": "Update per SP support contact details on login page",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MFE-468",
-      "summary": "E-Centive views must honour e-Centive role/beneficiary nuance for non-retail roles (E-Centive side only)",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MINT-183",
-      "summary": "oemClaim: scope claim-detail row access via claim_visibility_scope (fix 404 for beneficiary-scope viewers)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
-      "key": "MFE-469",
-      "summary": "e-Centive claims list + detail: render viewer-scoped beneficiary tiers (drop hardcoded Submitter/Manager columns)",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -805,108 +581,12 @@
       "sp": 0
     },
     {
-      "key": "MINT-184",
-      "summary": "(bug) Fix JSON boolean check blocking OM branch confirmation",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MINT-185",
-      "summary": "Gate login on account status (Active / Documents outstanding)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MFE-471",
-      "summary": "Documents gate: trigger on any non-Approved document",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MFE-472",
-      "summary": "Documents gate: exclude ID Back from required documents",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MINT-187",
-      "summary": "preToken user_documents claim can return a stale document status",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
       "key": "DT-286",
       "summary": "Updating user profile to display Physical Address",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 3
-    },
-    {
-      "key": "DT-287",
-      "summary": "New Partner logo's to add2",
-      "project": "Design Person",
-      "status": "Done (Production)",
-      "assignee": "Ashley Mduduzi Ncube",
-      "sp": 8
-    },
-    {
-      "key": "MINT-188",
-      "summary": "Allow 'Pending' users to log in",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 1
-    },
-    {
-      "key": "MFE-473",
-      "summary": "Add contact-support gate for non-active statuses",
-      "project": "Manhattan Frontend",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 0
-    },
-    {
-      "key": "MINT-189",
-      "summary": "preToken: require Passport (not ID) documents for passport-based users",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MINT-190",
-      "summary": "Re-home Cognito user on cross-SP email change",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 5
-    },
-    {
-      "key": "MINT-191",
-      "summary": "Queries against users table bypass Laravel SoftDeletes (missing deleted_at IS NULL)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
-    },
-    {
-      "key": "MINT-193",
-      "summary": "SES email delivery logging for Cognito reset emails (prod &amp; QA)",
-      "project": "Manhattan Integration",
-      "status": "Done (Production)",
-      "assignee": "Wesley Classen",
-      "sp": 2
     },
     {
       "key": "MFE-478",
