@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-30 09:11 UTC",
+  "generatedAt": "2026-07-30 11:27 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -56,7 +56,7 @@
       "key": "ECC-1547",
       "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
     },
@@ -592,7 +592,7 @@
       "key": "MFE-478",
       "summary": "Manager KPI Targets view \u2014 branch-scoped scorecard landing (Manhattan front-end)",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -602,6 +602,14 @@
       "project": "Manhattan Frontend",
       "status": "Backlog",
       "assignee": "Tobie Kruger",
+      "sp": 2
+    },
+    {
+      "key": "ECC-1558",
+      "summary": "MTN Restriction of personal information",
+      "project": "E-Centive Core",
+      "status": "Backlog",
+      "assignee": "Philton Nengobela",
       "sp": 2
     }
   ]
