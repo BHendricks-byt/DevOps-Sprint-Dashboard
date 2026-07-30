@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-30 13:05 UTC",
+  "generatedAt": "2026-07-30 15:29 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -611,6 +611,14 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 2
+    },
+    {
+      "key": "MAPP-227",
+      "summary": "bug (APP): manual-claim Agent Information dead-ends when the branch has no dealer IDs \u2014 blocks claims/cashout on CE SP",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 1
     }
   ]
 }
