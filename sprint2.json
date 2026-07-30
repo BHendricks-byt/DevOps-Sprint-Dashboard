@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-30 15:29 UTC",
+  "generatedAt": "2026-07-30 17:02 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -619,6 +619,14 @@
       "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 1
+    },
+    {
+      "key": "MFE-481",
+      "summary": "e-Centive-only manager \"Your Team\" widget always empty \u2014 uses igniteBranchUsers instead of eCentiveBranchUsers",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 0
     }
   ]
 }
