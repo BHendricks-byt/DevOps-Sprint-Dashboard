@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-31 09:38 UTC",
+  "generatedAt": "2026-07-31 11:54 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -240,7 +240,7 @@
       "key": "ECTA-406",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Home tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -248,7 +248,7 @@
       "key": "ECTA-407",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Claims tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -256,7 +256,7 @@
       "key": "ECTA-408",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Wallet tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -264,7 +264,7 @@
       "key": "ECTA-409",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Incentives tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -272,7 +272,7 @@
       "key": "ECTA-410",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only BrandHub tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -280,7 +280,7 @@
       "key": "ECTA-411",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Settings tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -288,7 +288,7 @@
       "key": "ECTA-412",
       "summary": "Automated end-to-end test coverage for the Cell C E-Centive Only Support tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -296,7 +296,7 @@
       "key": "ECTA-413",
       "summary": "Automated co-branding and no-Ignite validation for the Cell C E-Centive Only frontend (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -304,7 +304,7 @@
       "key": "ECTA-414",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Home tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -312,7 +312,7 @@
       "key": "ECTA-415",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Claims tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -320,7 +320,7 @@
       "key": "ECTA-416",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Wallet tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -328,7 +328,7 @@
       "key": "ECTA-417",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Incentives tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -336,7 +336,7 @@
       "key": "ECTA-418",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only BrandHub tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -344,7 +344,7 @@
       "key": "ECTA-419",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Settings tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -352,7 +352,7 @@
       "key": "ECTA-420",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Support tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -360,7 +360,7 @@
       "key": "ECTA-421",
       "summary": "Automated co-branding and no-Ignite validation for the MTN E-Centive Only frontend (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
