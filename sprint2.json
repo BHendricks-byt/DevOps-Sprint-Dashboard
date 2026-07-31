@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-31 06:47 UTC",
+  "generatedAt": "2026-07-31 09:38 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -105,14 +105,14 @@
       "summary": "feat (API): return product category on productIncentives so clients can build category filters",
       "project": "Manhattan Integration",
       "status": "Backlog",
-      "assignee": "Wesley Classen",
+      "assignee": "Louis Phetla",
       "sp": 3
     },
     {
       "key": "ECTA-390",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Home tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -120,7 +120,7 @@
       "key": "ECTA-391",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Claims tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -128,7 +128,7 @@
       "key": "ECTA-392",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Wallet tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -136,7 +136,7 @@
       "key": "ECTA-393",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Incentives tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -144,7 +144,7 @@
       "key": "ECTA-394",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only BrandHub tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -152,7 +152,7 @@
       "key": "ECTA-395",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Settings tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -160,7 +160,7 @@
       "key": "ECTA-396",
       "summary": "Automated end-to-end test coverage for the OM E-Centive Only Support tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -168,7 +168,7 @@
       "key": "ECTA-397",
       "summary": "Automated co-branding and no-Ignite validation for the OM E-Centive Only frontend (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -421,6 +421,14 @@
       "sp": 8
     },
     {
+      "key": "DT-254",
+      "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "MFE-441",
       "summary": "role-aware NBS view: branch + agent selectors for managers and franchisees",
       "project": "Manhattan Frontend",
@@ -611,6 +619,30 @@
       "status": "Backlog",
       "assignee": "Philton Nengobela",
       "sp": 2
+    },
+    {
+      "key": "MAPP-229",
+      "summary": "feat (APP): Franchisee KPI Targets \u2014 overview + store drill-down with branch/agent dual-scoring",
+      "project": "Manhattan App",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 8
+    },
+    {
+      "key": "MAPP-223",
+      "summary": "feat (APP): filter the incentives product list by product category",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "MAPP-225",
+      "summary": "chore (APP): dependency modernisation \u2014 amplify 2.12 batch + youtube_player_flutter 10 / file_picker 12 API migrations",
+      "project": "Manhattan App",
+      "status": "Backlog",
+      "assignee": "Louis Phetla",
+      "sp": 5
     },
     {
       "key": "MAPP-227",
