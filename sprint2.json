@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-31 03:58 UTC",
+  "generatedAt": "2026-07-31 06:47 UTC",
   "issues": [
     {
       "key": "MFE-462",
@@ -568,7 +568,7 @@
       "key": "DT-285",
       "summary": "Brand Earnings Breakdown \u2014 Transactions, Wallet & Home (App/Mobile Design)",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -584,7 +584,7 @@
       "key": "DT-286",
       "summary": "Updating user profile to display Physical Address",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 3
     },
