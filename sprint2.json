@@ -2,8 +2,16 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-31 11:54 UTC",
+  "generatedAt": "2026-07-31 13:49 UTC",
   "issues": [
+    {
+      "key": "MFE-482",
+      "summary": "Support ticket chat stays enabled after the ticket is resolved (should be disabled)",
+      "project": "Manhattan Frontend",
+      "status": "In Progress",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
     {
       "key": "MFE-462",
       "summary": "feat (WEB): filter the incentives product list by product category",
@@ -22,9 +30,9 @@
     },
     {
       "key": "MFE-385",
-      "summary": "Manual Claim Mobile Component Update",
+      "summary": "Date Picker Component Update",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
