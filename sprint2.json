@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-07-31 13:49 UTC",
+  "generatedAt": "2026-07-31 15:58 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -624,7 +624,7 @@
       "key": "ECC-1558",
       "summary": "MTN Restriction of personal information",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 2
     },
