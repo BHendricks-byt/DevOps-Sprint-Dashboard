@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-03 12:15 UTC",
+  "generatedAt": "2026-08-03 15:23 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -32,7 +32,7 @@
       "key": "MFE-483",
       "summary": "Add Make Primary button to card list",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Parked",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -720,7 +720,7 @@
       "key": "ECC-1560",
       "summary": "(Adhoc) Export All data in Card Management.",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 1
     }
