@@ -2,11 +2,11 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-03 04:59 UTC",
+  "generatedAt": "2026-08-03 08:33 UTC",
   "issues": [
     {
       "key": "MFE-482",
-      "summary": "Support ticket chat stays enabled after the ticket is resolved (should be disabled)",
+      "summary": "(bug) Support ticket chat stays enabled after the ticket is resolved (should be disabled)",
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Wesley Classen",
@@ -17,16 +17,24 @@
       "summary": "feat (WEB): filter the incentives product list by product category",
       "project": "Manhattan Frontend",
       "status": "Backlog",
-      "assignee": "Wesley Classen",
+      "assignee": "Louis Phetla",
       "sp": 3
     },
     {
       "key": "ECC-1557",
       "summary": "Fix SMS Portal authentication failing on QA",
       "project": "E-Centive Core",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 5
+    },
+    {
+      "key": "MFE-483",
+      "summary": "Add Make Primary button to card list",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
     },
     {
       "key": "MFE-385",
@@ -96,7 +104,7 @@
       "key": "MFE-475",
       "summary": "Registration documents flow: three bugs on the document upload step",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -184,7 +192,7 @@
       "key": "ECTA-398",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Home tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -192,7 +200,7 @@
       "key": "ECTA-399",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Claims tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -200,7 +208,7 @@
       "key": "ECTA-400",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Wallet tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -208,7 +216,7 @@
       "key": "ECTA-401",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Incentives tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -312,7 +320,7 @@
       "key": "ECTA-414",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Home tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -320,7 +328,7 @@
       "key": "ECTA-415",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Claims tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -328,7 +336,7 @@
       "key": "ECTA-416",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Wallet tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -336,7 +344,7 @@
       "key": "ECTA-417",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Incentives tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -344,7 +352,7 @@
       "key": "ECTA-418",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only BrandHub tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -352,7 +360,7 @@
       "key": "ECTA-419",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Settings tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -360,7 +368,7 @@
       "key": "ECTA-420",
       "summary": "Automated end-to-end test coverage for the MTN E-Centive Only Support tab (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -368,7 +376,7 @@
       "key": "ECTA-421",
       "summary": "Automated co-branding and no-Ignite validation for the MTN E-Centive Only frontend (all roles)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -666,6 +674,14 @@
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Tobie Kruger",
+      "sp": 0
+    },
+    {
+      "key": "PROD-211",
+      "summary": "Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
       "sp": 0
     }
   ]
