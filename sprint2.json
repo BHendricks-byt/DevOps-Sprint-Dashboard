@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-03 17:23 UTC",
+  "generatedAt": "2026-08-03 19:03 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -11,6 +11,14 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
+    },
+    {
+      "key": "MAPP-231",
+      "summary": "fix (APP): Volume Incentive \u2014 render base beneficiary pills when Turbo Tariff Plus does not apply",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 3
     },
     {
       "key": "MFE-462",
@@ -672,7 +680,7 @@
       "key": "MAPP-229",
       "summary": "feat (APP): Franchisee KPI Targets \u2014 overview + store drill-down with branch/agent dual-scoring",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 8
     },
