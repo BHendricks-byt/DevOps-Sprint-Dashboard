@@ -2,13 +2,13 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-03 08:33 UTC",
+  "generatedAt": "2026-08-03 12:15 UTC",
   "issues": [
     {
       "key": "MFE-482",
       "summary": "(bug) Support ticket chat stays enabled after the ticket is resolved (should be disabled)",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -16,7 +16,7 @@
       "key": "MFE-462",
       "summary": "feat (WEB): filter the incentives product list by product category",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -32,7 +32,7 @@
       "key": "MFE-483",
       "summary": "Add Make Primary button to card list",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -43,6 +43,22 @@
       "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
+    },
+    {
+      "key": "ECC-1469",
+      "summary": "Sales ingestion: rerun failed exception sales after ingestion",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
+      "sp": 5
+    },
+    {
+      "key": "ECC-1470",
+      "summary": "Bundled SPIV rule: pair sales lines by invoice + IMEI + linked device before creating beneficiaries",
+      "project": "E-Centive Core",
+      "status": "To Do",
+      "assignee": "Philton Nengobela",
+      "sp": 8
     },
     {
       "key": "ECC-1248",
@@ -120,7 +136,7 @@
       "key": "MINT-181",
       "summary": "feat (API): return product category on productIncentives so clients can build category filters",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -437,12 +453,28 @@
       "sp": 8
     },
     {
+      "key": "DT-288",
+      "summary": "Wallet \u2014 Switch Primary Card + new Cards page (Mobile & Desktop Web)",
+      "project": "Design Person",
+      "status": "In Progress",
+      "assignee": "Ashley Mduduzi Ncube",
+      "sp": 0
+    },
+    {
       "key": "DT-254",
       "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
       "project": "Design Person",
       "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
+    },
+    {
+      "key": "ECC-1468",
+      "summary": "Bundled SPIV: add new incentive type with linked-device association (admin UI + data model)",
+      "project": "E-Centive Core",
+      "status": "Parked",
+      "assignee": "Philton Nengobela",
+      "sp": 5
     },
     {
       "key": "MFE-441",
@@ -648,7 +680,7 @@
       "key": "MAPP-223",
       "summary": "feat (APP): filter the incentives product list by product category",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -656,7 +688,7 @@
       "key": "MAPP-225",
       "summary": "chore (APP): dependency modernisation \u2014 amplify 2.12 batch + youtube_player_flutter 10 / file_picker 12 API migrations",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -683,6 +715,14 @@
       "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
+    },
+    {
+      "key": "ECC-1560",
+      "summary": "(Adhoc) Export All data in Card Management.",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Brijwanth Jakhotia",
+      "sp": 1
     }
   ]
 }
