@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-04 05:12 UTC",
+  "generatedAt": "2026-08-04 07:58 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -16,7 +16,7 @@
       "key": "MAPP-231",
       "summary": "fix (APP): Volume Incentive \u2014 render base beneficiary pills when Turbo Tariff Plus does not apply",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -128,7 +128,7 @@
       "key": "MFE-475",
       "summary": "Registration documents flow: three bugs on the document upload step",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 8
     },
@@ -136,7 +136,7 @@
       "key": "IGNC-293",
       "summary": "Profile Navigation: Role-Appropriate Player Profile Access from Lists, Leaderboards & Campaign Widgets",
       "project": "Ignite Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -552,7 +552,7 @@
       "key": "ECC-106",
       "summary": "Manager Volume Incentive",
       "project": "E-Centive Core",
-      "status": "MOVED TO QA",
+      "status": "Ready For Production",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -719,6 +719,14 @@
     {
       "key": "PROD-211",
       "summary": "Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-212",
+      "summary": "Content Planning & Research",
       "project": "Product",
       "status": "In Progress",
       "assignee": "Nelisiwe",
