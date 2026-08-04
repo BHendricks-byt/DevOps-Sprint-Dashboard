@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-04 07:58 UTC",
+  "generatedAt": "2026-08-04 10:42 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -131,14 +131,6 @@
       "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 8
-    },
-    {
-      "key": "IGNC-293",
-      "summary": "Profile Navigation: Role-Appropriate Player Profile Access from Lists, Leaderboards & Campaign Widgets",
-      "project": "Ignite Core",
-      "status": "In Progress",
-      "assignee": "Wesley Classen",
-      "sp": 0
     },
     {
       "key": "MINT-181",
@@ -680,7 +672,7 @@
       "key": "MAPP-229",
       "summary": "feat (APP): Franchisee KPI Targets \u2014 overview + store drill-down with branch/agent dual-scoring",
       "project": "Manhattan App",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 8
     },
@@ -702,9 +694,9 @@
     },
     {
       "key": "MAPP-227",
-      "summary": "bug (APP): manual-claim Agent Information dead-ends when the branch has no dealer IDs \u2014 blocks claims/cashout on CE SP",
+      "summary": "bug (APP): manual-claim Agent Information dead-ends when the branch has no dealer IDs \u2014 blocks manual claims on CE SP",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 1
     },
