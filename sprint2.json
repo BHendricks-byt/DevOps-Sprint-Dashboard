@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-04 10:42 UTC",
+  "generatedAt": "2026-08-04 12:54 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -16,7 +16,7 @@
       "key": "MAPP-231",
       "summary": "fix (APP): Volume Incentive \u2014 render base beneficiary pills when Turbo Tariff Plus does not apply",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -648,7 +648,7 @@
       "key": "MFE-478",
       "summary": "Manager KPI Targets view \u2014 branch-scoped scorecard landing (Manhattan front-end)",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Tobie Kruger",
       "sp": 3
     },
@@ -696,7 +696,7 @@
       "key": "MAPP-227",
       "summary": "bug (APP): manual-claim Agent Information dead-ends when the branch has no dealer IDs \u2014 blocks manual claims on CE SP",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 1
     },
