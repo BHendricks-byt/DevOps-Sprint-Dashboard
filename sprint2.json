@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-05 05:10 UTC",
+  "generatedAt": "2026-08-05 07:59 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -731,6 +731,22 @@
       "status": "Ready For Production",
       "assignee": "Brijwanth Jakhotia",
       "sp": 1
+    },
+    {
+      "key": "PROD-213",
+      "summary": "Women's Day Video",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "MFE-489",
+      "summary": "bug (WEB): Manual Claim submission blocked when Dealer ID is disabled and omitted",
+      "project": "Manhattan Frontend",
+      "status": "To Do",
+      "assignee": "Wesley Classen",
+      "sp": 0
     }
   ]
 }
