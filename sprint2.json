@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-05 18:23 UTC",
+  "generatedAt": "2026-08-05 20:05 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -136,7 +136,7 @@
       "key": "MINT-197",
       "summary": "kpiScorecard: agent drill-down scope (scope=agent, entityId=agent user) for franchisee/manager callers",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Louis Phetla",
       "sp": 5
     },
