@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-05 07:59 UTC",
+  "generatedAt": "2026-08-05 10:42 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -544,7 +544,7 @@
       "key": "ECC-106",
       "summary": "Manager Volume Incentive",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 13
     },
@@ -736,7 +736,7 @@
       "key": "PROD-213",
       "summary": "Women's Day Video",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -744,8 +744,16 @@
       "key": "MFE-489",
       "summary": "bug (WEB): Manual Claim submission blocked when Dealer ID is disabled and omitted",
       "project": "Manhattan Frontend",
-      "status": "To Do",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "ECC-1561",
+      "summary": "HotFix: OEM claim double payment \u2014 make e-wallet credits atomic with claim approval in OemClaim::updateStatus",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Philton Nengobela",
       "sp": 0
     }
   ]
