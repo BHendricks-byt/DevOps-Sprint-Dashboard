@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-05 12:48 UTC",
+  "generatedAt": "2026-08-05 15:10 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -128,9 +128,17 @@
       "key": "MFE-475",
       "summary": "Registration documents flow: three bugs on the document upload step",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "To Do",
       "assignee": "Wesley Classen",
       "sp": 8
+    },
+    {
+      "key": "MINT-197",
+      "summary": "kpiScorecard: agent drill-down scope (scope=agent, entityId=agent user) for franchisee/manager callers",
+      "project": "Manhattan Integration",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 5
     },
     {
       "key": "MINT-181",
@@ -733,6 +741,78 @@
       "sp": 1
     },
     {
+      "key": "IGNC-301",
+      "summary": "Private agent profile endpoint with team membership guard",
+      "project": "Ignite Core",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-302",
+      "summary": "Expose igniteUserProfileFull query for manager viewed agent profiles",
+      "project": "Ignite Core",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-303",
+      "summary": "Return userId in the agent leaderboard summary resolver",
+      "project": "Ignite Core",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-304",
+      "summary": "Expose userId and branchId on remaining resolvers",
+      "project": "Ignite Core",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-485",
+      "summary": "Open the private profile when a manager taps their own agent",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-486",
+      "summary": "Remove dead end taps across lists, leaderboards, campaign widgets",
+      "project": "Manhattan Frontend",
+      "status": "Canceled",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "IGNC-305",
+      "summary": "SQL injection in the ignite user profile preview query",
+      "project": "Ignite Core",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-487",
+      "summary": "Duplicate type and duplicate operation make the GraphQL schema invalid",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 2
+    },
+    {
+      "key": "IGNC-306",
+      "summary": "Expose branchId on campaign leaderboard rows",
+      "project": "Ignite Core",
+      "status": "Canceled",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
       "key": "PROD-213",
       "summary": "Women's Day Video",
       "project": "Product",
@@ -922,6 +1002,14 @@
       "project": "E-Centive Test Automation",
       "status": "In Progress",
       "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "MFE-490",
+      "summary": "Open the store profile from branch campaign rows",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
       "sp": 0
     }
   ]
