@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-05 10:42 UTC",
+  "generatedAt": "2026-08-05 12:48 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -208,7 +208,7 @@
       "key": "ECTA-398",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Home tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -216,7 +216,7 @@
       "key": "ECTA-399",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Claims tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -224,7 +224,7 @@
       "key": "ECTA-400",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Wallet tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -232,7 +232,7 @@
       "key": "ECTA-401",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Incentives tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -240,7 +240,7 @@
       "key": "ECTA-402",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only BrandHub tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -248,7 +248,7 @@
       "key": "ECTA-403",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Settings tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -256,7 +256,7 @@
       "key": "ECTA-404",
       "summary": "Automated end-to-end test coverage for the CE E-Centive Only Support tab (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -264,7 +264,7 @@
       "key": "ECTA-405",
       "summary": "Automated co-branding and no-Ignite validation for the CE E-Centive Only frontend (Sales Agent & Store Manager)",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -754,6 +754,174 @@
       "project": "E-Centive Core",
       "status": "In Progress",
       "assignee": "Philton Nengobela",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-422",
+      "summary": "Automated MFE registration test coverage for the Telkom Sales Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-423",
+      "summary": "Automated MFE registration test coverage for the Telkom Store Manager role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-424",
+      "summary": "Automated MFE registration test coverage for the Telkom Call Centre Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-425",
+      "summary": "Automated MFE registration test coverage for the Telkom Call Centre Team Lead role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-426",
+      "summary": "Automated MFE registration test coverage for the Telkom TBM BDM role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-427",
+      "summary": "Automated MFE registration test coverage for the Telkom TBM Senior Manager role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-428",
+      "summary": "Automated MFE registration test coverage for the Cell C BSC Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-429",
+      "summary": "Automated MFE registration test coverage for the Cell C Call Centre - Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-430",
+      "summary": "Automated MFE registration test coverage for the Cell C Call Centre - Team Lead role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-431",
+      "summary": "Automated MFE registration test coverage for the Cell C Sales Team role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-432",
+      "summary": "Automated MFE registration test coverage for the Cell C Store Manager role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-433",
+      "summary": "Automated MFE registration test coverage for the OM Sales Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-434",
+      "summary": "Automated MFE registration test coverage for the CE Sales Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-435",
+      "summary": "Automated MFE registration test coverage for the CE Store Manager role",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-436",
+      "summary": "Automated MFE cross-SP registration duplication coverage (identity and email)",
+      "project": "E-Centive Test Automation",
+      "status": "Done (Production)",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-437",
+      "summary": "Automated MFE registration test coverage for the MTN Sales Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-438",
+      "summary": "Automated MFE registration test coverage for the MTN Store Manager role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-439",
+      "summary": "Automated MFE registration test coverage for the MTN Call Centre Agent role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-440",
+      "summary": "Automated MFE registration test coverage for the MTN Call Centre Team Lead role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-441",
+      "summary": "Automated MFE registration test coverage for the MTN EBU Manager (HQ) role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
+      "sp": 0
+    },
+    {
+      "key": "ECTA-442",
+      "summary": "Automated MFE registration test coverage for the MTN EBU sale staff (HQ) role",
+      "project": "E-Centive Test Automation",
+      "status": "In Progress",
+      "assignee": "Rodrick",
       "sp": 0
     }
   ]
