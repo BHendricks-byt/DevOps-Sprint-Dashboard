@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-06 05:21 UTC",
+  "generatedAt": "2026-08-06 07:59 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -17,14 +17,6 @@
       "summary": "fix (APP): Volume Incentive \u2014 render base beneficiary pills when Turbo Tariff Plus does not apply",
       "project": "Manhattan App",
       "status": "Done (Production)",
-      "assignee": "Louis Phetla",
-      "sp": 3
-    },
-    {
-      "key": "MFE-462",
-      "summary": "feat (WEB): filter the incentives product list by product category",
-      "project": "Manhattan Frontend",
-      "status": "To Do",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -464,7 +456,7 @@
       "key": "DT-288",
       "summary": "Wallet \u2014 Switch Primary Card + new Cards page (Mobile & Desktop Web)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -472,7 +464,7 @@
       "key": "DT-254",
       "summary": "Adv. Gamification: Dashboard Carousel Widget & Modal Designs",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -632,7 +624,7 @@
       "key": "DT-285",
       "summary": "Brand Earnings Breakdown \u2014 Transactions, Wallet & Home (App/Mobile Design)",
       "project": "Design Person",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -680,7 +672,7 @@
       "key": "MAPP-229",
       "summary": "feat (APP): Franchisee KPI Targets \u2014 overview + store drill-down with branch/agent dual-scoring",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 8
     },
