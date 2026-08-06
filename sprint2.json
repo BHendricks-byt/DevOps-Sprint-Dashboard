@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-06 12:52 UTC",
+  "generatedAt": "2026-08-06 15:14 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -136,7 +136,7 @@
       "key": "MINT-181",
       "summary": "feat (API): return product category on productIncentives so clients can build category filters",
       "project": "Manhattan Integration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -760,7 +760,7 @@
       "key": "IGNC-304",
       "summary": "Expose userId and branchId on remaining resolvers",
       "project": "Ignite Core",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -768,7 +768,7 @@
       "key": "MFE-485",
       "summary": "Open the private profile when a manager taps their own agent",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -792,7 +792,7 @@
       "key": "MFE-487",
       "summary": "Duplicate type and duplicate operation make the GraphQL schema invalid",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "MOVED TO QA",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -1000,8 +1000,32 @@
       "key": "MFE-490",
       "summary": "Open the store profile from branch campaign rows",
       "project": "Manhattan Frontend",
+      "status": "MOVED TO QA",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "AWI-151",
+      "summary": "Show the user's Phone Number and Physical Address on their profile",
+      "project": "Master Board",
+      "status": "Canceled",
+      "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-492",
+      "summary": "Show the user's Phone Number and Physical Address on their profile",
+      "project": "Manhattan Frontend",
       "status": "Backlog",
       "assignee": "Wesley Classen",
+      "sp": 0
+    },
+    {
+      "key": "MFE-493",
+      "summary": "Beacon Rating briefly shows \"Unranked\" on load before the correct status appears",
+      "project": "Manhattan Frontend",
+      "status": "Backlog",
+      "assignee": "Tobie Kruger",
       "sp": 0
     }
   ]
