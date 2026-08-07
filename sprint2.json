@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 11:40 UTC",
+  "generatedAt": "2026-08-07 12:48 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -32,7 +32,7 @@
       "key": "MFE-483",
       "summary": "Add Make Primary button to card list",
       "project": "Manhattan Frontend",
-      "status": "Parked",
+      "status": "Ready For Production",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -560,7 +560,7 @@
       "key": "DT-283",
       "summary": "Claude Design System",
       "project": "Design Person",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 8
     },
@@ -680,7 +680,7 @@
       "key": "MAPP-223",
       "summary": "feat (APP): filter the incentives product list by product category",
       "project": "Manhattan App",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -1016,7 +1016,7 @@
       "key": "MFE-492",
       "summary": "Show the user's Phone Number and Physical Address on their profile",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Wesley Classen",
       "sp": 0
     },
