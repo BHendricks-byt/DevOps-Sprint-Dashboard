@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 08:32 UTC",
+  "generatedAt": "2026-08-07 09:54 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -408,7 +408,7 @@
       "key": "PROD-106",
       "summary": "Configure People & Culture Section",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -456,7 +456,7 @@
       "key": "DT-288",
       "summary": "Wallet \u2014 Switch Primary Card + new Cards page (Mobile & Desktop Web)",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -528,7 +528,7 @@
       "key": "PROD-186",
       "summary": "SharePoint engagement layer \u2014 (Phase A)",
       "project": "Product",
-      "status": "In Progress",
+      "status": "MOVED TO QA",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -624,7 +624,7 @@
       "key": "DT-285",
       "summary": "Brand Earnings Breakdown \u2014 Transactions, Wallet & Home (App/Mobile Design)",
       "project": "Design Person",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Ashley Mduduzi Ncube",
       "sp": 0
     },
@@ -1000,7 +1000,7 @@
       "key": "MFE-490",
       "summary": "Open the store profile from branch campaign rows",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Wesley Classen",
       "sp": 0
     },
