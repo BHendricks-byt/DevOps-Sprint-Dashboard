@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 14:07 UTC",
+  "generatedAt": "2026-08-07 15:22 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -136,7 +136,7 @@
       "key": "MINT-181",
       "summary": "feat (API): return product category on productIncentives so clients can build category filters",
       "project": "Manhattan Integration",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -680,7 +680,7 @@
       "key": "MAPP-223",
       "summary": "feat (APP): filter the incentives product list by product category",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -736,7 +736,7 @@
       "key": "IGNC-301",
       "summary": "Private agent profile endpoint with team membership guard",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -744,7 +744,7 @@
       "key": "IGNC-302",
       "summary": "Expose igniteUserProfileFull query for manager viewed agent profiles",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -752,7 +752,7 @@
       "key": "IGNC-303",
       "summary": "Return userId in the agent leaderboard summary resolver",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -760,7 +760,7 @@
       "key": "IGNC-304",
       "summary": "Expose userId and branchId on remaining resolvers",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -768,7 +768,7 @@
       "key": "MFE-485",
       "summary": "Open the private profile when a manager taps their own agent",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -784,7 +784,7 @@
       "key": "IGNC-305",
       "summary": "SQL injection in the ignite user profile preview query",
       "project": "Ignite Core",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -792,7 +792,7 @@
       "key": "MFE-487",
       "summary": "Duplicate type and duplicate operation make the GraphQL schema invalid",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 2
     },
@@ -1000,7 +1000,7 @@
       "key": "MFE-490",
       "summary": "Open the store profile from branch campaign rows",
       "project": "Manhattan Frontend",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
