@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 05:30 UTC",
+  "generatedAt": "2026-08-07 07:04 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -952,7 +952,7 @@
       "key": "ECTA-437",
       "summary": "Automated MFE registration test coverage for the MTN Sales Agent role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -960,7 +960,7 @@
       "key": "ECTA-438",
       "summary": "Automated MFE registration test coverage for the MTN Store Manager role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -968,7 +968,7 @@
       "key": "ECTA-439",
       "summary": "Automated MFE registration test coverage for the MTN Call Centre Agent role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -976,7 +976,7 @@
       "key": "ECTA-440",
       "summary": "Automated MFE registration test coverage for the MTN Call Centre Team Lead role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -984,7 +984,7 @@
       "key": "ECTA-441",
       "summary": "Automated MFE registration test coverage for the MTN EBU Manager (HQ) role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -992,7 +992,7 @@
       "key": "ECTA-442",
       "summary": "Automated MFE registration test coverage for the MTN EBU sale staff (HQ) role",
       "project": "E-Centive Test Automation",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -1027,6 +1027,14 @@
       "status": "Backlog",
       "assignee": "Tobie Kruger",
       "sp": 0
+    },
+    {
+      "key": "ECC-1563",
+      "summary": "MFE claim flow demands serial number for categories configured as no-identifier (CE TVs etc.)",
+      "project": "E-Centive Core",
+      "status": "In Progress",
+      "assignee": "Tobie Kruger",
+      "sp": 2
     }
   ]
 }
