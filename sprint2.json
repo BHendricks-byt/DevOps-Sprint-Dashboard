@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 10:45 UTC",
+  "generatedAt": "2026-08-07 11:40 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -136,7 +136,7 @@
       "key": "MINT-181",
       "summary": "feat (API): return product category on productIncentives so clients can build category filters",
       "project": "Manhattan Integration",
-      "status": "In Progress",
+      "status": "Ready For Production",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -416,7 +416,7 @@
       "key": "PROD-107",
       "summary": "Integrate Feedback Channels and Forms",
       "project": "Product",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nelisiwe",
       "sp": 0
     },
