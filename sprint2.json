@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 07:04 UTC",
+  "generatedAt": "2026-08-07 08:32 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -680,7 +680,7 @@
       "key": "MAPP-223",
       "summary": "feat (APP): filter the incentives product list by product category",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -768,7 +768,7 @@
       "key": "MFE-485",
       "summary": "Open the private profile when a manager taps their own agent",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
@@ -1000,7 +1000,7 @@
       "key": "MFE-490",
       "summary": "Open the store profile from branch campaign rows",
       "project": "Manhattan Frontend",
-      "status": "MOVED TO QA",
+      "status": "Automation",
       "assignee": "Wesley Classen",
       "sp": 0
     },
