@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-07 12:48 UTC",
+  "generatedAt": "2026-08-07 14:07 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -32,7 +32,7 @@
       "key": "MFE-483",
       "summary": "Add Make Primary button to card list",
       "project": "Manhattan Frontend",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 0
     },
