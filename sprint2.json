@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-11 12:49 UTC",
+  "generatedAt": "2026-08-11 14:15 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -693,10 +693,18 @@
       "sp": 1
     },
     {
-      "key": "MAPP-234",
-      "summary": "Status bar brightness stranded on pop-back: sweep legacy screens to the transient + restoreBaseline pattern",
+      "key": "MAPP-233",
+      "summary": "KPI Targets CSV export: agent-scope export mislabels personal targets as branch data",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "MAPP-234",
+      "summary": "Status bar brightness stranded on pop-back: sweep legacy screens to the guarded per-build transient assert pattern",
+      "project": "Manhattan App",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -704,7 +712,7 @@
       "key": "MAPP-232",
       "summary": "KPI trend chart: y-axis capped at 200% flattens high performers; tooltip clipped at chart ceiling",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -720,7 +728,7 @@
       "key": "PROD-211",
       "summary": "Engagement & Algorithm Boost",
       "project": "Product",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -1043,6 +1051,14 @@
       "status": "In Progress",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "MINT-199",
+      "summary": "Fix AppSync deploy for pipeline resolvers and function changes",
+      "project": "Manhattan Integration",
+      "status": "Backlog",
+      "assignee": "Wesley Classen",
+      "sp": 3
     }
   ]
 }
