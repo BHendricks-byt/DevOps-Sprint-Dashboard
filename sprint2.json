@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-11 07:44 UTC",
+  "generatedAt": "2026-08-11 08:47 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -56,21 +56,13 @@
       "key": "ECC-1470",
       "summary": "Bundled SPIV rule: pair sales lines by invoice + IMEI + linked device before creating beneficiaries",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
     {
       "key": "ECC-1248",
       "summary": "Validate Data Integrity and Duplicates During Oem Product Incentive Import",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Philton Nengobela",
-      "sp": 13
-    },
-    {
-      "key": "ECC-60",
-      "summary": "Integrate VerifyID with User Registration",
       "project": "E-Centive Core",
       "status": "To Do",
       "assignee": "Philton Nengobela",
@@ -608,7 +600,7 @@
       "key": "MFE-465",
       "summary": "ManagerTeam widget 500s for e-Centive-only managers (Ignite igniteBranchUsers on non-Ignite dashboard)",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "Canceled",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -616,7 +608,7 @@
       "key": "MFE-466",
       "summary": "Tariffs toggle shows DataError card on clean-empty channel results (empty-state mis-rendered as error)",
       "project": "Manhattan Frontend",
-      "status": "Backlog",
+      "status": "Automation",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -704,7 +696,7 @@
       "key": "MFE-481",
       "summary": "e-Centive-only manager \"Your Team\" widget always empty \u2014 uses igniteBranchUsers instead of eCentiveBranchUsers",
       "project": "Manhattan Frontend",
-      "status": "In Progress",
+      "status": "Automation",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
@@ -728,7 +720,7 @@
       "key": "ECC-1560",
       "summary": "(Adhoc) Export All data in Card Management.",
       "project": "E-Centive Core",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Brijwanth Jakhotia",
       "sp": 1
     },
