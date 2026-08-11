@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-11 11:39 UTC",
+  "generatedAt": "2026-08-11 12:49 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -691,6 +691,22 @@
       "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 1
+    },
+    {
+      "key": "MAPP-234",
+      "summary": "Status bar brightness stranded on pop-back: sweep legacy screens to the transient + restoreBaseline pattern",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 5
+    },
+    {
+      "key": "MAPP-232",
+      "summary": "KPI trend chart: y-axis capped at 200% flattens high performers; tooltip clipped at chart ceiling",
+      "project": "Manhattan App",
+      "status": "To Do",
+      "assignee": "Louis Phetla",
+      "sp": 3
     },
     {
       "key": "MFE-481",
