@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-12 10:55 UTC",
+  "generatedAt": "2026-08-12 11:41 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -998,7 +998,7 @@
     },
     {
       "key": "MFE-492",
-      "summary": "Show the user's Phone Number and Physical Address on their profile",
+      "summary": "Show the user's contact number and addresses on their profile",
       "project": "Manhattan Frontend",
       "status": "In Progress",
       "assignee": "Wesley Classen",
