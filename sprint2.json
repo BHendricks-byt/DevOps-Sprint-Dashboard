@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-12 08:10 UTC",
+  "generatedAt": "2026-08-12 09:38 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -19,14 +19,6 @@
       "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
-    },
-    {
-      "key": "ECC-1557",
-      "summary": "Fix SMS Portal authentication failing on QA",
-      "project": "E-Centive Core",
-      "status": "To Do",
-      "assignee": "Wesley Classen",
-      "sp": 5
     },
     {
       "key": "MFE-483",
@@ -48,7 +40,7 @@
       "key": "ECC-1469",
       "summary": "Sales ingestion: rerun failed exception sales after ingestion",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -56,7 +48,7 @@
       "key": "ECC-1470",
       "summary": "Bundled SPIV rule: pair sales lines by invoice + IMEI + linked device before creating beneficiaries",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 8
     },
@@ -75,14 +67,6 @@
       "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
-    },
-    {
-      "key": "MFE-475",
-      "summary": "Registration documents flow: three bugs on the document upload step",
-      "project": "Manhattan Frontend",
-      "status": "To Do",
-      "assignee": "Wesley Classen",
-      "sp": 8
     },
     {
       "key": "MINT-197",
@@ -360,7 +344,7 @@
       "key": "PROD-100",
       "summary": "Implement News & Announcements Section",
       "project": "Product",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -368,7 +352,7 @@
       "key": "PROD-106",
       "summary": "Configure People & Culture Section",
       "project": "Product",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -432,7 +416,7 @@
       "key": "ECC-1468",
       "summary": "Bundled SPIV: add new incentive type with linked-device association (admin UI + data model)",
       "project": "E-Centive Core",
-      "status": "In Progress",
+      "status": "Done (Production)",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
@@ -480,7 +464,7 @@
       "key": "PROD-185",
       "summary": "Build peer shoutouts programme on SharePoint",
       "project": "Product",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -488,7 +472,7 @@
       "key": "PROD-186",
       "summary": "SharePoint engagement layer \u2014 (Phase A)",
       "project": "Product",
-      "status": "MOVED TO QA",
+      "status": "Done (Production)",
       "assignee": "Nelisiwe",
       "sp": 0
     },
@@ -683,6 +667,14 @@
       "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
+    },
+    {
+      "key": "MAPP-214",
+      "summary": "feat (APP): Migrate iOS plugins to Swift Package Manager (SPM)",
+      "project": "Manhattan App",
+      "status": "In Progress",
+      "assignee": "Louis Phetla",
+      "sp": 0
     },
     {
       "key": "MAPP-236",
@@ -1032,7 +1024,7 @@
       "key": "MINT-199",
       "summary": "Fix AppSync deploy for pipeline resolvers and function changes",
       "project": "Manhattan Integration",
-      "status": "Backlog",
+      "status": "Done (Production)",
       "assignee": "Wesley Classen",
       "sp": 3
     }
