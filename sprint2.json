@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 1",
   "period": "29 Jul 2026 \u2013 12 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-12 06:52 UTC",
+  "generatedAt": "2026-08-12 08:10 UTC",
   "issues": [
     {
       "key": "MFE-482",
@@ -69,44 +69,12 @@
       "sp": 13
     },
     {
-      "key": "ECC-1546",
-      "summary": "Data Retention: RDS snapshot gate + yearly DB dump to S3",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 8
-    },
-    {
       "key": "ECC-1547",
       "summary": "Data Retention: monthly orchestration command, job, schedule + run audit",
       "project": "E-Centive Core",
       "status": "In Progress",
       "assignee": "Brijwanth Jakhotia",
       "sp": 5
-    },
-    {
-      "key": "ECC-1548",
-      "summary": "Data Retention: FICA pre-expiry notification + status update",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1549",
-      "summary": "Data Retention: tests, dry-run validation & staged production rollout",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 5
-    },
-    {
-      "key": "ECC-1550",
-      "summary": "Data Retention: expiry engine & cascade soft-delete across classifications",
-      "project": "E-Centive Core",
-      "status": "Backlog",
-      "assignee": "Brijwanth Jakhotia",
-      "sp": 8
     },
     {
       "key": "MFE-475",
@@ -680,7 +648,7 @@
       "key": "MAPP-225",
       "summary": "chore (APP): dependency modernisation \u2014 amplify 2.12 batch + youtube_player_flutter 10 / file_picker 12 API migrations",
       "project": "Manhattan App",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -696,7 +664,7 @@
       "key": "MAPP-233",
       "summary": "KPI Targets CSV export: agent-scope export mislabels personal targets as branch data",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 3
     },
@@ -704,7 +672,7 @@
       "key": "MAPP-234",
       "summary": "Status bar brightness stranded on pop-back: sweep legacy screens to the guarded per-build transient assert pattern",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
       "assignee": "Louis Phetla",
       "sp": 5
     },
@@ -712,7 +680,15 @@
       "key": "MAPP-232",
       "summary": "KPI trend chart: y-axis capped at 200% flattens high performers; tooltip clipped at chart ceiling",
       "project": "Manhattan App",
-      "status": "Ready For Production",
+      "status": "Done (Production)",
+      "assignee": "Louis Phetla",
+      "sp": 3
+    },
+    {
+      "key": "MAPP-236",
+      "summary": "Bump Android targetSdkVersion to 36 \u2014 Play Console deadline 2026-08-31 for app updates",
+      "project": "Manhattan App",
+      "status": "In Progress",
       "assignee": "Louis Phetla",
       "sp": 3
     },
