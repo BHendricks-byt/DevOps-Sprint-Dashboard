@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "12 Aug 2026 \u2013 26 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-12 12:54 UTC",
+  "generatedAt": "2026-08-12 14:17 UTC",
   "issues": [
     {
       "key": "RTC-67",
@@ -763,6 +763,38 @@
       "status": "MOVED TO QA",
       "assignee": "Tobie Kruger",
       "sp": 2
+    },
+    {
+      "key": "PROD-214",
+      "summary": "Social Media Copy",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-215",
+      "summary": "Social Media Visuals",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-216",
+      "summary": "Engagement & Algorithm Boost",
+      "project": "Product",
+      "status": "In Progress",
+      "assignee": "Nelisiwe",
+      "sp": 0
+    },
+    {
+      "key": "PROD-217",
+      "summary": "Schedule & Publish Posts",
+      "project": "Product",
+      "status": "To Do",
+      "assignee": "Nelisiwe",
+      "sp": 0
     }
   ]
 }
