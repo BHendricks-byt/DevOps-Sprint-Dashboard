@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "12 Aug 2026 \u2013 26 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-13 08:21 UTC",
+  "generatedAt": "2026-08-13 09:38 UTC",
   "issues": [
     {
       "key": "RTC-67",
@@ -160,7 +160,7 @@
       "key": "ECC-1179",
       "summary": "PayCentral API Monitoring \u2013 Alert After 5 Failed Calls",
       "project": "E-Centive Core",
-      "status": "To Do",
+      "status": "Parked",
       "assignee": "Philton Nengobela",
       "sp": 5
     },
