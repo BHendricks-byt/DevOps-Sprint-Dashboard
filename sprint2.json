@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "12 Aug 2026 \u2013 26 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-13 09:38 UTC",
+  "generatedAt": "2026-08-13 10:56 UTC",
   "issues": [
     {
       "key": "RTC-67",
@@ -416,7 +416,7 @@
       "key": "MAPP-235",
       "summary": "bug (APP): Incentives fixes \u2014 small-brand filter chips, Android back when Ignite on, list bottom insets vs system nav bar",
       "project": "Manhattan App",
-      "status": "Backlog",
+      "status": "Parked",
       "assignee": "Louis Phetla",
       "sp": 1
     },
@@ -704,7 +704,7 @@
       "key": "MFE-493",
       "summary": "Beacon Rating briefly shows \"Unranked\" on load before the correct status appears",
       "project": "Manhattan Frontend",
-      "status": "Automation",
+      "status": "Ready For Production",
       "assignee": "Tobie Kruger",
       "sp": 0
     },
