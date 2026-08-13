@@ -2,7 +2,7 @@
   "name": "DevOps Team Sprint 2",
   "period": "12 Aug 2026 \u2013 26 Aug 2026",
   "state": "Active",
-  "generatedAt": "2026-08-13 05:29 UTC",
+  "generatedAt": "2026-08-13 06:57 UTC",
   "issues": [
     {
       "key": "RTC-67",
@@ -125,14 +125,6 @@
       "sp": 0
     },
     {
-      "key": "IGNC-152",
-      "summary": "(Legacy) #2 Ignite Statuses",
-      "project": "Ignite Core",
-      "status": "To Do",
-      "assignee": "Tobie Kruger",
-      "sp": 0
-    },
-    {
       "key": "DT-25",
       "summary": "Ignite Website > Removal of word ARPU",
       "project": "Design Person",
@@ -184,7 +176,7 @@
       "key": "ECTA-308",
       "summary": "Telkom OEM Products \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -192,7 +184,7 @@
       "key": "ECTA-309",
       "summary": "Telkom OEM Claims \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -200,7 +192,7 @@
       "key": "ECTA-310",
       "summary": "Telkom OEM Packages Management \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
@@ -208,7 +200,7 @@
       "key": "ECTA-311",
       "summary": "Telkom OEM Sales \u2013 UI Automation Test Coverage",
       "project": "E-Centive Test Automation",
-      "status": "Backlog",
+      "status": "In Progress",
       "assignee": "Rodrick",
       "sp": 0
     },
